@@ -1,0 +1,15 @@
+;; Object berkeleybop.github.io/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "berkeleybop.github.io/"
+  :tables (list 
+   (semanticdb-table "tocpage.html"
+    :major-mode 'html-mode
+    :tags '(("Table of Contents" section (:members (("{{item.title}}" section nil nil [814 1565]) ("{{deeplevel.title}}" section nil nil [1565 1568]))) nil [83 86]))
+    :file "tocpage.html"
+    :pointmax 1966
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

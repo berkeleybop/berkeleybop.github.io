@@ -1,0 +1,40 @@
+;; Object _layouts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "_layouts/"
+  :tables (list 
+   (semanticdb-table "default.html"
+    :major-mode 'html-mode
+    :tags '(("$(function () {
+      $('[data-toggle=\"tooltip\"]').tooltip()
+  })" section nil nil [60 279]) ("{% endif %}
+{% endunless %}
+
+{% unless site.print == true %}
+{% if page.datatable == true %}
+<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.datatables.net/1.10.5/css/jquery.dataTables.css\">
+<script type=\"text/javascript\" charset=\"utf8\" src=\"https://cdn.datatables.net/1.10.5/js/jquery.dataTables.js\">" section nil nil [279 540]) ("$(document).ready(function(){
+
+      $('table.datatable').DataTable( {
+                  paging: false,
+                  stateSave: true
+              }
+      );" section nil nil [540 660]) ("$(document).ready(function(){
+
+      $('table.datatable').DataTable( {
+                  paging: false,
+                  stateSave: true
+              }
+      );" section nil nil [660 884]) ("{% include topnav.html %}
+
+
+    <!-- Page Content -->
+    <div class=\"container\">
+        <div class=\"col-lg-12\">&nbsp;" section nil nil [884 889]))
+    :file "default.html"
+    :pointmax 1318
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

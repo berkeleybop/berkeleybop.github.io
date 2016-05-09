@@ -1,0 +1,49 @@
+;; Object _includes/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "_includes/"
+  :tables (list 
+   (semanticdb-table "sidebar.html"
+    :major-mode 'html-mode
+    :tags '(("$(document).ready(function() {
+                        // Initialize navgoco with default options
+                        $(\"#mysidebar\").navgoco({
+                            caretHtml: '',
+                            accordion: true,
+                            openClass: 'active', // open
+                            save: false, // leave false or nav highlighting doesn't work right
+                            cookie: {
+                                name: 'navgoco',
+                                expires: false,
+                                path: '/'
+                        },
+                        slide: {
+                            duration: 400,
+                            easing: 'swing'
+                                }
+                                });
+
+            $(\"#collapseAll\").click(function(e) {
+                e.preventDefault();
+                $(\"#mysidebar\").navgoco('toggle', false);
+            });
+
+            $(\"#expandAll\").click(function(e) {
+                e.preventDefault();
+                $(\"#mysidebar\").navgoco('toggle', true);
+            });
+
+            });" section (:members (("{{ subcategory.title }}" section nil nil [1822 2197]) ("{{subcategory.title}}" section nil nil [2197 2368]) ("{{item.title}}" section nil nil [2368 2488]) ("{{item.title}}" section nil nil [2488 2912]) ("{{ thirdlevel.title }}" section nil nil [2912 3370]) ("{{deeplevel.title}}" section nil nil [3370 3565]) ("{{deeplevel.title}}" section nil nil [3565 3717]) ("{{deeplevel.title}}" section nil nil [3717 4262]) ("Collapse All" section nil nil [4262 4310]) ("Expand All" section nil nil [4310 4587]))) nil [104 4587]) ("$(\"li.active\").parents('li').toggleClass(\"active\");" section nil nil [4587 4594]))
+    :file "sidebar.html"
+    :pointmax 4656
+    )
+   (semanticdb-table "head.html"
+    :major-mode 'html-mode
+    :tags '(("{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }}{% endif %}  | {{ site.site_title }}" section nil nil [376 1090]) ("" section nil nil [1090 1180]) ("" section nil nil [1180 1284]) ("" section nil nil [1284 1333]) ("" section nil nil [1333 1425]) ("" section nil nil [1425 1459]) ("" section nil nil [1459 1757]) ("" section nil nil [1757 1838]) ("" section nil nil [1838 1846]))
+    :file "head.html"
+    :pointmax 1944
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

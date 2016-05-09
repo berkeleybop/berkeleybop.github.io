@@ -1,0 +1,2 @@
+./_includes/head.html:<script src="js/customscripts.js"></script>
+./z:./_includes/head.html:<script src="js/customscripts.js"></script>

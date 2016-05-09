@@ -1,0 +1,15 @@
+;; Object custom/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "custom/"
+  :tables (list 
+   (semanticdb-table "conditions.html"
+    :major-mode 'html-mode
+    :tags 'nil
+    :file "conditions.html"
+    :pointmax 912
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )
