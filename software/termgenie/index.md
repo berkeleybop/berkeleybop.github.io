@@ -6,7 +6,7 @@ homepage: http://www.termgenie.org
 source: https://github.com/geneontology/termgenie
 ---
 
-TermGenie is a web application, which uses patterns and reasoning to create new classes for an ontology.
+TermGenie is a web application for ontology content generation. It generates new terms according to pre-defined templates, and uses OWL reasoners to place the term in the correct place in the ontology
 
 Originally this was devolped for the GeneOntology, but TermGenie uses a generic approach applicable to many ontologies.
 
