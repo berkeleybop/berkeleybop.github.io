@@ -9,9 +9,9 @@
                 <span class="icon-bar"></span>
             </button>
            {% if site.suffix %}
-            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> {{site.topnav_title}}</span></a>
+            <a class="fa fa-home fa-lg navbar-brand" href="/index.html">&nbsp;<span class="projectTitle"> {{site.topnav_title}}</span></a>
             {% else %}
-            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> {{site.topnav_title}}</span></a>
+            <a class="fa fa-home fa-lg navbar-brand" href="/index.html">&nbsp;<span class="projectTitle"> {{site.topnav_title}}</span></a>
             {% endif %}
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -26,9 +26,9 @@
                 {% if subcategory.external_url %}
                 <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
                 {% elsif page.url == subcategory.url %}
-                <li class="active"><a href="{{subcategory.url | replace: "/",""}}">{{subcategory.title}}</a></li>
+                <li class="active"><a href="{{subcategory.url }}">{{subcategory.title}}</a></li>
                 {% else %}
-                <li><a href="{{subcategory.url | replace: "/",""}}">{{subcategory.title}}</a></li>
+                <li><a href="{{subcategory.url}}">{{subcategory.title}}</a></li>
                 {% endif %}
                 {% endif %}
                 {% endfor %}
@@ -49,9 +49,9 @@
                         {% if subitem.external_url %}
                         <li><a href="{{subitem.external_url}}" target="_blank">{{subitem.title}}</a></li>
                         {% elsif page.url contains subitem.url %}
-                        <li class="dropdownActive"><a href="{{subitem.url | replace: '/',''}}">{{subitem.title}}</a></li>
+                        <li class="dropdownActive"><a href="{{subitem.url}}">{{subitem.title}}</a></li>
                         {% else %}
-                        <li><a href="{{subitem.url | replace: "/",""}}">{{subitem.title}}</a></li>
+                        <li><a href="{{subitem.url }}">{{subitem.title}}</a></li>
                         {% endif %}
                         {% endif %}
                         {% endfor %}
