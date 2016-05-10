@@ -4,7 +4,8 @@ title: TermGenie
 active: yes
 homepage: http://www.termgenie.org
 source: https://github.com/geneontology/termgenie
-publication: http://www.jbiomedsem.com/content/5/1/48
+docs: https://github.com/geneontology/termgenie/wiki
+publication_url: http://www.jbiomedsem.com/content/5/1/48
 ---
 
 TermGenie is a web application for ontology content generation. It generates new terms according to pre-defined templates, and uses OWL reasoners to place the term in the correct place in the ontology
