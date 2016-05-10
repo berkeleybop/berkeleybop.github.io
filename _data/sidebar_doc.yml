@@ -106,84 +106,25 @@ entries:
           product: all
           version: all
 
-    - title: People2
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
+    - title: People
       items:
-        - title: Chris
+        - title: Chris Mungall
           url: /people/chris-mungall/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
         - title: Heiko Dietze
           url: /people/heiko-dietze
-          audience: writers, designers
-        - title: Seth Carbon
-          url: /people/seth-carbon
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
+        - title: Jeremy Nguyen Xuan
+          url: /people/jeremy-nguyen-xuan
+        - title: Monica Munoz-Torres
+          url: /people/monica-munoz-torres
         - title: Nathan Dunn
           url: /people/nathan-dunn
-          product: all
-          version: all
+        - title: Seth Carbon
+          url: /people/seth-carbon
         - title: Suzanna Lewis
           url: /people/seth-carbon
-          product: all
-          version: all
 
       
 
-    - title: People
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
-      items:
-        - title: Members
-          url: /people
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-          thirdlevel:
-            - title: Member pages
-              audience: writers, designers
-              platform: all
-              product: all
-              version: all
-              thirdlevelitems: 
-              - title: Chris Mungall
-                url: /people/chris-mungall
-                audience: writers, designers
-                platform: all
-                product: all
-                version: all
-              - title: Heiko Dietze
-                url: /people/heiko-dietze
-
-
-
-
-
-
-        - title: Alumni
-          url: /team_alumni.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Contact
-          url: /team_contact.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
 
 
        

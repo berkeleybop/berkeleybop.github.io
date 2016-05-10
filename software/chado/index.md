@@ -2,17 +2,17 @@
 layout: software
 title: Chado
 active: yes
-homepage: http://amigo.geneontology.org
-source: https://github.com/geneontology/amigo/
+homepage: http://gmod.org/wiki/Chado
+source: https://github.com/GMOD/Chado
+publication:
+  title: "A Chado case study: an ontology-based modular schema for representing genome-associated biological information. Bioinformatics, 23(13), i337–346."
+  authors: "Mungall, C. J., Emmert, D. B."
+  year: 2007
+  url: http://dx.doi.org/10.1093/bioinformatics/btm189
 ---
 
-AmiGO is the official tool for searching and browsing the Gene Ontology database. It allows you to explore a controlled vocabulary of terms covering biological concepts, and a large number of genes or gene products whose attributes have been annotated using GO terms.
+Chado is a relational database schema that underlies many GMOD
+installations. The initial version of Chado was designed by Chris
+Mungall (BBOP) and Dave Emmert (FlyBase), and later developed by the
+GMOD community.
 
-Using AmiGO, you can:
-
- * Search for a gene or gene product, or a list of gene or gene products, and view the GO term associations
- * Perform a sequence identity BLAST search and view the GO term associations for the genes or proteins returned
- * Search for GO terms and view the genes or gene products they are annotated to
- * Browse the GO ontology and view terms
-
-http://amigo.geneontology.org
