@@ -13,7 +13,7 @@ Originally this was devolped for the GeneOntology, but TermGenie uses a generic 
 #Publication
 
 **TermGenie – a web-application for pattern-based ontology class generation**   
-Heiko Dietze, Tanya Z. Berardini, Rebecca E. Foulger, David P. Hill, Jane Lomax, David Osumi-Sutherland3, Paola Roncaglia, and Christopher J. Mungall   
+Heiko Dietze, Tanya Z. Berardini, Rebecca E. Foulger, David P. Hill, Jane Lomax, David Osumi-Sutherland, Paola Roncaglia, and Christopher J. Mungall   
 *Journal of Biomedical Semantics* 2014, **5**:48  doi:10.1186/2041-1480-5-48 Published: 11 December 2014 
 
 [Link to JBMS open access article](http://www.jbiomedsem.com/content/5/1/48)
