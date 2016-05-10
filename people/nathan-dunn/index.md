@@ -10,5 +10,6 @@ github:  https://github.com/nathandunn
 scholar: 
 ---
 
-Nathan Dunn is a ...
+Nathan Dunn is a Software Engineer specializing in scientific and application programming with emphasis in the life sciences. 
+Current projects include the [Apollo](https://github.org/GMOD/Apollo) project and the [Monarch Initiative](https://monarchinitiative.org).
 
