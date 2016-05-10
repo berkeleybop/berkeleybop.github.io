@@ -2,7 +2,7 @@
 layout: software
 title: TermGenie
 active: yes
-homepage: http://www.termgenie.org
+homepage: http://termgenie.org
 source: https://github.com/geneontology/termgenie
 docs: https://github.com/geneontology/termgenie/wiki
 publication_url: http://www.jbiomedsem.com/content/5/1/48
