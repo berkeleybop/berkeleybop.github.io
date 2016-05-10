@@ -37,6 +37,12 @@ entries:
         - title: FANTOM5 Ontology
           url: /project/fantom-ontology
           
+        - title: "Planteome"
+          url: /project/planteome
+
+        - title: "Phenoscape"
+          url: /project/phenoscape
+
         - title: BioCaddie
           url: /project/biocaddie
 

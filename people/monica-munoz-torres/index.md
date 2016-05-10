@@ -7,6 +7,7 @@ background: Ph.D. Genetics (Clemson University), B.Sc. Biology and Genetics (Uni
 image: Moni.jpg
 linkedin: http://www.linkedin.com/in/monimunozto
 scholar: https://goo.gl/F4TRoF
+twitter: https://twitter.com/monimunozto
 ---
 
 Moni is a bioinformatics scientist and the biocuration lead at the Berkeley Bioinformatics Open-Source Projects group (BBOP) at Lawrence Berkeley National Laboratory, where she offers evolutionary and biologically relevant perspectives to the development of genome annotation editing tools. She is a molecular biologist with a background in genomic resources production: in the lab, in library construction and analysis; and at the computer, in molecular evolution, genome annotation editing, functional annotation, etc. She is currently part of the development team for Apollo - a web-based annotation editor designed to support community-based curation of genomes - and a member of the Gene Ontology Consortium.

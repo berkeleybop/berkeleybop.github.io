@@ -1,12 +1,11 @@
 ---
 layout: project
-title: TITLE
+title: Phenoscape
 active: yes
 homepage: 
 source: 
 travis: 
-docs:
-funding: 
+docs: 
 ---
 
-TITLE is...
+Phenoscape is...
