@@ -1,10 +1,35 @@
 # Website for bbop
 
-## How-To
+This should be viewed on http://berkeleybop.github.io
 
- - Edit the menu: see _data/sidebar_doc.yml
- - Add content: add a new filename.yml (copy from existing one) and reference it from the menu.
- - Test locally before you push to master (jekyll serve)
+This repo is only for maintainers
+
+## How-To (for bbop members)
+
+Edit the menu: see _data/sidebar_doc.yml
+
+Each page has its own directory containing an index.md file (this was to preserve URLs from the old site)
+
+You can seed this:
+
+```
+cd software
+../util/add-entry My-Awesome-Tool
+git add my-awesome-tool/*
+git commit
+```
+
+Test locally before you push to master:
+
+```
+jekyll serve
+```
+
+You may first need to:
+
+```
+gem install jekyll
+```
 
 #Theme
 

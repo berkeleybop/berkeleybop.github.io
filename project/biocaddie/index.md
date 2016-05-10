@@ -1,6 +1,6 @@
 ---
-layout: software
-title: TITLE
+layout: project
+title: BioCaddie
 active: yes
 homepage: 
 source: 
@@ -8,4 +8,4 @@ travis:
 docs: 
 ---
 
-TITLE is...
+BioCaddie is...

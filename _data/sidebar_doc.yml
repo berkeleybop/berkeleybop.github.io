@@ -6,29 +6,17 @@ entries:
   subcategories:
 
     - title: About
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
       print: true
 
       items:
 
         - title: Welcome
           url: "/index.html"
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
 
 
 
 
     - title: Projects
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
       print: true
       items:
         - title: Gene Ontology
@@ -46,9 +34,6 @@ entries:
         - title: Uberon
           url: /project/uberon
           
-        - title: Environments
-          url: /project/environments
-          
         - title: FANTOM5 Ontology
           url: /project/fantom-ontology
           
@@ -57,10 +42,6 @@ entries:
 
 
     - title: Software
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
       print: true
       items:
         - title: AmiGO
@@ -69,42 +50,72 @@ entries:
         - title: Apollo
           url: /software/apollo
 
+        - title: Noctua
+          url: /software/noctua
+
         - title: Chado
           url: /software/chado
 
         - title: OwlSim
           url: /software/owlsim
 
+        - title: OWLTools
+          url: /software/owltools
+
         - title: kBOOM
           url: /software/kboom
 
         - title: TermGenie
           url: /software/termgenie
-          
 
+        - title: Dipper
+          url: /software/dipper
+
+        - title: PAINT
+          url: /software/paint
+
+        - title: SciGraph
+          url: /software/scigraph
+
+        - title: Phenote
+          url: /software/phenote
+
+        - title: OBO-Edit
+          url: /software/oboedit
+          
+    - title: Research
+      items:
+        - title: "Data Integration"
+          url: /research/data-integration
+
+        - title: "Environments"
+          url: /research/environments
+
+        - title: "Evolution"
+          url: /research/evolution
+
+        - title: "Functional Genomics"
+          url: /research/functional-genomics
+
+        - title: "Ontologies"
+          url: /research/ontologies
+
+        - title: "Phenomics"
+          url: /research/phenomics
+
+        - title: "Software and Infrastructure"
+          url: /research/software-and-infrastructure
 
 
 
       
     - title: Publications
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
       items:
         - title: Selected
           url: /publications_selected.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
 
         - title: All
           url: /publications_all.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
 
     - title: People
       items:

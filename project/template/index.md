@@ -1,5 +1,5 @@
 ---
-layout: software
+layout: project
 title: TITLE
 active: yes
 homepage: 

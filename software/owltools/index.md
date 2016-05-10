@@ -1,6 +1,6 @@
 ---
 layout: software
-title: TITLE
+title: OWLTools
 active: yes
 homepage: 
 source: 
@@ -8,4 +8,4 @@ travis:
 docs: 
 ---
 
-TITLE is...
+OWLTools is...

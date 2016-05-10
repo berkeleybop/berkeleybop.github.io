@@ -1,6 +1,6 @@
 ---
 layout: people
-title: TITLE
+title: Suzanna Lewis
 active: yes
 position: 
 background: 
@@ -10,5 +10,5 @@ github:
 scholar: 
 ---
 
-TITLE is ...
+Suzanna Lewis is ...
 
