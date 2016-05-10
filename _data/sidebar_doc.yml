@@ -4,30 +4,6 @@
 entries:
 - title: Sidebar
   subcategories:
-    - title: Frontmatter # leave this frontmatter section here for PDF outputs
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
-      web: false
-      items:
-        - title: Title Page
-          url: /titlepage.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-          web: false
-          frontmatter: true
-
-        - title: Table of Contents
-          url: /tocpage.html
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-          web: false
-          frontmatter: true
 
     - title: About
       audience: writers, designers
@@ -95,7 +71,7 @@ entries:
           version: all
 
         - title: Chado
-          url: /software/chado
+          url: /software/chado/
           audience: writers, designers
           platform: all
           product: all
@@ -138,6 +114,23 @@ entries:
           platform: all
           product: all
           version: all
+        - title: Heiko Dietze
+          url: /people/heiko-dietze
+          audience: writers, designers
+        - title: Seth Carbon
+          url: /people/seth-carbon
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+        - title: Nathan Dunn
+          url: /people/nathan-dunn
+          product: all
+          version: all
+        - title: Suzanna Lewis
+          url: /people/seth-carbon
+          product: all
+          version: all
 
       
 
@@ -166,12 +159,8 @@ entries:
                 platform: all
                 product: all
                 version: all
-              - title: {{feedback_email}}
-                url: /team_krawitz.html
-                audience: writers, designers
-                platform: all
-                product: all
-                version: all
+              - title: Heiko Dietze
+                url: /people/heiko-dietze
 
 
 
