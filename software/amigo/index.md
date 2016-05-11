@@ -3,7 +3,7 @@ layout: software
 title: AmiGO
 active: yes
 homepage: http://amigo.geneontology.org
-source: https://github.com/geneontology/amigo/
+source: https://github.com/geneontology/amigo
 ---
 
 AmiGO is the official tool for searching and browsing the Gene Ontology database. It allows you to explore a controlled vocabulary of terms covering biological concepts, and a large number of genes or gene products whose attributes have been annotated using GO terms.

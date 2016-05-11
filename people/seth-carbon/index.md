@@ -4,9 +4,10 @@ title: Seth Carbon
 active: yes
 position: AmiGO/Gene Ontology Software Engineer; BBOP System Architecture/Administration 
 background: BA Mathematics, UC Santa Cruz; BA Computer Science, UC Santa Cruz
+email: sjcarbon
 image: seth.jpg
-linkedin: 
-github: kltm
+linkedin: https://www.linkedin.com/in/seth-carbon
+github: http://github.com/kltm
 scholar: 
 ---
 
