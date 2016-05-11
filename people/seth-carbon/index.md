@@ -6,9 +6,8 @@ position: AmiGO/Gene Ontology Software Engineer; BBOP System Architecture/Admini
 background: BA Mathematics, UC Santa Cruz; BA Computer Science, UC Santa Cruz
 email: sjcarbon
 image: seth.jpg
-linkedin: https://www.linkedin.com/in/seth-carbon
+linkedin: https://www.linkedin.com/in/sjcarbon
 github: http://github.com/kltm
-scholar: 
 ---
 
 I'm currently primarily working on the <a href="http://geneontology.org">Gene Ontology Consortium</a> projects <a href="http://amigo.geneontology.org">AmiGO 2</a> and <a href="http://noctua.berkeleybop.org">Noctua</a> (<a href="https://github.com/geneontology">group repo</a>). As well, I am occasionally participating in various parts of the stack for the <a href="http://monarchinitiative.org">Monarch Initiative</a> and do the system architecture and administration for BBOP.
