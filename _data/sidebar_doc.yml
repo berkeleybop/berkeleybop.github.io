@@ -7,14 +7,11 @@ entries:
 
     - title: About
       print: true
-
       items:
-
         - title: Welcome
           url: "/index.html"
-
-
-
+        - title: Contact
+          url: /team_contact
 
     - title: Projects
       print: true
