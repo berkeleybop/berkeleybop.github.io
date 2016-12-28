@@ -6,11 +6,13 @@ title: Contact
 
 #### Mailing Address and Phone
 
-> Berkeley Bioinformatics Open-Source Projects
-> Lawrence Berkeley National Laboratory
-> 1 Cyclotron Road, Mailstop 977-0257
-> Berkeley, CA 94720
-> Phone: 510.486.4170
+```
+Berkeley Bioinformatics Open-Source Projects
+Lawrence Berkeley National Laboratory
+1 Cyclotron Road, Mailstop 977-0257
+Berkeley, CA 94720
+Phone: 510.486.4170
+```
 
 For comments and inquiries regarding berkeleybop.org, please contact
 the webmaster at that domain.
@@ -24,8 +26,10 @@ Depending on the day and scheduling, we may be at LBL Potter Street
 
 Our location at Potter Street, within the Environmental Genomics & Systems Biology (EBFG) group, is fairly easy to get to, near I80. Car is the easiest method to get here, but the Potter Street shuttle from the Downtown Berkeley BART station is also a possibility, as well as bike. If you manage to get into the building without one of us, please sign in at the main desk first.
 
-> 717 Potter Street
-> Berkeley, CA 94710
+```
+717 Potter Street
+Berkeley, CA 94710
+```
 
 We are located in and around rooms: 251A, 257, 258, and 258A.
 
