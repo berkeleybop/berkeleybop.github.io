@@ -10,6 +10,6 @@ github:  https://github.com/nathandunn
 scholar: 
 ---
 
-Nathan Dunn (nathandunn@lbl.gov) is a Software Engineer specializing in scientific and application programming with emphasis in the life sciences. 
+Nathan Dunn <nathandunn@lbl.gov> is a Software Engineer specializing in scientific and application programming with emphasis in the life sciences. 
 Current projects include the [Apollo](https://github.org/GMOD/Apollo) project and the [Monarch Initiative](https://monarchinitiative.org). 
 
