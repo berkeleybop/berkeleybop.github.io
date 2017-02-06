@@ -16,22 +16,23 @@ entries:
     - title: Projects
       print: true
       items:
-        - title: Gene Ontology
-          url: /project/gene-ontology
 
-        - title: Monarch
+        - title: Monarch Initiative
           url: /project/monarch
           
-        - title: GMOD
-          url: /project/gmod
+        - title: Gene Ontology
+          url: /project/gene-ontology
           
         - title: OBO Foundry
           url: /project/obo-foundry
           
+        - title: INCA
+          url: /project/inca
+          
         - title: Uberon
           url: /project/uberon
           
-        - title: FANTOM5 Ontology
+        - title: FANTOM5
           url: /project/fantom-ontology
           
         - title: "Planteome"
@@ -43,6 +44,15 @@ entries:
         - title: BioCaddie
           url: /project/biocaddie
 
+        - title: Environment Ontology
+          url: /project/envo
+          
+        - title: Alliance Genome
+          url: /project/agr
+          
+        - title: GMOD
+          url: /project/gmod
+
 
     - title: Software
       print: true
@@ -50,17 +60,23 @@ entries:
         - title: AmiGO
           url: /software/amigo
 
-        - title: Apollo
+        - title: Apollo/JBrowse
           url: /software/apollo
 
         - title: Noctua
           url: /software/noctua
+
+        - title: BioLink
+          url: /software/biolink
 
         - title: Chado
           url: /software/chado
 
         - title: OwlSim
           url: /software/owlsim
+
+        - title: ROBOT
+          url: /software/robot
 
         - title: OWLTools
           url: /software/owltools
@@ -109,20 +125,14 @@ entries:
         - title: "Software and Infrastructure"
           url: /research/software-and-infrastructure
 
-
       
-    - title: Publications
-      items:
-        - title: Selected
-          url: /publications_selected.html
-
-        - title: All
-          url: /publications_all.html
 
     - title: People
       items:
         - title: Chris Mungall
           url: /people/chris-mungall/
+        - title: Eric Douglass
+          url: /people/eric-douglass
         - title: Heiko Dietze
           url: /people/heiko-dietze
         - title: Jeremy Nguyen Xuan
