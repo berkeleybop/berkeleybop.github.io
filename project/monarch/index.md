@@ -16,6 +16,16 @@ The [Monarch Initiative](http://monarchinitiative.org) is a collaborative, open 
  * [HP](http://obofoundry.org/ontology/hp.html)
  * [GENO](http://obofoundry.org/ontology/geno.html)
 
+## Communication
+
+## Communication
+
+ * [GitHub](https://github.com/monarch-initiative/)
+ * Gitter
+ * Mailing lists
+    * monarch-dev (ask Julie to be added)
+
+
 ## References
 
  * Mungall, C. J., McMurry, J. A., Köhler, S., Balhoff, J. P., Borromeo, C., Brush, M., … Haendel, M. A. (2016). __The Monarch Initiative: an integrative data and analytic platform connecting phenotypes to genotypes across species.++ _Nucleic Acids Research_, gkw1128. http://doi.org/10.1093/NAR/GKW1128

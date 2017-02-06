@@ -15,6 +15,12 @@ The use of GO terms by several collaborating databases facilitates uniform queri
 
 BBOP has been a member of the GO consortium since its inception in 1999, for which Suzanna Lewis was a founding member (with Michael Ashburner, Judy Blake, and Mike Cherry). BBOP currently contributes to the [GO consortium](http://www.geneontology.org/GO.consortiumlist.shtml) in several ways: project vision, ontology development, and in the development of software tools to view and edit GO ontologies ([OBO-Edit](http://www.oboedit.org/)) and their annotations ([AmiGO](http://amigo.geneontology.org/cgi-bin/amigo/go.cgi)).
 
+## Communication
+
+ * [GitHub](https://github.com/geneontology)
+ * [Mailing lists](http://www.geneontology.org/page/go-mailing-lists)
+    * [go consortium](https://mailman.stanford.edu/mailman/listinfo/go-consortium)
+
 ## References
 
  * Mungall, C. J., Dietze, H., & Osumi-Sutherland, D. (2014). Use of OWL within the Gene Ontology. In M. Keet & V. Tamma (Eds.), Proceedings of the 11th International Workshop on OWL: Experiences and Directions (OWLED 2014) (pp. 25–36). Riva del Garda, Italy, October 17-18, 2014. http://doi.org/10.1101/010090
