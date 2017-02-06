@@ -102,7 +102,7 @@ entries:
         - title: OBO-Edit
           url: /software/oboedit
           
-    - title: Research
+    - title: Research Areas
       items:
         - title: "Data Integration"
           url: /research/data-integration
@@ -146,8 +146,3 @@ entries:
         - title: Suzanna Lewis
           url: /people/suzanna-lewis
 
-      
-
-
-
-       
