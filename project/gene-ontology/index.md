@@ -15,11 +15,16 @@ The use of GO terms by several collaborating databases facilitates uniform queri
 
 BBOP has been a member of the GO consortium since its inception in 1999, for which Suzanna Lewis was a founding member (with Michael Ashburner, Judy Blake, and Mike Cherry). BBOP currently contributes to the [GO consortium](http://www.geneontology.org/GO.consortiumlist.shtml) in several ways: project vision, ontology development, and in the development of software tools to view and edit GO ontologies ([OBO-Edit](http://www.oboedit.org/)) and their annotations ([AmiGO](http://amigo.geneontology.org/cgi-bin/amigo/go.cgi)).
 
-## Communication
+## Communication and Internal Documentation
 
  * [GitHub](https://github.com/geneontology)
  * [Mailing lists](http://www.geneontology.org/page/go-mailing-lists)
     * [go consortium](https://mailman.stanford.edu/mailman/listinfo/go-consortium)
+    * [go ontology](https://mailman.stanford.edu/mailman/listinfo/go-ontology)
+
+ * [GO Google Drive](https://drive.google.com/drive/u/1/folders/0B8kRPmmvPJU3dFhhcWhTSmlUcDA)
+ 
+
 
 ## References
 

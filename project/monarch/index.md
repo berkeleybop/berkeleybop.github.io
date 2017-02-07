@@ -3,6 +3,7 @@ layout: project
 title: Monarch Initiative
 active: yes
 homepage: http://monarchinitiative.org
+funding: R24 OD011883 
 source: https://github.com/monarch-initiative
 travis: 
 docs:
@@ -16,15 +17,15 @@ The [Monarch Initiative](http://monarchinitiative.org) is a collaborative, open 
  * [HP](http://obofoundry.org/ontology/hp.html)
  * [GENO](http://obofoundry.org/ontology/geno.html)
 
-## Communication
-
-## Communication
+## Communication and Internal Docs
 
  * [GitHub](https://github.com/monarch-initiative/)
- * Gitter
+ * [Gitter](https://gitter.im/monarch-initiative/)
  * Mailing lists
     * monarch-dev (ask Julie to be added)
 
+ * Dropbox (ask Julie to be added)
+ * [Google Drive](https://drive.google.com/drive/u/1/folders/0B1ggMLKFepMxOWlJWVpPSXFHWGM)
 
 ## References
 
