@@ -7,6 +7,7 @@ background: Ph.D. Computer Science University of Oregon, MSc Chemical Engineerin
 image: 
 linkedin: https://www.linkedin.com/in/nathan-dunn-31257746
 github:  https://github.com/nathandunn 
+orcid: http://orcid.org/0000-0002-4862-3181
 scholar: 
 ---
 
