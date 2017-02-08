@@ -2,11 +2,11 @@
 layout: people
 title: Suzanna Lewis
 active: yes
-position: 
-background: 
-image: 
+position: Staff Scientist
+background: University of Michigan
+image: SuziCSH2015.jpg
 linkedin: 
-github: 
+github: selewis
 scholar: 
 ---
 
