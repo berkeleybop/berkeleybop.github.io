@@ -7,7 +7,7 @@ position: Staff Scientist
 background: University of Michigan
 image: SuziCSH2015.jpg
 linkedin: 
-github: selewis
+github: http://github.com/selewis
 scholar: 
 ---
 
