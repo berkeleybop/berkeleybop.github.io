@@ -2,6 +2,7 @@
 layout: people
 title: TITLE
 active: yes
+orcid:
 position: 
 background: 
 image: 
