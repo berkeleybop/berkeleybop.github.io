@@ -6,7 +6,7 @@ orcid: orcid.org/0000-0002-8343-612X
 position: Staff Scientist
 background: University of Michigan
 image: SuziCSH2015.jpg
-linkedin: 
+linkedin: https://www.linkedin.com/in/suzanna-lewis
 github: http://github.com/selewis
 scholar: 
 ---
