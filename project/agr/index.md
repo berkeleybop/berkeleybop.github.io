@@ -3,6 +3,7 @@ layout: project
 title: Alliance Genome 
 active: yes
 homepage: http://www.alliancegenome.org/
+github: https://github.com/alliance-genome/
 source: 
 travis: 
 docs:

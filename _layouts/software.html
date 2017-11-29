@@ -7,15 +7,27 @@ layout: default
 {% if page.logo %}
 <img alt="logo" src="{{page.logo}}"/>
 {% endif %}
+  {% if page.twitter %}
+      <iframe style="position: static; visibility: visible; width: 190px; height: 20px;" 
+              data-twttr-rendered="true" title="Twitter Follow Button" 
+              class="twitter-follow-button twitter-follow-button" 
+              src="http://platform.twitter.com/widgets/follow_button.a64cf823bcb784855b86e2970134bd2a.en.html#_=1438577078419&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name={{page.twitter}}&amp;show_count=true&amp;show_screen_name=true&amp;size=m" 
+              allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0">
+      </iframe>
+  {% endif %}
 <dl>
   <dh>Homepage:</dh>
   <dt><a href="{{ page.homepage }}">{{ page.homepage }}</a></dt>
   <dh>Source:</dh>
   <dt><a href="{{ page.source }}">{{ page.source }}</a></dt>
+  {%  if page.docs %}
   <dh>Docs:</dh>
   <dt><a href="{{ page.docs }}">{{ page.docs }}</a></dt>
+  {% endif %}
+  {%  if page.publication_url %}
   <dh>Publication:</dh>
-  <dt><a href="{{ page.publication_url }}">{{ page.publication_url }}</a></dt>
+  <dt><a href="{{ page.publication_url }}">{{ page.publication_url}}</a></dt>
+  {% endif %}
   {% if page.travis %}
   <dt>Travis</dt>
   <dd>
@@ -32,8 +44,6 @@ layout: default
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}
-
-    {% include toc.html %}
 
        {{content}}
 

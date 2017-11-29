@@ -26,38 +26,34 @@ entries:
         - title: OBO Foundry
           url: /project/obo-foundry
           
-        - title: INCA
+        - title: "INCA: Intelligent Concept Assistant"
           url: /project/inca
           
-        - title: Uberon
-          url: /project/uberon
-          
-        - title: FANTOM5
-          url: /project/fantom-ontology
+        - title: "NCATS Biomedical Translator"
+          url: /project/ncats-translator
           
         - title: "Planteome"
           url: /project/planteome
 
         - title: "Phenoscape"
           url: /project/phenoscape
-
-        - title: BioCaddie
-          url: /project/biocaddie
-
-        - title: Environment Ontology
-          url: /project/envo
           
-        - title: Alliance Genome
+        - title: "AGR: Alliance for Genome Resources"
           url: /project/agr
+          
+        - title: "NIH Data Commons"
+          url: /project/data-commons
           
         - title: GMOD
           url: /project/gmod
-
+          
+        - title: NSF Phenotype RCN
+          url: /project/phenotype-rcn
 
     - title: Software
       print: true
       items:
-        - title: AmiGO
+        - title: AmiGO and Golr
           url: /software/amigo
 
         - title: Apollo/JBrowse
@@ -66,13 +62,16 @@ entries:
         - title: Noctua
           url: /software/noctua
 
-        - title: BioLink
+        - title: BioLink API
           url: /software/biolink
 
-        - title: Chado
+        - title: Ontobio Python lib
+          url: /software/ontobio
+
+        - title: Chado Schema
           url: /software/chado
 
-        - title: OwlSim
+        - title: OwlSim Phenotype Matching
           url: /software/owlsim
 
         - title: ROBOT
@@ -83,6 +82,9 @@ entries:
 
         - title: kBOOM
           url: /software/kboom
+
+        - title: BioMake
+          url: /software/biomake
 
         - title: TermGenie
           url: /software/termgenie
@@ -101,6 +103,28 @@ entries:
 
         - title: OBO-Edit
           url: /software/oboedit
+
+    - title: Ontologies
+      print: true
+      items:
+
+        - title: Environment Ontology
+          url: /ontology/envo
+          
+        - title: Uberon
+          url: /ontology/uberon
+
+        - title: FANTOM5 Ontology
+          url: /ontology/fantom-ontology
+          
+        - title: MONDO
+          url: /ontology/mondo
+          
+        - title: Phenotype Ontologies
+          url: /ontology/pheno
+          
+        - title: Relation Ontology
+          url: /ontology/ro
           
     - title: Research Areas
       items:
@@ -125,18 +149,18 @@ entries:
         - title: "Software and Infrastructure"
           url: /research/software-and-infrastructure
 
-      
-
     - title: People
       items:
         - title: Chris Mungall
           url: /people/chris-mungall/
+        - title: Seth Carbon
+          url: /people/seth-carbon
         - title: Eric Douglass
           url: /people/eric-douglass
         - title: Nathan Dunn
           url: /people/nathan-dunn
-        - title: Seth Carbon
-          url: /people/seth-carbon
+        - title: Hyeongsik Kim
+          url: /people/hyeongsik-kim
         - title: Suzanna Lewis
           url: /people/suzanna-lewis
 

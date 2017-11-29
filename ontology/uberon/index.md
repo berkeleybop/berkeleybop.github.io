@@ -6,7 +6,7 @@ homepage: http://uberon.org
 source: https://github.com/obophenotype/uberon/
 travis: 
 docs:
-logo: http://uberon.github.io/images/u-logo.png
+logo: http://uberon.github.io/images/u-logo.jpg
 twitter: uberanat
 ---
 
@@ -17,6 +17,8 @@ structures. It is integrated with the cell type ontology.
 
 The majority of classes in Uberon represent vertebrate
 structures. Uberon is federated with multiple other anatomy ontologies.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mRwkS2zvAO5pM6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cmungall/uberon-ebiindustryworkshop" title="Uberon EBI industry workshop" target="_blank">Uberon EBI industry workshop</a> </strong> from <strong><a href="https://www.slideshare.net/cmungall" target="_blank">Chris Mungall</a></strong> </div>
 
 ## References
 

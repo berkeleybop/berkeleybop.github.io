@@ -4,6 +4,8 @@ title: Gene Ontology
 active: yes
 funding: NIH HG002273
 homepage: http://geneontology.org
+github: https://github.com/geneontology
+logo: https://avatars1.githubusercontent.com/u/7750835?s=200&v=4
 twitter: news4go
 ---
 
@@ -13,7 +15,14 @@ The use of GO terms by several collaborating databases facilitates uniform queri
 
 ## Our Role
 
-BBOP has been a member of the GO consortium since its inception in 1999, for which Suzanna Lewis was a founding member (with Michael Ashburner, Judy Blake, and Mike Cherry). BBOP currently contributes to the [GO consortium](http://www.geneontology.org/GO.consortiumlist.shtml) in several ways: project vision, ontology development, and in the development of software tools to view and edit GO ontologies ([OBO-Edit](http://www.oboedit.org/)) and their annotations ([AmiGO](http://amigo.geneontology.org)).
+BBOP has been a member of the GO consortium since its inception in 1999, for which Suzanna Lewis was a founding member (with Michael Ashburner, Judy Blake, and Mike Cherry). In collaboration with [Dr Paul Thomas's group at USC](https://sites.google.com/usc.edu/thomaslab) we provide informatics and infrastructure supporting the GO, including:
+
+ * [AmiGO](/software/amigo) ontology and annotation browser and association Golr model
+ * [Noctua](/software/noctua) collaborative causal activity model editing tool
+ * [PAINT](/software/paint) Phylogenetic Annotation Tool
+ * Ontology modeling
+ * Ontology tooling including [OBO-Edit](/software/obo-edit) and [TermGenie](/software/termgenie)
+ * [GO RDF Knowledge Base](/software/go-rdf)
 
 ## Communication and Internal Documentation
 
@@ -22,9 +31,8 @@ BBOP has been a member of the GO consortium since its inception in 1999, for whi
  * [Mailing lists](http://www.geneontology.org/page/go-mailing-lists)
     * [go consortium](https://mailman.stanford.edu/mailman/listinfo/go-consortium)
     * [go ontology](https://mailman.stanford.edu/mailman/listinfo/go-ontology)
-
  * [GO Google Drive](https://drive.google.com/drive/u/1/folders/0B8kRPmmvPJU3dFhhcWhTSmlUcDA)
- 
+ * [godev-internal](https://groups.io/g/godev-internal/) 
 
 
 ## References

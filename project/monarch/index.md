@@ -4,7 +4,8 @@ title: Monarch Initiative
 active: yes
 homepage: http://monarchinitiative.org
 funding: R24 OD011883 
-source: https://github.com/monarch-initiative
+github: https://github.com/monarch-initiative
+logo: https://avatars2.githubusercontent.com/u/5161984?s=200&v=4
 travis: 
 docs:
 twitter: monarchinit
@@ -15,7 +16,12 @@ The [Monarch Initiative](http://monarchinitiative.org) is a collaborative, open 
 ## Ontologies
 
  * [HP](http://obofoundry.org/ontology/hp.html)
+ * [MONDO](http://obofoundry.org/ontology/mondo.html)
  * [GENO](http://obofoundry.org/ontology/geno.html)
+
+## Architecture
+
+![img](https://monarchinitiative.org/image/ingest_curation_workflow.png)
 
 ## Communication and Internal Docs
 

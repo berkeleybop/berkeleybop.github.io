@@ -21,4 +21,4 @@ The primary developers of Robot are
 ## References
 
  * Overton, J. A., Dietze, H., Essaid, S., Osumi-sutherland, D., & Mungall, C. J. (2015). ROBOT : A command-line tool for ontology development. In Proceedings of the International Conference on Biomedical Ontology (ICBO) (pp. 131–132). Lisbon, Portugal.
- * [Creating an ontology project](douroucouli.wordpress.com/2015/12/16/creating-an-ontology-project-an-update/)
+ * [Creating an ontology project](http://douroucouli.wordpress.com/2015/12/16/creating-an-ontology-project-an-update/)

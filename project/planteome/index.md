@@ -3,7 +3,7 @@ layout: project
 title: Planteome
 active: yes
 homepage: http://planteome.org
-source: 
+github: https://github.com/planteome
 travis: 
 docs:
 funding: NSF ISO-1340112 
@@ -14,6 +14,9 @@ twitter: Planteome
 The [Planteome](http://planteome.org) project aims to provide
 reference ontologies for describing the function, traits and
 phenotypes of plant genes, varieties and germplasms.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/9GI087jccHnbRA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/nathandunneugene/mon-am2-20601dunn51515" title="Ontology-based services for querying and mining plant genomic and phenomic data" target="_blank">Ontology-based services for querying and mining plant genomic and phenomic data</a> </strong> from <strong><a href="https://www.slideshare.net/nathandunneugene" target="_blank">Nathan Dunn</a></strong> </div>
+
 
 ## Team
 

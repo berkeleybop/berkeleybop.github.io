@@ -5,11 +5,24 @@ active: yes
 homepage: http://obofoundry.org/
 source: 
 travis:
+github: https://github.com/obofoundry
 twitter: obofoundry
+funding: R24 HG010032
 docs: 
 ---
 
-The Open Biomedical Ontologies (OBO) Foundry is a collaborative experiment: to produce well-structured vocabularies for shared use across different biological and medical domains. The OBO Foundry introduces a new paradigm for biomedical ontology development by the establishment of gold standard reference ontologies for individual domains of inquiry.
+The Open Biomedical Ontologies (OBO) Foundry is a collective of
+ontology developers and users committed to collaboration and shared
+standards. We aim to build a suite of integrated ontologies that are:
+
+ * Logically well formed
+ * Scientifically accurate
+ * Interoperable and interconnected
+ * Non-overlapping
+
+More details can be found on the [OBO Homepage](http://obofoundry.org/)
+
+## History
 
 Back in 2002 Michael Ashburner and Suzanna Lewis initiated this grass-roots effort. The goal of [OBO Foundry](http://obofoundry.org/) is to work with the community to create a suite of interoperable reference ontologies in the biomedical domain. We organize small content-development workshops to assist groups who have need of an ontology to support their research, such as anatomies, cell types, environments, and so on. From August 2005-2008 these workshops were supported through our 3-year collaboration with the [National Center for Biomedical Ontology (NCBO)](http://bioontology.org/).
 
@@ -22,10 +35,10 @@ We perform continuous integration on a number of ontologies: http://build.berkel
 We are also involved in a number of ontology development efforts, such as:
 
 - [GO](http://www.geneontology.org/): The Gene Ontology (see above)
-- [RO](http://www.obofoundry.org/ro/): OBO Relations Ontology
+- [RO](http://obofoundry.org/ontology/ro/): OBO Relations Ontology
 - [Uberon](http://uberon.org): Uberon
 - [EnvO](http://environmentontology.org/): Environmental Ontology
-- [PATO](http://www.bioontology.org/wiki/index.php/PATO:Main_Page): OBO Phenotype Quality Ontology
+- [PATO](http://obofoundry.org/ontology/pato): OBO Phenotype Quality Ontology
 
 ## Blog Posts
 

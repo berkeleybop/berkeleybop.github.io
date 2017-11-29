@@ -3,7 +3,7 @@ layout: project
 title: GMOD
 active: yes
 homepage: http://gmod.org/
-source: https://github.com/GMOD/
+github: https://github.com/GMOD/
 docs: http://gmod.org/wiki/Main_Page
 ---
 

@@ -23,6 +23,11 @@ layout: default
   <dh>Source:</dh>
   <dt><a href="{{ page.source }}">{{ page.source }}</a></dt>
   {% endif %}
+
+  {% if page.github %}
+  <dh>GitHub Org:</dh>
+  <dt><a href="{{ page.github }}">{{ page.github }}</a></dt>
+  {% endif %}
   
   {% if page.docs %}
   <dh>Docs:</dh>
@@ -51,8 +56,6 @@ layout: default
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}
-
-    {% include toc.html %}
 
        {{content}}
 
