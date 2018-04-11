@@ -2,13 +2,14 @@
 layout: software
 title: Apollo
 active: yes
-homepage: https://genomearchitect.github.io
+homepage: http://genomearchitect.org
 source: https://github.com/GMOD/Apollo
 docs: http://genomearchitect.readthedocs.org
 logo: 300px-ApolloLogo.png
 ---
 
 ![Build](https://travis-ci.org/GMOD/Apollo.svg?branch=master)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1063658.svg)](https://doi.org/10.5281/zenodo.1063658)
 [![Coverage](https://coveralls.io/repos/github/GMOD/Apollo/badge.svg?branch=master)](https://coveralls.io/github/GMOD/Apollo?branch=master)
 [![Documentation](https://readthedocs.org/projects/genomearchitect/badge/?version=latest)](https://genomearchitect.readthedocs.org/en/latest/)
 [![Chat at Gitter](https://badges.gitter.im/GMOD/Apollo.svg)](https://gitter.im/GMOD/Apollo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -20,5 +21,6 @@ Apollo allows researchers to explore genomic annotations at many levels of detai
 
 ## References
 
+ * [Zenodo (2017)](https://doi.org/10.5281/zenodo.1063658)
  * [Genome Biol 14:R93](http://genomebiology.com/2013/14/8/R93/abstract)
 
