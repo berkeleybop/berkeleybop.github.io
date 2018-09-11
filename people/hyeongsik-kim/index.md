@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Hyeongsik Kim
-active: yes
+active: no
 orcid: 
 position: Graph Database Engineer
 image: 
