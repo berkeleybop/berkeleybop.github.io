@@ -5,7 +5,7 @@ active: yes
 position: BBOP Program Manager 
 background: MS Computer Science, MIT
 email: nlharris
-image: nlharris2017.jpg
+image: nlharris.png
 linkedin: https://www.linkedin.com/in/nomiharris
 github: http://github.com/nlharris
 scholar: https://scholar.google.com/citations?hl=en&user=1tW5iY4AAAAJ&view_op=list_works&sortby=pubdate
