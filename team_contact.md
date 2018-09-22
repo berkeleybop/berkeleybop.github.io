@@ -7,7 +7,7 @@ title: Contact
 #### Mailing Address and Phone
 
 ```
-Berkeley Bioinformatics Open-Source Projects
+Berkeley Bioinformatics Open-source Projects
 Lawrence Berkeley National Laboratory
 1 Cyclotron Road, Mailstop 977-0257
 Berkeley, CA 94720
