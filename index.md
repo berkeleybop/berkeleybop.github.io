@@ -15,4 +15,4 @@ Berkeley Bioinformatics Open-source Projects (BBOP), located at the Lawrence Ber
 
 Our group is focused on the development, use, and integration of ontologies into biological data analysis. We invite you to learn more about our projects and people.
 
-![img](images/bbop-group-picture-wave.jpg)
+![img](images/BBOP-2019-Jan-30.jpg)
