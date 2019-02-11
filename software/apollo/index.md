@@ -21,6 +21,8 @@ Apollo allows researchers to explore genomic annotations at many levels of detai
 
 ## References
 
+ * [PLOS Comp Biology(2019)](https://doi.org/10.1371/journal.pcbi.1006790)
  * [Zenodo (2017)](https://doi.org/10.5281/zenodo.1063658)
- * [Genome Biol 14:R93](http://genomebiology.com/2013/14/8/R93/abstract)
+ * [Genome Biol 14:R93 (2013)](http://genomebiology.com/2013/14/8/R93/abstract)
+
 
