@@ -10,6 +10,8 @@ entries:
       items:
         - title: Welcome
           url: "/index.html"
+        - title: Publications
+          url: /publications_selected
         - title: Contact
           url: /team_contact
 
@@ -151,7 +153,7 @@ entries:
 
     - title: People
       items:
-        - title: Chris Mungall
+        - title: Chris Mungall (PI)
           url: /people/chris-mungall/
         - title: Seth Carbon
           url: /people/seth-carbon
@@ -163,6 +165,5 @@ entries:
           url: /people/nomi-harris
         - title: Deepak Unni
           url: /people/deepak-unni
-        - title: Suzanna Lewis
+        - title: Suzanna Lewis (emerita)
           url: /people/suzanna-lewis
-
