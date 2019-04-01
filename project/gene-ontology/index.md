@@ -37,10 +37,10 @@ BBOP has been a member of the GO consortium since its inception in 1999, for whi
 
 ## References
 
+ * The GO Consortium. The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Res. Oxford University Press; 2018;47(D1):D330–D338.
  * Mungall, C. J., Dietze, H., & Osumi-Sutherland, D. (2014). Use of OWL within the Gene Ontology. In M. Keet & V. Tamma (Eds.), Proceedings of the 11th International Workshop on OWL: Experiences and Directions (OWLED 2014) (pp. 25–36). Riva del Garda, Italy, October 17-18, 2014. http://doi.org/10.1101/010090
- * Thomas, P. D., Wood, V., Mungall, C. J., Lewis, S. E., & Blake, J. A. (2012). On the Use of Gene Ontology Annotations to Assess Functional Similarity among Orthologs and Paralogs: A Short Report. PLoS Computational Biology, 8(2), e1002386. http://doi.org/10.1371/journal.pcbi.1002386
- * Hill, D. P., Adams, N., Bada, M., Batchelor, C., Berardini, T. Z., Dietze, H., … Lomax, J. (2013). Dovetailing biology and chemistry: integrating the Gene Ontology with the ChEBI chemical ontology. BMC Genomics, 14(1), 513. http://doi.org/10.1186/1471-2164-14-513
- * Deegan, J., Dimmer, E., & Mungall, C. J. (2010). Formalization of taxon-based constraints to detect inconsistencies in annotation and ontology development. BMC Bioinformatics, 11(1), 530. http://doi.org/10.1186/1471-2105-11-530
- * Huntley, R. P., Harris, M. a, Alam-Faruque, Y., Blake, J. a, Carbon, S., Dietze, H., … Mungall, C. J. (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. http://doi.org/10.1186/1471-2105-15-155
- * Mungall, C. J., Bada, M., Berardini, T. Z., Deegan, J., Ireland, A., Harris, M. A., … Lomax, J. (2011). Cross-product extensions of the Gene Ontology. Journal of Biomedical Informatics, 44(1), 80–86. http://doi.org/10.1016/j.jbi.2010.02.002
- 
+ * Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data. Bioinformatics. 2009 Jan 15;25(2):288–289. http://dx.doi.org/10.1093/bioinformatics/btn615 PMCID: PMC2639003
+ * Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. 2007 Aug 15;23(16):2198–2200. http://dx.doi.org/10.1093/bioinformatics/btm112 PMID: 17545183
+ * Harris MA, Clark J, Ireland A, Lomax J, Ashburner M, Foulger R, Eilbeck K, Lewis S, Marshall B, Mungall C, ... Gene Ontology Consortium. The Gene Ontology (GO) database and informatics resource. Nucleic Acids Res. 2004 Jan 1;32(Database issue):D258–61. http://dx.doi.org/10.1093/nar/gkh036 PMCID: PMC308770
+ * Gene Ontology Consortium. Creating the gene ontology resource: design and implementation. Genome Res. 2001 Aug;11(8):1425–1433. http://dx.doi.org/10.1101/gr.180801 PMCID: PMC311077
+ * Ashburner M, Ball CA, Blake JA, Botstein D, Butler H. Gene Ontology: tool for the unification of biology. Nature. nature.com; 2000. https://www.nature.com/articles/ng0500_25
