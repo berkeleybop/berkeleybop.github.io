@@ -43,14 +43,17 @@ entries:
         - title: "AGR: Alliance for Genome Resources"
           url: /project/agr
           
-        - title: "NIH Data Commons"
+        - title: "NHLBI DataSTAGE"
           url: /project/data-commons
           
         - title: GMOD
           url: /project/gmod
           
-        - title: NSF Phenotype RCN
-          url: /project/phenotype-rcn
+        - title: Xena
+          url: /project/xena
+          
+        - title: IDG2KG
+          url: /project/idg2kg
 
     - title: Software
       print: true
@@ -82,14 +85,11 @@ entries:
         - title: OWLTools
           url: /software/owltools
 
-        - title: kBOOM
+        - title: k-BOOM
           url: /software/kboom
 
         - title: BioMake
           url: /software/biomake
-
-        - title: TermGenie
-          url: /software/termgenie
 
         - title: Dipper
           url: /software/dipper
@@ -99,12 +99,6 @@ entries:
 
         - title: SciGraph
           url: /software/scigraph
-
-        - title: Phenote
-          url: /software/phenote
-
-        - title: OBO-Edit
-          url: /software/oboedit
 
     - title: Ontologies
       print: true
