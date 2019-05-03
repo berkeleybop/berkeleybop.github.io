@@ -5,7 +5,7 @@ active: yes
 position: Software developer
 background: PhD (computational biology and bioinformatics), University of Virginia
 email: JustinReese
-image: 
+image: justin.jpg
 linkedin: 
 github: http://github.com/justaddcoffee
 scholar: 
