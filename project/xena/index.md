@@ -5,7 +5,7 @@ active: yes
 homepage: https://xenageneset.berkeleybop.io/xena/
 source: https://github.com/ucscXena/XenaGoWidget
 docs: https://ucsc-xena.gitbook.io/project/overview-of-features/gene-sets-about
-logo: xenalogo_deW_icon.ico
+logo: https://raw.githubusercontent.com/ucscXena/XenaGoWidget/develop/src/images/xenalogo_deW_icon.ico
 ---  
 
 
