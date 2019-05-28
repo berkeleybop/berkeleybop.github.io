@@ -12,5 +12,5 @@ scholar: https://scholar.google.com/citations?user=Y1JHARgAAAAJ
 ---
 
 Nathan Dunn <nathandunn@lbl.gov> is a Software Engineer specializing in scientific and application programming with emphasis in the life sciences. 
-Current projects include the [Apollo](https://github.org/GMOD/Apollo) project and the [Monarch Initiative](https://monarchinitiative.org). 
+Current projects include the [Apollo](http://www.berkeleybop.org/software/apollo/) project, the [Monarch Initiative](https://monarchinitiative.org), the [Alliance of Genome Resources](https://www.alliancegenome.org), and the [Xena Gene Set Viewer](http://www.berkeleybop.org/project/xena/). 
 
