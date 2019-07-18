@@ -1,6 +1,4 @@
 ---
-layout: page
-published: true
 title: Job openings
 ---
 
