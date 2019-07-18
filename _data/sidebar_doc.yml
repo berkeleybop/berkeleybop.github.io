@@ -11,7 +11,9 @@ entries:
         - title: Welcome
           url: "/index.html"
         - title: Publications
-          url: /publications_selected
+          url: /publications_selected    
+        - title: Job openings
+          url: /jobs
         - title: Contact
           url: /team_contact
 
