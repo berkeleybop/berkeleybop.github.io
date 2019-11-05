@@ -60,7 +60,7 @@ entries:
     - title: Software
       print: true
       items:
-        - title: AmiGO and Golr
+        - title: AmiGO and GOlr
           url: /software/amigo
 
         - title: Apollo (JBrowse)

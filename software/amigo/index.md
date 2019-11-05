@@ -15,9 +15,9 @@ Using AmiGO, you can:
  * Search for GO terms and view the genes or gene products they are annotated to
  * Browse the GO ontology and view terms
 
-## Golr
+## GOlr
 
-Golr is the Solr index used by AmiGO. It has been adopted as the faceted search index for [Monarch](../../project/monarch)
+GOlr is the Solr index used by AmiGO. It has been adopted as the faceted search index for [Monarch](../../project/monarch)
 
 ## Team
 
