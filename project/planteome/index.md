@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Planteome
-active: yes
+active: no
 homepage: http://planteome.org
 github: https://github.com/planteome
 travis: 
@@ -27,5 +27,6 @@ BBOP is providing various components of Planteome
 
 ## References
 
- * Cooper, L., Walls, R. L., Elser, J., Gandolfo, M. a, Stevenson, D. W., Smith, B., Preece, J., Athreya, B., Mungall, C.J., … Jaiswal, P. (2013). The plant ontology as a tool for comparative plant anatomy and genomic analyses. Plant & Cell Physiology, 54(2), e1. http://doi.org/10.1093/pcp/pcs163
+  * Cooper L, Meier A, Laporte MA, Elser JL, Mungall C, Sinn BT, Cavaliere D, Carbon S, Dunn NA, Smith B, Qu B, Preece J, Zhang E, Todorovic S, Gkoutos G, Doonan JH, Stevenson DW, Arnaud E, Jaiswal P. The Planteome database: an integrated resource for reference ontologies, plant genomics and phenomics. Nucleic Acids Res. 2018 Jan 4;46(D1):D1168-D1180. doi: 10.1093/nar/gkx1152. PubMed PMID: 29186578; PubMed Central PMCID: PMC5753347.
+* Cooper, L., Walls, R. L., Elser, J., Gandolfo, M. a, Stevenson, D. W., Smith, B., Preece, J., Athreya, B., Mungall, C.J., … Jaiswal, P. (2013). The plant ontology as a tool for comparative plant anatomy and genomic analyses. Plant & Cell Physiology, 54(2), e1. http://doi.org/10.1093/pcp/pcs163
  * Walls, R. L., Athreya, B., Cooper, L., Elser, J., Gandolfo, M. A., Jaiswal, P., Mungall, C.J., … Stevenson, D. W. (2012). Ontologies as integrative tools for plant science. American Journal of Botany, ajb.1200222-. Retrieved from http://www.amjbot.org/cgi/content/abstract/ajb.1200222v1 
