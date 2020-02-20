@@ -20,11 +20,11 @@ standards. We aim to build a suite of integrated ontologies that are:
  * Interoperable and interconnected
  * Non-overlapping
 
-More details can be found on the [OBO Homepage](http://obofoundry.org/)
+More details can be found on the [OBO Homepage](http://obofoundry.org/).
 
 ## History
 
-Back in 2002 Michael Ashburner and Suzanna Lewis initiated this grass-roots effort. The goal of [OBO Foundry](http://obofoundry.org/) is to work with the community to create a suite of interoperable reference ontologies in the biomedical domain. We organize small content-development workshops to assist groups who have need of an ontology to support their research, such as anatomies, cell types, environments, and so on. From August 2005-2008 these workshops were supported through our 3-year collaboration with the [National Center for Biomedical Ontology (NCBO)](http://bioontology.org/).
+Back in 2002, Michael Ashburner and Suzanna Lewis initiated this grass-roots effort. The goal of [OBO Foundry](http://obofoundry.org/) is to work with the community to create a suite of interoperable reference ontologies in the biomedical domain. We organize small content-development workshops to assist groups who have need of an ontology to support their research, such as anatomies, cell types, environments, and so on. From August 2005-2008 these workshops were supported through our 3-year collaboration with the [National Center for Biomedical Ontology (NCBO)](http://bioontology.org/).
 
 ## Our Role
 
@@ -34,20 +34,21 @@ We perform continuous integration on a number of ontologies: http://build.berkel
 
 We are also involved in a number of ontology development efforts, such as:
 
-- [GO](http://www.geneontology.org/): The Gene Ontology (see above)
+- [GO](http://www.geneontology.org/): The Gene Ontology (see our [Gene Ontology project page](/project/gene-ontology/))
 - [RO](http://obofoundry.org/ontology/ro/): OBO Relations Ontology
-- [Uberon](http://uberon.org): Uberon
+- [Uberon](http://uberon.org): Uberon cross-species ontology covering anatomical structures in animals
 - [EnvO](http://environmentontology.org/): Environmental Ontology
 - [PATO](http://obofoundry.org/ontology/pato): OBO Phenotype Quality Ontology
 
-## Blog Posts
+See also the [Monarch project page](/project/monarch/) for more ontologies that our group is involved in through the Monarch Initiative.
 
- * [A lightweight ontology registry system](https://douroucouli.wordpress.com/2015/08/27/a-lightweight-ontology-registry-system/)
- * [Creating an ontology project in OBO](https://douroucouli.wordpress.com/2015/12/16/creating-an-ontology-project-an-update/)
+## Blog
+
+This [OBOFoundry blog](https://douroucouli.wordpress.com/) offers tips and examples for working with ontologies and ontology-related tools.
 
 ## References
 
- * Ashburner, M., Mungall, C. J., & Lewis, S. E. (2003). Ontologies for biologists: a community model for the annotation of genomic data. In Cold Spring Harbor symposia on quantitative biology (Vol. 68, pp. 227–235).
+ * Jackson, R.C., Balhoff, J.P., Douglass, E., Harris, N.L., Mungall, C.J., and Overton, J.A. (2019). ROBOT: A Tool for Automating Ontology Workflows. BMC Bioinformatics 20, 407.
+ * Vita R, Overton JA, Mungall CJ, Sette A, Peters B. (2018). FAIR principles and the IEDB: short-term improvements and a long-term vision of OBO-foundry mediated machine-actionable interoperability. Database (Oxford). 2018 Jan 1;2018. doi: 10.1093/database/bax105. PubMed PMID: 29688354; PubMed Central PMCID: PMC5819722. 
  * Smith, B., Ashburner, M., Rosse, C., Bard, J., Bug, W., Ceusters, W., … Lewis, S. (2007). The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration. Nat Biotechnol, 25(11), 1251–1255. http://doi.org/10.1038/nbt1346
- * Mungall, C. J., Dietze, H., Carbon, S. J., Ireland, A., Bauer, S., & Lewis, S. (2012). Continuous Integration of Open Biological Ontology Libraries. Retrieved from http://bio-ontologies.knowledgeblog.org/405
- * Overton, J. A., Dietze, H., Essaid, S., Osumi-sutherland, D., & Mungall, C. J. (2015). ROBOT : A command-line tool for ontology development. In Proceedings of the International Conference on Biomedical Ontology (ICBO) (pp. 131–132). Lisbon, Portugal.
+ * Ashburner, M., Mungall, C. J., & Lewis, S. E. (2003). Ontologies for biologists: a community model for the annotation of genomic data. In Cold Spring Harbor symposia on quantitative biology (Vol. 68, pp. 227–235).
