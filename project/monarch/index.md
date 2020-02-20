@@ -22,6 +22,7 @@ Monarch encompasses multiple components: interface, data, ontologies, software a
  * [Environmental conditions, treatments and exposures ontology (ECTO)](https://github.com/EnvironmentOntology/environmental-exposure-ontology)
  * [Scientific Evidence and Provenance Information Ontology](https://github.com/monarch-initiative/SEPIO-ontology)
  * [Unified phenotype ontology (uPheno)](https://github.com/obophenotype/upheno)
+ * [Medical Action Ontology (MAxO)](https://github.com/monarch-initiative/MAxO)
 
 ## Architecture
 
@@ -37,7 +38,7 @@ Monarch encompasses multiple components: interface, data, ontologies, software a
 
 ## References
 
- * Shefchek KA, Harris NL, Gargano M, Matentzoglu N, Unni D, Brush M, Keith D, Conlin T, Vasilevsky N, Zhang XA, Balhoff JP, Babb L, Bello SM, Blau H, Bradford Y, Carbon S, Carmody L, Chan LE, Cipriani V, Cuzick A, Rocca MD, Dunn N, Essaid S, Fey P, Grove C, Gourdine J-P, Hamosh A, Harris M, Helbig I, Hoatlin M, Joachimiak M, Jupp S, Lett KB, Lewis SE, McNamara C, Pendlington ZM, Pilgrim C, Putman T, Ravanmehr V, Reese J, Riggs E, Robb S, Roncaglia P, Seager J, Segerdell E, Similuk M, Storm AL, Thaxon C, Thessen A, Jacobsen JOB, McMurry JA, Groza T, Köhler S, Smedley D, Robinson PN, Mungall CJ, Haendel MA, Munoz-Torres MC, Osumi-Sutherland D. The Monarch Initiative in 2019: An integrative data and analytic platform connecting phenotypes to genotypes across species. _Nucleic Acids Res._ 2019 Nov 8; http://dx.doi.org/10.1093/nar/gkz997 PMID: 31701156 
+ * Shefchek KA, Harris NL, Gargano M, Matentzoglu N, Unni D, Brush M, Keith D, Conlin T, Vasilevsky N, Zhang XA, Balhoff JP, Babb L, Bello SM, Blau H, Bradford Y, Carbon S, Carmody L, Chan LE, Cipriani V, Cuzick A, Rocca MD, Dunn N, Essaid S, Fey P, Grove C, Gourdine J-P, Hamosh A, Harris M, Helbig I, Hoatlin M, Joachimiak M, Jupp S, Lett KB, Lewis SE, McNamara C, Pendlington ZM, Pilgrim C, Putman T, Ravanmehr V, Reese J, Riggs E, Robb S, Roncaglia P, Seager J, Segerdell E, Similuk M, Storm AL, Thaxon C, Thessen A, Jacobsen JOB, McMurry JA, Groza T, Köhler S, Smedley D, Robinson PN, Mungall CJ, Haendel MA, Munoz-Torres MC, Osumi-Sutherland D. The Monarch Initiative in 2019: An integrative data and analytic platform connecting phenotypes to genotypes across species. _Nucleic Acids Res._ 2019 Nov 8; [http://dx.doi.org/10.1093/nar/gkz997](http://dx.doi.org/10.1093/nar/gkz997) PMID: 31701156 
  * Haendel MA, McMurry JA, Relevo R, Mungall CJ, Robinson PN, Chute CG. A Census of Disease Ontologies. Annu Rev Biomed Data Sci [Internet]. Annual Reviews; 2018 Jul 20;1(1):305–331. Available from: https://doi.org/10.1146/annurev-biodatasci-080917-013459
  * Vasilevsky NA, Foster ED, Engelstad ME, ... Mungall C, Holm IA, Rageth K, Brownstein CA, Shefchek K, McMurry JA, Robinson PN, Köhler S, Haendel MA. Plain-language medical vocabulary for precision diagnosis. Nat Genet. 2018 Apr;50(4):474–476. http://dx.doi.org/10.1038/s41588-018-0096-x PMCID: PMC6258202
  * Köhler S, Carmody L, Vasilevsky N, Jacobsen JOB, Danis D, Gourdine J-P, Gargano M, Harris NL, Matentzoglu N, McMurry JA, Others (2018). Expansion of the Human Phenotype Ontology (HPO) knowledge base and resources. Nucleic Acids Res. Oxford University Press; 2018;47(D1):D1018–D1027.
