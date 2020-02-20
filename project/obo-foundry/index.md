@@ -28,7 +28,7 @@ Back in 2002, Michael Ashburner and Suzanna Lewis initiated this grass-roots eff
 
 ## Our Role
 
-BBOP currently hosts the [OBO foundry website](http://www.obofoundry.org/) and associated tools as a free service, such as nightly production of alternate ontology formats.
+BBOP currently hosts the [OBO Foundry website](http://www.obofoundry.org/) and associated tools as a free service, such as nightly production of alternate ontology formats.
 
 We perform continuous integration on a number of ontologies: http://build.berkeleybop.org
 
@@ -44,11 +44,11 @@ See also the [Monarch project page](/project/monarch/) for more ontologies that 
 
 ## Blog
 
-This [OBOFoundry blog](https://douroucouli.wordpress.com/) offers tips and examples for working with ontologies and ontology-related tools.
+This [OBO Foundry blog](https://douroucouli.wordpress.com/) offers tips and examples for working with ontologies and ontology-related tools.
 
 ## References
 
- * Jackson, R.C., Balhoff, J.P., Douglass, E., Harris, N.L., Mungall, C.J., and Overton, J.A. (2019). ROBOT: A Tool for Automating Ontology Workflows. BMC Bioinformatics 20, 407.
- * Vita R, Overton JA, Mungall CJ, Sette A, Peters B. (2018). FAIR principles and the IEDB: short-term improvements and a long-term vision of OBO-foundry mediated machine-actionable interoperability. Database (Oxford). 2018 Jan 1;2018. doi: 10.1093/database/bax105. PubMed PMID: 29688354; PubMed Central PMCID: PMC5819722. 
+ * Jackson, R.C., Balhoff, J.P., Douglass, E., Harris, N.L., Mungall, C.J., and Overton, J.A. (2019). [ROBOT: A Tool for Automating Ontology Workflows](https://link.springer.com/article/10.1186/s12859-019-3002-3). BMC Bioinformatics 20, 407.
+ * Vita R, Overton JA, Mungall CJ, Sette A, Peters B. (2018). FAIR principles and the IEDB: short-term improvements and a long-term vision of OBO-foundry mediated machine-actionable interoperability. Database (Oxford). 2018 Jan 1;2018. [http://10.1093/database/bax105](http://10.1093/database/bax105). PubMed PMID: 29688354; PubMed Central PMCID: PMC5819722. 
  * Smith, B., Ashburner, M., Rosse, C., Bard, J., Bug, W., Ceusters, W., … Lewis, S. (2007). The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration. Nat Biotechnol, 25(11), 1251–1255. http://doi.org/10.1038/nbt1346
  * Ashburner, M., Mungall, C. J., & Lewis, S. E. (2003). Ontologies for biologists: a community model for the annotation of genomic data. In Cold Spring Harbor symposia on quantitative biology (Vol. 68, pp. 227–235).
