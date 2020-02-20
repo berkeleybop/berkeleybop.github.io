@@ -9,7 +9,7 @@ github: https://github.com/obofoundry
 twitter: obofoundry
 funding: R24 HG010032
 docs: 
-logo: http://obofoundry.org/images/foundrylogo.png
+logo: https://raw.githubusercontent.com/berkeleybop/berkeleybop.github.io/master/project/obo-foundry/obofoundry-logo.png
 ---
 
 The Open Biomedical Ontologies (OBO) Foundry is a collective of
