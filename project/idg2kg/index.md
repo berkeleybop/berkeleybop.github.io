@@ -3,7 +3,7 @@ layout: project
 title: IDG2KG
 active: yes
 funding: NIH U01 CA239108-01
-homepage: 
+homepage: https://druggablegenome.net/
 github: 
 logo: https://raw.githubusercontent.com/berkeleybop/berkeleybop.github.io/master/project/idg2kg/IDG-logo.jpeg
 twitter: druggablegenome
