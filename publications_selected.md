@@ -1,11 +1,21 @@
 ---
-title: Selected publications
+title: Selected BBOP publications
 ---
 
 
 <ol class="bibliography">
       
-<li></li>
+<li>
+</li><li>Shefchek KA, Harris NL, Gargano M, Matentzoglu N, Unni D, Brush M, Keith D, Conlin T, Vasilevsky N, Zhang XA, Balhoff JP, Babb L, Bello SM, Blau H, Bradford Y, Carbon S, Carmody L, Chan LE, Cipriani V, Cuzick A, Rocca MD, Dunn N, Essaid S, Fey P, Grove C, Gourdine J-P, Hamosh A, Harris M, Helbig I, Hoatlin M, Joachimiak M, Jupp S, Lett KB, Lewis SE, McNamara C, Pendlington ZM, Pilgrim C, Putman T, Ravanmehr V, Reese J, Riggs E, Robb S, Roncaglia P, Seager J, Segerdell E, Similuk M, Storm AL, Thaxon C, Thessen A, Jacobsen JOB, McMurry JA, Groza T, Köhler S, Smedley D, Robinson PN, Mungall CJ, Haendel MA, Munoz-Torres MC, Osumi-Sutherland D. The Monarch Initiative in 2019: an integrative data and analytic platform connecting phenotypes to genotypes across species. Nucleic Acids Res, 2019 Nov 8; [http://dx.doi.org/10.1093/nar/gkz997](http://dx.doi.org/10.1093/nar/gkz997) PMID: 31701156
+
+</li><li>Haendel M, Vasilevsky N, Unni D, Bologa C, Harris N, Rehm H, Hamosh A, Baynam G, Groza T, McMurry J, Dawkins H, Rath A, Thaxon C, Bocci G, Joachimiak MP, Köhler S, Robinson PN, Mungall C, Oprea TI. How many rare diseases are there? Nat Rev Drug Discov, 2019 Nov 5. [https://www.nature.com/articles/d41573-019-00180-y](https://www.nature.com/articles/d41573-019-00180-y)
+
+</li><li>Mabee PM, Balhoff JP, Dahdul WM, Lapp H, Mungall CJ, Vision TJ. A Logical Model of Homology for Comparative Biology. Syst. Biol. 2019, p. 588822. [http://dx.doi.org/10.1093/sysbio/syz067](http://dx.doi.org/10.1093/sysbio/syz067)
+
+</li><li>Thomas PD, Hill DP, Mi H, Osumi-Sutherland D, Van Auken K, Carbon S, Balhoff JP, Albou L-P, Good B, Gaudet P, Lewis SE, Mungall CJ. Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems. Nat Genet, nature.com; 2019 Oct;51(10):1429–1433. [http://dx.doi.org/10.1038/s41588-019-0500-1](http://dx.doi.org/10.1038/s41588-019-0500-1) PMID: 31548717
+
+</li><li>The Alliance of Genome Resources Consortium. The Alliance of Genome Resources: Building a Modern Data Ecosystem for Model Organism Databases. Genetics. 2019. p. 1189–1196. [http://dx.doi.org/10.1534/genetics.119.302523](http://dx.doi.org/10.1534/genetics.119.302523)
+</li><li>Jackson RC, Balhoff JP, Douglass E, Harris NL, Mungall CJ, Overton JA. ROBOT: A Tool for Automating Ontology Workflows. BMC Bioinformatics , 2019 Jul 29;20(1):407. [http://dx.doi.org/10.1186/s12859-019-3002-3](http://dx.doi.org/10.1186/s12859-019-3002-3) PMID: 31357927
 </li><li>Carbon S</b> Champieux R, McMurry JA, Winfree L, Wyatt LR, Haendel MA. An analysis and metric of reusable data licensing practices for biomedical resources. PLoS One. 2019 Mar 27;14(3):e0213090. http://dx.doi.org/10.1371/journal.pone.0213090 PMID: 30917137
 </li><li><b>Dunn NA, Unni D</b>, Diesh C, Munoz-Torres M, <b>Harris NL</b>, Yao E, Rasche H, Holmes IH, Elsik CG, Lewis SE. Apollo: Democratizing genome annotation. PLoS Comput Biol. 2019 Feb;15(2):e1006790. http://dx.doi.org/10.1371/journal.pcbi.1006790 PMCID: PMC6380598
 </li><li><b>Mungall CJ</b>, Koehler S, Robinson P, Holmes I, Haendel M. k-BOOM: A Bayesian approach to ontology structure inference, with applications in disease ontology construction. bioRxiv. 2019. https://www.biorxiv.org/content/10.1101/048843v3
@@ -38,7 +48,6 @@ title: Selected publications
 </li><li>Haendel MA, Balhoff JP, Bastian FB, Blackburn DC, Blake JA, Bradford Y, Comte A, Dahdul WM, Dececchi TA, Druzinsky RE, Hayamizu TF, Ibrahim N, Lewis SE, Mabee PM, Niknejad A, Robinson-Rechavi M, Sereno PC, <b>Mungall CJ</b>. Unification of multi-species vertebrate anatomy ontologies for comparative biology in Uberon. J Biomed Semantics. 2014 May 19;5:21. http://dx.doi.org/10.1186/2041-1480-5-21 PMCID: PMC4089931
 </li><li>Köhler S, Doelken SC, <b>Mungall CJ</b>, Bauer S, Firth HV, Bailleul-Forestier I, Black GCM, Brown DL, Brudno M, Campbell J, FitzPatrick DR, Eppig JT, Jackson AP, Freson K, Girdea M, Helbig I, Hurst JA, Jähn J, Jackson LG, Kelly AM, Ledbetter DH, Mansour S, Martin CL, Moss C, Mumford A, Ouwehand WH, Park S-M, Riggs ER, Scott RH, Sisodiya S, Van Vooren S, Wapner RJ, Wilkie AOM, Wright CF, Vulto-van Silfhout AT, de Leeuw N, de Vries BBA, Washingthon NL, Smith CL, Westerfield M, Schofield P, Ruef BJ, Gkoutos GV, Haendel M, Smedley D, Lewis SE, Robinson PN. The Human Phenotype Ontology project: linking molecular biology and disease through phenotype data. Nucleic Acids Res. 2014 Jan;42(Database issue):D966–74. http://dx.doi.org/10.1093/nar/gkt1026 PMCID: PMC3965098
 </li><li>Lee E, Helt GA, Reese JT, Munoz-Torres MC, Childers CP, Buels RM, Stein L, Holmes IH, Elsik CG, Lewis SE (2013). Web Apollo: a web-based genomic annotation editing platform. Genome Biol, 2013 Aug 30;14(8):R93. [http://dx.doi.org/10.1186/gb-2013-14-8-r93](http://dx.doi.org/10.1186/gb-2013-14-8-r93) PMCID: PMC4053811
-</li><li>Köhler S, Doelken SC, Ruef BJ, Bauer S, Washington N, Westerfield M, Gkoutos G, Schofield P, Smedley D, Lewis SE, Robinson PN, <b>Mungall CJ</b>. Construction and accessibility of a cross-species phenotype ontology along with gene annotations for biomedical research. F1000Res. 2013 Feb 1;2:1–12. http://f1000research.com/articles/2-30/v1 PMID: 24358873
 
 </li><li><b>Mungall CJ</b>, Torniai C, Gkoutos GV, Lewis SE, Haendel MA. Uberon, an integrative multi-species anatomy ontology. Genome Biol. 2012 Jan 31;13(1):R5. http://dx.doi.org/10.1186/gb-2012-13-1-r5 PMCID: PMC3334586
 
