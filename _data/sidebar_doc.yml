@@ -83,6 +83,9 @@ entries:
 
         - title: OWLTools
           url: /software/owltools
+           
+        - title: Ontology Development Kit
+          url: /project/odk
 
         - title: k-BOOM
           url: /software/kboom
