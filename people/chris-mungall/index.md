@@ -5,7 +5,7 @@ active: yes
 position: Scientist
 background: PhD Bioinformatics (University of Edinburgh), BSc Artificial Intelligence and Computer Science (University of Edinburgh)
 email: CJMungall
-image: Chris-Mungall-Mugshot.jpg
+image: Mungall-headshot.jpg
 scholar: https://goo.gl/uI3CzG
 slideshare: http://www.slideshare.net/cmungall/
 github: http://github.com/cmungall
