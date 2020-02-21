@@ -2,11 +2,14 @@
 layout: software
 title: OwlSim
 active: yes
-homepage: http://owlsim.org
+homepage: 
 source: https://github.com/monarch-initiative/owlsim-v3
+logo: https://github.com/berkeleybop/berkeleybop.github.io/blob/master/software/owlsim/Owlsim-logo%20-%201.jpeg?raw=true
 ---
 
 [![Build Status](https://travis-ci.org/monarch-initiative/owlsim-v3.svg?branch=master)](https://travis-ci.org/monarch-initiative/owlsim-v3)
+
+OwlSim is a tool for ontology-based profile matching, used by the Monarch Initiative and other projects.
 
 ![img](http://genome.cshlp.org/content/24/2/340/F2.medium.gif)
 
