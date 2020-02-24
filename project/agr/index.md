@@ -8,10 +8,10 @@ github: https://github.com/alliance-genome/
 source: 
 travis: 
 docs:
-funding: 
+funding: NIH U24 HG010859-01
 ---
 
-The primary mission of the Alliance of Genome Resources (AGR, or the Alliance) is to develop and maintain sustainable genome information resources that facilitate the use of diverse model organisms in understanding the genetic and genomic basis of human biology, health and disease. This understanding is fundamental for advancing genome biology research and for translating human genome data into clinical utility.
+The primary mission of the Alliance of Genome Resources ("the Alliance") is to develop and maintain sustainable genome information resources that facilitate the use of diverse model organisms in understanding the genetic and genomic basis of human biology, health and disease. This understanding is fundamental for advancing genome biology research and for translating human genome data into clinical utility.
 The founding model organism resources of the Alliance of Genome Resources are: FlyBase, Mouse Genome Database (MGD), the Gene Ontology Consortium (GOC), Saccharomyces Genome Database (SGD), Rat Genome Database (RGD), WormBase, and the Zebrafish Information Network (ZFIN).
 Our group contributes to the software, APIs and ontologies.
 
