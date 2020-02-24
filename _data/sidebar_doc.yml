@@ -109,7 +109,7 @@ entries:
       items:
       
         - title: Gene Ontology
-          url: /ontology/gene-ontology
+          url: /project/gene-ontology
           
         - title: Environment Ontology
           url: /ontology/envo
