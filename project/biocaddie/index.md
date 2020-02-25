@@ -1,7 +1,7 @@
 ---
 layout: project
 title: BioCaddie PrefixCommons
-active: yes
+active: no
 funding: U24AI117966
 homepage: 
 source: 
