@@ -38,6 +38,7 @@ BBOP has been a member of the GO consortium since its inception in 1999, for whi
 ## References
 
  * The GO Consortium. The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Res. Oxford University Press; 2018;47(D1):D330–D338.
+ * Thomas PD, Hill DP, Mi H, Osumi-Sutherland D, Van Auken K, Carbon S, Balhoff JP, Albou L-P, Good B, Gaudet P, Lewis SE, Mungall CJ. Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems. Nat Genet, nature.com; 2019 Oct;51(10):1429–1433. http://dx.doi.org/10.1038/s41588-019-0500-1 PMID: 31548717
  * Mungall, C. J., Dietze, H., & Osumi-Sutherland, D. (2014). Use of OWL within the Gene Ontology. In M. Keet & V. Tamma (Eds.), Proceedings of the 11th International Workshop on OWL: Experiences and Directions (OWLED 2014) (pp. 25–36). Riva del Garda, Italy, October 17-18, 2014. http://doi.org/10.1101/010090
  * Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data. Bioinformatics. 2009 Jan 15;25(2):288–289. http://dx.doi.org/10.1093/bioinformatics/btn615 PMCID: PMC2639003
  * Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. 2007 Aug 15;23(16):2198–2200. http://dx.doi.org/10.1093/bioinformatics/btm112 PMID: 17545183
