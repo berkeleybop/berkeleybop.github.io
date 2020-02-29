@@ -50,7 +50,7 @@ Stanley Hall.
 
 <a href="https://www.google.com/maps/place/Lot+E,+University+of+California,+Berkeley,+Berkeley,+CA+94720/@37.8761946,-122.2537364,17z/data=!3m1!4b1!4m2!3m1!1s0x80857c3cb3f1a0e5:0xda446c758911463e">Google map</a>
 
-### Where to stay if you're visiting us
+#### Where to stay if you're visiting us
 
 The [logistics page for a 2019 meeting at our Potter Street location](http://wiki.geneontology.org/index.php/2019_Berkeley_GOC_Meeting_Logistics#Hotels) has information about some local hotels (note that prices may have changed) and transportation options.
 Airbnbs are another option, if the organization you work for will reimburse you for that (some won't).
