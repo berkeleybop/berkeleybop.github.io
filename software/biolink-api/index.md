@@ -22,5 +22,5 @@ There are two incarnations of the Biolink API,
 - [Monarch API](http://api.monarchinitiative.org/api/)
 - [Gene Ontology API](http://api.geneontology.org/api/)
 
-with the latter being the canonical implementation of Biolink API, where the API sits on top of a 
+with the latter being the canonical implementation, where the API sits on top of a 
 Solr-based document store and a Neo4j graph database.
