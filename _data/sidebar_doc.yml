@@ -68,8 +68,14 @@ entries:
         - title: Noctua
           url: /software/noctua
 
-        - title: BioLink API
-          url: /software/biolink
+        - title: Biolink Model
+          url: /software/biolink-model
+
+        - title: Biolink API
+          url: /software/biolink-api
+
+        - title: BiolinkML
+          url: /software/biolinkml
 
         - title: Ontobio
           url: /software/ontobio
