@@ -5,7 +5,7 @@ active: yes
 position: Software Developer
 background: PhD Bioinformatics (University of British Columbia), MSc Evolutionary and Adaptive Systems (University of Sussex)
 email: bgood
-image: benjamin-good.jpg
+image: benjamin_good.jpg
 github: http://github.com/goodb
 orcid: https://orcid.org/0000-0002-7334-7852
 linkedin: https://www.linkedin.com/in/bgood
