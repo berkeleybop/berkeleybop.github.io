@@ -34,7 +34,7 @@ ontology-aware way.
 We are currently applying machine learning (ML) techniques to discover new links 
 (for example, identifying existing drugs that could be repurposed to treat COVID-19)
 and generate actionable knowledge. In addition, we are providing this knowledge graph
-to the COVID19 research community in order to accelerate COVID-19 research.
+to the COVID-19 research community in order to accelerate COVID-19 research.
 
 ![img](kg-covid-pipeline.png)
 
