@@ -20,7 +20,7 @@ siloed databases, making integrative prediction difficult and costly.
 
 To address this challenge, we have produced we have produced a COVID-19 knowledge graph
 (KG) to support both DOE and international COVID-19 efforts:
-https://github.com/Knowledge-Graph-Hub/kg-covid-19
+https://github.com/Knowledge-Graph-Hub/kg-covid-19/wiki
 
 This knowledge graph incorporates up-to-date data extracted from biomedical databases 
 and literature, including drug, protein-protein interactions, SARS-CoV-2 gene 
@@ -37,3 +37,14 @@ and generate actionable knowledge. In addition, we are providing this knowledge 
 to the COVID19 research community in order to accelerate COVID-19 research.
 
 ![img](kg-covid-pipeline.png)
+
+People:
+
+Justin Reese
+Deepak Unni
+Marcin Joachimiak
+Peter Robinson
+Chris Mungall
+Tiffany Callahan
+Luca Cappelletti
+Vida Ravanmehr
