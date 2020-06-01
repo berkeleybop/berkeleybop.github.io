@@ -25,7 +25,7 @@ https://github.com/Knowledge-Graph-Hub/kg-covid-19/wiki
 This knowledge graph incorporates up-to-date data extracted from biomedical databases 
 and literature, including drug, protein-protein interactions, SARS-CoV-2 gene 
 annotations, concept and publication data from the CORD19 data set. We also ingest
-the Human Phenotype Ontology, the Gene Ontology, and MONDO for phenotype, gene 
+the Human Phenotype Ontology, the Gene Ontology, and Mondo for phenotype, gene 
 annotations and diseases, respectively, in order to integrate the data in an
 ontology-aware way. 
 
