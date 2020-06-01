@@ -25,7 +25,8 @@ https://github.com/Knowledge-Graph-Hub/kg-covid-19/wiki
 This knowledge graph incorporates up-to-date data extracted from biomedical databases 
 and literature, including drug, protein-protein interactions, SARS-CoV-2 gene 
 annotations, concept and publication data from the CORD19 data set. We also ingest
-the Human Phenotype Ontology, the Gene Ontology, and Mondo for phenotype, gene 
+the [Human Phenotype Ontology](https://hpo.jax.org/), [the Gene Ontology](http://geneontology.org/),
+ and [Mondo](https://mondo.monarchinitiative.org/) for phenotype, gene 
 annotations and diseases, respectively, in order to integrate the data in an
 ontology-aware way. 
 
@@ -40,11 +41,11 @@ to the COVID-19 research community in order to accelerate COVID-19 research.
 
 People:
 
-Justin Reese
-Deepak Unni
-Marcin Joachimiak
-Peter Robinson
-Chris Mungall
-Tiffany Callahan
-Luca Cappelletti
-Vida Ravanmehr
+Justin Reese - LBNL
+Deepak Unni - LBNL
+Marcin Joachimiak - LBNL
+Peter Robinson - Jackson Laboratory
+Chris Mungall - LBNL 
+Tiffany Callahan - University of Colorado Denver
+Luca Cappelletti - University of Milan
+Vida Ravanmehr - Jackson Laboratory
