@@ -40,11 +40,15 @@ to the COVID-19 research community in order to accelerate COVID-19 research.
 ![img](kg-covid-pipeline.png)
 
 People:
+
 - Justin Reese - LBNL
 - Deepak Unni - LBNL
 - Marcin Joachimiak - LBNL
-- Peter Robinson - Jackson Laboratory
 - Chris Mungall - LBNL 
+
+External Collaborators: 
+
+- Peter Robinson - Jackson Laboratory
 - Tiffany Callahan - University of Colorado Denver
 - Luca Cappelletti - University of Milan
 - Vida Ravanmehr - Jackson Laboratory
