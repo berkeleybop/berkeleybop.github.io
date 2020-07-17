@@ -3,7 +3,7 @@ layout: project
 title: KG-COVID-19
 active: yes
 funding: DOE LDRD
-homepage: https://github.com/Knowledge-Graph-Hub/kg-covid-19
+homepage: https://github.com/Knowledge-Graph-Hub/kg-covid-19/wiki
 github: https://github.com/Knowledge-Graph-Hub/kg-covid-19
 logo: 
 twitter: 
