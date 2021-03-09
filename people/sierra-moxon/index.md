@@ -4,7 +4,7 @@ title: Sierra Taylor Moxon
 active: yes
 position: Staff Software Developer
 email: smoxon@lbl.gov
-image: smoxon.jpg
+image: smoxon.png
 linkedin: https://www.linkedin.com/in/sierra-moxon-1878b36/
 github: http://github.com/sierra-moxon
 scholar: 
