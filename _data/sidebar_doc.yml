@@ -10,13 +10,16 @@ entries:
       items:
         - title: Welcome
           url: "/index.html"
+        - title: Publications
+          url: /publications_selected    
+        - title: Job openings
+          url: /jobs
         - title: Contact
           url: /team_contact
 
     - title: Projects
       print: true
       items:
-
         - title: Monarch Initiative
           url: /project/monarch
           
@@ -32,46 +35,58 @@ entries:
         - title: "NCATS Biomedical Translator"
           url: /project/ncats-translator
           
-        - title: "Planteome"
-          url: /project/planteome
-
-        - title: "Phenoscape"
-          url: /project/phenoscape
-          
-        - title: "AGR: Alliance for Genome Resources"
+        - title: "Alliance for Genome Resources"
           url: /project/agr
-          
-        - title: "NIH Data Commons"
-          url: /project/data-commons
           
         - title: GMOD
           url: /project/gmod
           
-        - title: NSF Phenotype RCN
-          url: /project/phenotype-rcn
-
+        - title: Xena
+          url: /project/xena
+          
+        - title: NMDC
+          url: /project/nmdc
+          
+        - title: IDG2KG
+          url: /project/idg2kg
+          
+        - title: KG-COVID-19
+          url: /project/kg-covid-19
+          
+        - title: "Planteome (inactive)"
+          url: /project/planteome       
+                   
+        - title: "Phenoscape (inactive)"
+          url: /project/phenoscape
+          
     - title: Software
       print: true
       items:
-        - title: AmiGO and Golr
+        - title: AmiGO and GOlr
           url: /software/amigo
 
-        - title: Apollo/JBrowse
+        - title: Apollo / JBrowse
           url: /software/apollo
 
         - title: Noctua
           url: /software/noctua
 
-        - title: BioLink API
-          url: /software/biolink
+        - title: Biolink Model
+          url: /software/biolink-model
 
-        - title: Ontobio Python lib
+        - title: Biolink API
+          url: /software/biolink-api
+
+        - title: BiolinkML
+          url: /software/biolinkml
+
+        - title: Ontobio
           url: /software/ontobio
 
         - title: Chado Schema
           url: /software/chado
 
-        - title: OwlSim Phenotype Matching
+        - title: OwlSim
           url: /software/owlsim
 
         - title: ROBOT
@@ -79,15 +94,15 @@ entries:
 
         - title: OWLTools
           url: /software/owltools
+           
+        - title: Ontology Development Kit
+          url: /software/odk
 
-        - title: kBOOM
+        - title: k-BOOM
           url: /software/kboom
 
         - title: BioMake
           url: /software/biomake
-
-        - title: TermGenie
-          url: /software/termgenie
 
         - title: Dipper
           url: /software/dipper
@@ -98,16 +113,13 @@ entries:
         - title: SciGraph
           url: /software/scigraph
 
-        - title: Phenote
-          url: /software/phenote
-
-        - title: OBO-Edit
-          url: /software/oboedit
-
     - title: Ontologies
       print: true
       items:
-
+      
+        - title: Gene Ontology
+          url: /project/gene-ontology
+          
         - title: Environment Ontology
           url: /ontology/envo
           
@@ -151,16 +163,29 @@ entries:
 
     - title: People
       items:
-        - title: Chris Mungall
+        - title: Chris Mungall (PI)
           url: /people/chris-mungall/
         - title: Seth Carbon
           url: /people/seth-carbon
         - title: Eric Douglass
-          url: /people/eric-douglass
+          url: /people/eric-douglass     
+        - title: Bill Duncan
+          url: /people/bill-duncan
         - title: Nathan Dunn
           url: /people/nathan-dunn
-        - title: Hyeongsik Kim
-          url: /people/hyeongsik-kim
-        - title: Suzanna Lewis
+        - title: Ben Good
+          url: /people/ben-good
+        - title: Nomi Harris
+          url: /people/nomi-harris
+        - title: Harshad Hegde
+          url: /people/harshad-hegde
+        - title: Marcin Joachimiak
+          url: /people/marcin-joachimiak
+        - title: Justin Reese
+          url: /people/justin-reese
+        - title: Deepak Unni
+          url: /people/deepak-unni
+        - title: Laurent-Philippe Albou (affiliate)
+          url: /people/laurent-philippe
+        - title: Suzanna Lewis (emerita)
           url: /people/suzanna-lewis
-

@@ -57,13 +57,13 @@ a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::a
 }
 
 .printTitleImage {
-    max-width:300px;
-    margin-bottom:200px;
+    max-width:100px;
+    margin-bottom:100px;
 }
 
-
+/* Why is there another .printTitleImage? --NH 2020 */
 .printTitleImage {
-    max-width: 250px;
+    /* max-width: 250px; Commenting out temporarily */
 }
 
 #navig {

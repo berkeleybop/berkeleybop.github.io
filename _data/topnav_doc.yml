@@ -3,7 +3,7 @@
 topnav:
 - title: Topnav
   subcategories:
-    - title: Github Team Page
+    - title: GitHub Team Page
       external_url: https://github.com/berkeleybop
       audience: writers, designers
       platform: all

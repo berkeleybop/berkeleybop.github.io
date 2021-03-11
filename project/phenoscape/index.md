@@ -1,11 +1,9 @@
 ---
 layout: project
 title: Phenoscape
-active: yes
-homepage: 
+active: no
+homepage: https://phenoscape.org/
 source: 
 travis: 
 docs: 
 ---
-
-Phenoscape is...

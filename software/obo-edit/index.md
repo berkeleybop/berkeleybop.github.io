@@ -1,7 +1,7 @@
 ---
 layout: software
 title: OBO-Edit
-active: yes
+active: no
 homepage: http://www.oboedit.org/
 ---
 

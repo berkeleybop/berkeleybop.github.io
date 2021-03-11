@@ -7,10 +7,6 @@ funding: NIH U01HG009453
 homepage: https://github.com/INCATools/intelligent-concept-assistant
 ---
 
-## Team
-
- * Chris Mungall, LBL
- * Eric Douglass, LBL
- * Erwin Frise, LBL
- * Jim Balhoff, RTI
- * Nicole Vasilevsky, OHSU
+Experimental data is generally insufficiently described, which severely limits our ability to find it, reuse it, and compute over it. 
+We are working to address this gap in the research landscape with the implementation of an Intelligent Concept Agent (INCA) that assists in the creation, extension, application, and maintenance of vocabulary standards describing experimental datasets and results. 
+INCA aims to make it easier for researchers to share and modify the concepts used to describe data, and provide automated assistance to those seeking to apply these concepts. 

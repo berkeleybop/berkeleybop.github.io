@@ -4,11 +4,14 @@ layout: default
 <div class="post-header">
    <h1 class="post-title-main">{% if page.homepage == true %} {{site.homepage_title}} {% else %}{{ page.title }}{% endif %}</h1>
 </div>
+{% if page.active == false %}
+<h2>(Not currently active)</h2>
+{% endif %}
 {% if page.logo %}
 <img alt="logo" src="{{page.logo}}"/>
 {% endif %}
   {% if page.twitter %}
-      <iframe style="position: static; visibility: visible; width: 190px; height: 20px;" 
+      <iframe style="position: static; visibility: visible; width: 250px; height: 20px;" 
               data-twttr-rendered="true" title="Twitter Follow Button" 
               class="twitter-follow-button twitter-follow-button" 
               src="http://platform.twitter.com/widgets/follow_button.a64cf823bcb784855b86e2970134bd2a.en.html#_=1438577078419&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name={{page.twitter}}&amp;show_count=true&amp;show_screen_name=true&amp;size=m" 
@@ -25,7 +28,7 @@ layout: default
   {% endif %}
 
   {% if page.github %}
-  <dh>GitHub Org:</dh>
+  <dh>GitHub:</dh>
   <dt><a href="{{ page.github }}">{{ page.github }}</a></dt>
   {% endif %}
   
