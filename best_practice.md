@@ -347,6 +347,9 @@ schemas, and analyses.
   - OWL and description logic is necessary for building robust ontologies, but needn't be exposed
   - Minimize philosophy
   - avoid unnecessary abstractions
+- ontologies should have annotations
+   - annotations, as in the sense used by curators
+   - ontologies without annotations are generally of limited use, avoid working on them
 - learn tools and best practice for robust ontology engineering
   - Read [my Onto-Tips](https://douroucouli.wordpress.com/2019/03/09/ontotips-a-series-of-assorted-ontology-development-guidelines/)
   - Use ODK
@@ -364,7 +367,9 @@ schemas, and analyses.
    - if OBO is underspecified, follow the examples of projects done in this group
       - oio over IAO
       - liberal axiom annotations
+      - key annotation properties: synonyms, definitions, mappings
       - dosdp over robot, but always use the more appropriate tool for the job
+- avoid overmodeling
 - Document ontologies
    - write clear operational definitions
    - document your design patterns
@@ -376,6 +381,9 @@ schemas, and analyses.
    - descriptors
    - don't use an ontology where a schema is more appropriate
    - don't use an ontology where a KG is more appropriate. See [KG vs ontology DPs](https://douroucouli.wordpress.com/2019/03/14/biological-knowledge-graph-modeling-design-patterns/)
+- make best effort attempt to provide mappings
+   - use SSSOM
+   - use boomer
 
 ## Collaboration
 
