@@ -243,6 +243,11 @@ schemas, and analyses.
    - curie_util
 - Code
    - typing
+- Machine learning
+   - we frequently use tensorflow, scikitlearn, keras
+   - for graph machine learning, we have helped develop [EnsmallenGraph](https://github.com/AnacletoLAB/ensmallen_graph), a fast graph library in Rust, with Python bindings, that helps do fast graph ML
+   - [Embiggen](https://github.com/monarch-initiative/embiggen) is our ML library (which uses Ensmallen) - it does graph ML (e.g. node2vec), and some other things like word2vec
+   - [NEAT](https://github.com/Knowledge-Graph-Hub/NEAT) is a Python library that makes it very easy to do reproducible graph ML in a YAML-driven way
 
 ## File formats, languages, and standards
 
