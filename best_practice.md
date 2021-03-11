@@ -53,17 +53,17 @@ schemas, and analyses.
         - In progress: for developer to keep up-to-date
         - Ready for review: for manager to empty
     - order of preference for cards: PR link, issue link, text
-- set up github actions to do CI
+- set up GitHub actions to do CI
 - set up badges
 - read our [GitHub Overview](https://docs.google.com/document/d/1YZ4kLyGka7MZPy824CHN7V2lnChFwJAGWpubKGr8n7w/edit)
 - tend your repos
-    - remove cruft (github preserves history)
+    - remove cruft such as obsolete files (GitHub preserves history)
     - avoid random stuff at top level
     - keep README in sync
 
 ### Software-centric Repos
 
-- Use an existing repo from a group member as template for best practice
+- Use an existing repo from a group member as template for best practice, e.g.,
    - [kgx](https://github.com/biolink/kgx/)
    - [linkml](https://github.com/biolink/biolinkml/)
 - Include a README.md
@@ -80,7 +80,7 @@ schemas, and analyses.
    - use GitHub actions
 - Release code to PyPI or appropriate repo
    - use GitHub releases
-   - use github actions to trigger releases to PyPI
+   - use GitHub actions to trigger releases to PyPI
 - Consider a Dockerfile
 - For ETL repos, follow standard templates for
    - kg-hub
@@ -107,8 +107,8 @@ schemas, and analyses.
 
 - Use [ODK seed](https://github.com/INCATools/ontology-development-kit/)
 - Register ontology with OBO
-- Use github for .owl distribution unless ontology is large, then consider:
-   - github releases
+- Use GitHub for .owl distribution unless ontology is large, then consider:
+   - GitHub releases
    - S3
 - Follow group exemplars
 - distribute SSSOM
@@ -138,10 +138,10 @@ schemas, and analyses.
 - manage metadata in GitHub
 - sync repo with Zenodo
 - use S3 for larger files
-   - release files to zenodo
+   - release files to Zenodo
 - Dockerize   
 - Use Jupyter notebooks
-- Consider manubot
+- Consider [Manubot](https://manubot.org/)
 
 ## Documentation
 
@@ -170,7 +170,7 @@ schemas, and analyses.
    - javascript/typescript for client-side
    - Rust for speed
    - Scala for performance reasoners
-   - Historically we used java for anything requiring OWLAPI but being phased out
+   - Historically we used Java for anything requiring OWLAPI but being phased out
    - Chris still uses Prolog
 - Why Python?
    - ubiquitous, cross-platform
@@ -290,9 +290,9 @@ schemas, and analyses.
    - Include mappings:
       - biolink
 - Versioning
-   - semver by default
+   - Semantic Versioning (semver) by default
    - ISO-8601 OBO style for ontologies
-   - use GitHub releases for versining as appropriate
+   - use GitHub releases for versioning as appropriate
    - release versions to appropriate repository/archive
 - Text
    - markdown by default
@@ -308,12 +308,12 @@ schemas, and analyses.
    - Must have Docker container
    - Use grlc to make APIs from sparql endpoints
 - CURIEs and IRIs
-   - Read [McMurry et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
+   - Read [McMurry et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
    - always use CURIEs for IDs
    - always use registered prefixes
    - have an explicit JSON-LD context or prefixes yaml file
    - Use [github.com/prefixcommons/biocontext](https://github.com/prefixcommons/biocontext)
-   - Use the prefixcommons curie util library
+   - Use the [prefixcommons curie util library](https://github.com/prefixcommons)
    - Read the identifiers guides closely, even for projects you are not on
       - [Identifiers in NMDC](https://microbiomedata.github.io/nmdc-metadata/identifiers/)
       - [Identifiers in GO](http://wiki.geneontology.org/index.php/Identifiers)
@@ -336,9 +336,9 @@ schemas, and analyses.
 
 ## Key specialized libraries and command line tools
 
-- ontobio, for ontologies and associations
-- kgx
-- odk and robot, for ontologies
+- [ontobio](https://github.com/biolink/ontobio), for ontologies and associations
+- [kgx](https://github.com/biolink/kgx)
+- [ODK](https://github.com/INCATools/ontology-development-kit) and [ROBOT](https://github.com/ontodev/robot), for ontologies
 - runNER for NER
 
 ## Ontologies
@@ -352,8 +352,8 @@ schemas, and analyses.
    - ontologies without annotations are generally of limited use, avoid working on them
 - learn tools and best practice for robust ontology engineering
   - Read [my Onto-Tips](https://douroucouli.wordpress.com/2019/03/09/ontotips-a-series-of-assorted-ontology-development-guidelines/)
-  - Use ODK
-  - Use ROBOT
+  - Use [ODK](https://github.com/INCATools/ontology-development-kit)
+  - Use [ROBOT](https://github.com/ontodev/robot)
   - Do the GO OWL tutorial
 - use the ontologies we work on as examplars
    - GO
@@ -395,46 +395,47 @@ schemas, and analyses.
    - if someone answers a question for you, update the relevant guide to make it clearer for others
 - follow codes of conduct
 - be constructive in any criticism
-- slack
+- Slack
    - avoid `@channel` unless necessary
    - don't be a channel anarchist
    - discussion about tickets OK but decisions and key points must be recorded in ticket
 
-## Google docs/slides/sheets hygeine
+## Google docs/slides/sheets hygiene
 
 - Use google docs/slides over Microsoft/Apple
     - but sometimes markdown+git is more appropriate than either
-    - front grants etc, move to Word at last possible minute
+    - for grants, papers, and other collaborative documents, move to Word at last possible minute (if at all)
     - pandocs can be used to make markdown
     - avoid latex/beamer unless it is really called for
 - Use tagging/comments/modes appropriately
-    - If it's not your doc, default to suggest mode
+    - If it's not your doc, default to Suggesting mode
        - use your judgment; minor direct edits to correct typos usually OK
        - respect conventions of document owner
     - use comment feature to make comments, don't write your comment in a different color
     - avoid use of text color as semantics
     - assign/tag people appropriately
     - avoid comment wars
-- Make the doc outline mode-friendly
+- Make the doc outline-mode-friendly
     - use H1/H2/etc
-    - always have outline mode on
+    - always have outline mode on (list-like icon near top left)
     - assume the reader has outline mode on
     - rarely need for a TOC
 - Use formatted templates where appropriate (grants, papers)
-- Give documents meaningful names (not "meeting")
+- Give documents meaningful names (e.g., not just "meeting")--assume that most people will find the doc via search rather than by going through the folder hierarchy
 - Use a rolling agenda/notes doc, rather than one doc per meeting
 - always have a google doc for every meeting you are in
 - include a link to the rolling doc in calendar invites
+- include the Zoom / videoconference link in the rolling notes doc
 - organize google docs in the relevant folder depending on what project is funding the work
 - understand how navigation works for google docs
 - make visible to all by default
 - include links to slides of general relevance from project repos
 - favour TSV+github over google sheets
-   - workflows clearly favors sheets
+   - workflows clearly favor sheets
    - when using sheets, use cogs
 - follow TSV guidelines for google sheets
 - don't use color for semantics. Always use conditional formatting for colors etc
-- reuse from existing slide decks, but provide attribution
+- reuse slides from existing slide decks, but provide attribution
 
 ## General Principles
 
@@ -443,11 +444,11 @@ schemas, and analyses.
 - Always reuse
    - we probably have a Python library for it
    - reuse general design patterns
-   - github templates
+   - GitHub templates
    - follow exemplar repos
        - kgx and linkml for general python
-       - kg-covid-19 for ETL
-   - try especially hard not to reinvent what some in the group or our collaborator has done
+       - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19) for ETL
+   - try especially hard not to reinvent what someone in the group or our collaborator has done
 - Don't boil the ocean
 - Avoid perfectionism; iterate on solutions
 - For many tasks, the 80/20 rule may suffice
