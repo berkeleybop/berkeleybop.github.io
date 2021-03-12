@@ -191,6 +191,9 @@ schemas, and analyses.
 - use dataclasses or pydantic
 - use an IDE
    - PyCharm is most popular
+- ETL/ingest
+   - follow existing exemplar repos
+   - Read Chris' [10 simple rules for semantic ETL](https://docs.google.com/document/d/1Bgsyo-Z1oxEfxdNGB3KDM_NHfXYqdcXJIUd_j3iibi4/edit#)
 - TODO: Best practice for
    - test framework (unittest vs pytest?)
    - environments: venv vs pipenv
@@ -238,7 +241,11 @@ schemas, and analyses.
    - ontobio
    - OWLAPI (JVM) -- only where necessary
    - obographviz (js)
-   - runNER
+   - don't use rdflib for parsing OWL files, too low level
+   - never, ever use XML parsers to parse RDF/XML
+- NER/NLP
+   - runNER (which wraps OGER)
+   - BERT for language models (experimental)
 - Data
    - curie_util
 - Code
@@ -320,8 +327,10 @@ schemas, and analyses.
    - Use [github.com/prefixcommons/biocontext](https://github.com/prefixcommons/biocontext)
    - Use the [prefixcommons curie util library](https://github.com/prefixcommons)
    - Read the identifiers guides closely, even for projects you are not on
+      - [Translator SRI/biolink identifiers](https://biolink.github.io/biolink-model/#identifiers)
       - [Identifiers in NMDC](https://microbiomedata.github.io/nmdc-metadata/identifiers/)
       - [Identifiers in GO](http://wiki.geneontology.org/index.php/Identifiers)
+      
 - Genomics
    - GFF3
    - SO
@@ -360,6 +369,7 @@ schemas, and analyses.
   - Use [ODK](https://github.com/INCATools/ontology-development-kit)
   - Use [ROBOT](https://github.com/ontodev/robot)
   - Do the GO OWL tutorial
+  - For advanced OWL-centric tasks, use scowl
 - use the ontologies we work on as examplars
    - GO
    - Mondo
@@ -374,14 +384,18 @@ schemas, and analyses.
       - liberal axiom annotations
       - key annotation properties: synonyms, definitions, mappings
       - dosdp over robot, but always use the more appropriate tool for the job
+- include comprehensive definitions clear to biologists
+   - [read my definitions guide](https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/)
+- understand [compositional patterns](https://douroucouli.wordpress.com/2019/06/29/ontotip-learn-the-rector-normalization-technique/)
 - avoid overmodeling
 - Document ontologies
+   - [document design decisions](https://douroucouli.wordpress.com/2019/06/16/ontotip-clearly-document-your-design-decisions/)
    - write clear operational definitions
    - document your design patterns
       - Watch [design pattern presentation](https://douroucouli.wordpress.com/2020/11/02/aligning-design-patterns-across-multiple-ontologies-in-the-life-sciences/)
       - Mondo is our exemplar
 - understand limitations
-- use ontologies where appropriate
+- use ontologies only where appropriate
    - vocabularies
    - descriptors
    - don't use an ontology where a schema is more appropriate
@@ -400,7 +414,9 @@ schemas, and analyses.
    - if someone answers a question for you, update the relevant guide to make it clearer for others
 - follow codes of conduct
 - be constructive in any criticism
-- Slack
+- use your Berkeley Lab account for email, calendars
+- keep your calendar up to date, this facilitates scheduling meetings
+- slack
    - avoid `@channel` unless necessary
    - don't be a channel anarchist
    - discussion about tickets OK but decisions and key points must be recorded in ticket
@@ -426,6 +442,7 @@ schemas, and analyses.
     - assume the reader has outline mode on
     - rarely need for a TOC
 - Use formatted templates where appropriate (grants, papers)
+- Use Paperpile for citations / reference management (you have access via the lab)
 - Give documents meaningful names (e.g., not just "meeting")--assume that most people will find the doc via search rather than by going through the folder hierarchy
 - Use a rolling agenda/notes doc, rather than one doc per meeting
 - always have a google doc for every meeting you are in
