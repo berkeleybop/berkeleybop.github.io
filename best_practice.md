@@ -244,10 +244,11 @@ schemas, and analyses.
 - Code
    - typing
 - Machine learning
-   - we frequently use tensorflow, scikitlearn, keras
-   - for graph machine learning, we have helped develop [EnsmallenGraph](https://github.com/AnacletoLAB/ensmallen_graph), a fast graph library in Rust, with Python bindings, that helps do fast graph ML
-   - [Embiggen](https://github.com/monarch-initiative/embiggen) is our ML library (which uses Ensmallen) - it does graph ML (e.g. node2vec), and some other things like word2vec
-   - [NEAT](https://github.com/Knowledge-Graph-Hub/NEAT) is a Python library that makes it very easy to do reproducible graph ML in a YAML-driven way
+   - ML is a very fast moving field, so the best toolset for a job changes frequently
+   - We have participated in the development of several ML libraries, including:
+      - [EnsmallenGraph](https://github.com/AnacletoLAB/ensmallen_graph), a fast graph library in Rust, with Python bindings
+      - [Embiggen](https://github.com/monarch-initiative/embiggen), an ML library (which uses Ensmallen)
+      - [NEAT](https://github.com/Knowledge-Graph-Hub/NEAT), a Python library that makes it easy to do reproducible graph ML in a YAML-driven way
 
 ## File formats, languages, and standards
 
