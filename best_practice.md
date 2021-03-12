@@ -132,7 +132,7 @@ schemas, and analyses.
 - ALL TSVs MUST have data dictionaries
    - use LinkML (see above)
 - check in small-mid size data files (<10m)
-   - consider cogs if TSVs must be managed in google sheets
+   - consider [cogs](https://github.com/ontodev/cogs) if TSVs must be managed in google sheets
 - use JSON for complex data
 - use KGX for anything that should be modeled as a KG
 - manage metadata in GitHub
@@ -437,7 +437,7 @@ schemas, and analyses.
 - include links to slides of general relevance from project repos
 - favour TSV+github over google sheets
    - workflows clearly favor sheets
-   - when using sheets, use cogs
+   - when using sheets, use [cogs](https://github.com/ontodev/cogs)
 - follow TSV guidelines for google sheets
 - don't use color for semantics. Always use conditional formatting for colors etc
 - reuse slides from existing slide decks, but provide attribution
