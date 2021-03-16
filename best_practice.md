@@ -168,6 +168,7 @@ schemas, and analyses.
 
 - Python is the default language; use others as appropriate
    - javascript/typescript for client-side
+       - don't implement domain/business logic in js. use python + APIs
    - Rust for speed
    - Scala for performance reasoners
    - Historically we used Java for anything requiring OWLAPI but being phased out
@@ -206,6 +207,8 @@ schemas, and analyses.
    - blazegraph for ttl
    - neo4j for KGs
    - sqlite for lightweight tabular
+   - avoid vendor lock-in
+       - use generic sparql 1.1 API vs triplestore specific APIs
    - solr for searchable / denormalized / analytics
       - always use golr patterns
       - read [semantic columnar store patterns](https://docs.google.com/document/d/1GoTZd4HSHI9q48Q6WUR4eDgBy0WgwsXcfVBihs_l0CU/edit)
@@ -227,40 +230,46 @@ schemas, and analyses.
 ## Libraries
 
 - Data science
-   - pandas
+   - this is a fast changing field so recommendations here are general/loose
+   - generally prefer Python >> R >> other languages for data sciences
+   - we frequently use tensorflow, scikitlearn, keras
    - scikit-learn
-   - tensorflow
    - catboost
+   - pandas
+       - TSV >> CSV
+       - parquet for large files
+       - use `#` for header comments
+   - seaborn within Jupyter
    - KGs
       - kgx
       - embiggen
       - NEAT
-      - BMT
-   - seaborn
+      - [BMT](https://github.com/biolink/biolink-model-toolkit)
+      - [EnsmallenGraph](https://github.com/AnacletoLAB/ensmallen_graph), (Rust + Python bindings), fast graph ML
+      - [Embiggen](https://github.com/monarch-initiative/embiggen) graph ML (e.g. node2vec), and some other things like word2vec
+      - [NEAT](https://github.com/Knowledge-Graph-Hub/NEAT) is a Python wrapper for reproducible graph ML in a YAML-driven way
+      - also exploring pykeen ampligraph
 - Ontologies
    - ontobio
    - OWLAPI (JVM) -- only where necessary
    - obographviz (js)
-   - don't use rdflib for parsing OWL files, too low level
+   - beware of using rdflib and RDF-level libraries for working with OWL files, too low level
    - never, ever use XML parsers to parse RDF/XML
 - NER/NLP
-   - runNER (which wraps OGER)
-   - BERT for language models (experimental)
+   - fast changing but some tools to consider:
+      - runNER (which wraps OGER)
+      - BERT for language models (experimental)
 - Data
-   - curie_util
+   - [curie_util](https://github.com/prefixcommons/curie-util)
+   - LinkML
 - Code
    - typing
-- Machine learning
-   - we frequently use tensorflow, scikitlearn, keras
-   - for graph machine learning, we have helped develop [EnsmallenGraph](https://github.com/AnacletoLAB/ensmallen_graph), a fast graph library in Rust, with Python bindings, that helps do fast graph ML
-   - [Embiggen](https://github.com/monarch-initiative/embiggen) is our ML library (which uses Ensmallen) - it does graph ML (e.g. node2vec), and some other things like word2vec
-   - [NEAT](https://github.com/Knowledge-Graph-Hub/NEAT) is a Python library that makes it very easy to do reproducible graph ML in a YAML-driven way
 
 ## File formats, languages, and standards
 
 - General
    - TSVs for columnar data
-       - always have a data dictionary
+       - always have a data dictionary (use LinkML)
        - make it pandas-friendly
        - meaningful column names
        - SSSOM is an exemplar
@@ -383,6 +392,7 @@ schemas, and analyses.
       - oio over IAO
       - liberal axiom annotations
       - key annotation properties: synonyms, definitions, mappings
+      - See [documentation on uberon synonyms](https://github.com/obophenotype/uberon/wiki/Using-uberon-for-text-mining), this is an exemplar for us
       - dosdp over robot, but always use the more appropriate tool for the job
 - include comprehensive definitions clear to biologists
    - [read my definitions guide](https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/)
@@ -471,8 +481,11 @@ schemas, and analyses.
        - kgx and linkml for general python
        - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19) for ETL
    - try especially hard not to reinvent what someone in the group or our collaborator has done
-- Don't boil the ocean
-- Avoid perfectionism; iterate on solutions
+- Avoid perfectionism
+   - iterate on solutions
+   - smaller batches of incremental progress >> long delays on perfect solution (that may turn out to be flawed)
 - For many tasks, the 80/20 rule may suffice
+   - Don't boil the ocean
+   - beware of rabbit holes
 - More to come...
 
