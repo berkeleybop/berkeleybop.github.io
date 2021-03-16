@@ -5,7 +5,7 @@ active: yes
 position: Software Developer
 background: MS Bioinformatics, University of the Sciences in Philadelphia
 email: MAM
-image: MAM-screenshot-2021-03-15.jpg
+image: MAM-screenshot-2021-03-15.resized.jpg
 linkedin: https://www.linkedin.com/in/mamillerpa
 github: https://github.com/turbomam
 orcid: https://orcid.org/0000-0001-9076-6066
