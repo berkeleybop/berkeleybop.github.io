@@ -79,7 +79,7 @@ entries:
         - title: Biolink API
           url: /software/biolink-api
 
-        - title: BiolinkML
+        - title: LinkML (formerly BiolinkML)
           url: /software/biolinkml
 
         - title: Ontobio
@@ -181,6 +181,8 @@ entries:
           url: /people/harshad-hegde
         - title: Marcin Joachimiak
           url: /people/marcin-joachimiak
+        - title: Mark Miller
+          url: /people/mark-a-miller
         - title: Sierra Moxon
           url: /people/sierra-moxon
         - title: Justin Reese
