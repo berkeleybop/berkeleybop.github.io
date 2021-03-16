@@ -12,6 +12,43 @@ strive to follow a set of core best practices so we can be most
 efficient and develop the highest quality code, ontologies, standards,
 schemas, and analyses.
 
+## General Principles
+
+- DRY: Don't Repeat Yourself
+   - but avoid over-abstraction and frameworkitis
+- Always reuse
+   - we probably have a Python library for it
+   - reuse general design patterns
+   - GitHub templates
+   - follow exemplar repos
+       - [kgx](https://github.com/biolink/kgx/) and [linkml](https://github.com/linkml/linkml) for general Python
+       - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19) for ETL
+   - try especially hard not to reinvent what someone in the group or our collaborator has done
+- Avoid perfectionism
+   - iterate on solutions
+   - smaller batches of incremental progress >> long delays on perfect solution (that may turn out to be flawed)
+- For many tasks, the 80/20 rule may suffice
+   - Don't boil the ocean
+   - beware of rabbit holes
+- More to come...
+
+## Collaboration
+
+- we are a collaborative group, reach out if you have issues
+   - join relevant channels on bbop and other slacks
+   - questions always welcome but make best effort to see if information available in group reference guides
+- make things easier for those who follow you
+   - the same questions often come up repeatedly
+   - if someone answers a question for you, update the relevant guide to make it clearer for others
+- follow codes of conduct
+- be constructive in any criticism
+- use your Berkeley Lab account for email, calendars
+- keep your calendar up to date, this facilitates scheduling meetings
+- slack
+   - avoid `@channel` unless necessary
+   - don't be a channel anarchist
+   - discussion about tickets OK but decisions and key points must be recorded in ticket
+
 ## Git and GitHub
 
 - use git
@@ -65,7 +102,7 @@ schemas, and analyses.
 
 - Use an existing repo from a group member as template for best practice, e.g.,
    - [kgx](https://github.com/biolink/kgx/)
-   - [linkml](https://github.com/biolink/biolinkml/)
+   - [linkml](https://github.com/linkml/linkml)
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
@@ -95,7 +132,7 @@ schemas, and analyses.
 
 ### Schema/Standards-centric Repos
 
-- You will be using [linkml](https://github.com/biolink/biolinkml/)
+- You will be using [linkml](https://github.com/linkml/linkml)
 - Create repo from [LinkML template](https://github.com/link-modeling/linkml-template)
 - Register with w3id.org
 - Include comprehensive examples
@@ -414,23 +451,6 @@ schemas, and analyses.
    - use SSSOM
    - use boomer
 
-## Collaboration
-
-- we are a collaborative group, reach out if you have issues
-   - join relevant channels on bbop and other slacks
-   - questions always welcome but make best effort to see if information available in group reference guides
-- make things easier for those who follow you
-   - the same questions often come up repeatedly
-   - if someone answers a question for you, update the relevant guide to make it clearer for others
-- follow codes of conduct
-- be constructive in any criticism
-- use your Berkeley Lab account for email, calendars
-- keep your calendar up to date, this facilitates scheduling meetings
-- slack
-   - avoid `@channel` unless necessary
-   - don't be a channel anarchist
-   - discussion about tickets OK but decisions and key points must be recorded in ticket
-
 ## Google docs/slides/sheets hygiene
 
 - Use google docs/slides over Microsoft/Apple
@@ -468,24 +488,4 @@ schemas, and analyses.
 - follow TSV guidelines for google sheets
 - don't use color for semantics. Always use conditional formatting for colors etc
 - reuse slides from existing slide decks, but provide attribution
-
-## General Principles
-
-- DRY: Don't Repeat Yourself
-   - but avoid over-abstraction and frameworkitis
-- Always reuse
-   - we probably have a Python library for it
-   - reuse general design patterns
-   - GitHub templates
-   - follow exemplar repos
-       - kgx and linkml for general python
-       - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19) for ETL
-   - try especially hard not to reinvent what someone in the group or our collaborator has done
-- Avoid perfectionism
-   - iterate on solutions
-   - smaller batches of incremental progress >> long delays on perfect solution (that may turn out to be flawed)
-- For many tasks, the 80/20 rule may suffice
-   - Don't boil the ocean
-   - beware of rabbit holes
-- More to come...
 
