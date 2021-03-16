@@ -383,6 +383,7 @@ schemas, and analyses.
       - oio over IAO
       - liberal axiom annotations
       - key annotation properties: synonyms, definitions, mappings
+      - See [documentation on uberon synonyms](https://github.com/obophenotype/uberon/wiki/Using-uberon-for-text-mining), this is an exemplar for us
       - dosdp over robot, but always use the more appropriate tool for the job
 - include comprehensive definitions clear to biologists
    - [read my definitions guide](https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/)
