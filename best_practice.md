@@ -12,9 +12,47 @@ strive to follow a set of core best practices so we can be most
 efficient and develop the highest quality code, ontologies, standards,
 schemas, and analyses.
 
+## General Principles
+
+- DRY: Don't Repeat Yourself
+   - but avoid over-abstraction and frameworkitis
+- Always reuse
+   - we probably have a Python library for it
+   - reuse general design patterns
+   - GitHub templates
+   - follow exemplar repos
+       - [kgx](https://github.com/biolink/kgx) and [linkml](https://github.com/linkml/linkml) for general python
+       - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19) for ETL
+   - try especially hard not to reinvent what someone in the group or our collaborator has done
+- Avoid perfectionism
+   - iterate on solutions
+   - smaller batches of incremental progress >> long delays on perfect solution (that may turn out to be flawed)
+- For many tasks, the 80/20 rule may suffice
+   - Don't boil the ocean
+   - beware of rabbit holes
+- More to come...
+
+## Collaboration
+
+- we are a collaborative group, reach out if you have issues
+   - join relevant channels on bbop and other slacks
+   - questions always welcome but make best effort to see if information available in group reference guides
+- make things easier for those who follow you
+   - the same questions often come up repeatedly
+   - if someone answers a question for you, update the relevant guide to make it clearer for others
+- follow codes of conduct
+- be constructive in any criticism
+- use your Berkeley Lab account for email, calendars
+- keep your calendar up to date, this facilitates scheduling meetings
+- slack
+   - avoid `@channel` unless necessary
+   - don't be a channel anarchist
+   - discussion about tickets OK but decisions and key points must be recorded in ticket
+
 ## Git and GitHub
 
 - use git
+- Check out our GitHub howto and best practices slides [here](https://docs.google.com/presentation/d/1xiALnyqKJ_cAF0hmR99v1FdQ-CC7WW33/edit)
 - [commit early, commit often](https://deepsource.io/blog/git-best-practices)
    - perfect later!
    - you should always be working on a branch, so don't worry about breaking things
@@ -412,23 +450,6 @@ schemas, and analyses.
    - use SSSOM
    - use boomer
 
-## Collaboration
-
-- we are a collaborative group, reach out if you have issues
-   - join relevant channels on bbop and other slacks
-   - questions always welcome but make best effort to see if information available in group reference guides
-- make things easier for those who follow you
-   - the same questions often come up repeatedly
-   - if someone answers a question for you, update the relevant guide to make it clearer for others
-- follow codes of conduct
-- be constructive in any criticism
-- use your Berkeley Lab account for email, calendars
-- keep your calendar up to date, this facilitates scheduling meetings
-- slack
-   - avoid `@channel` unless necessary
-   - don't be a channel anarchist
-   - discussion about tickets OK but decisions and key points must be recorded in ticket
-
 ## Google docs/slides/sheets hygiene
 
 - Use google docs/slides over Microsoft/Apple
@@ -466,24 +487,4 @@ schemas, and analyses.
 - follow TSV guidelines for google sheets
 - don't use color for semantics. Always use conditional formatting for colors etc
 - reuse slides from existing slide decks, but provide attribution
-
-## General Principles
-
-- DRY: Don't Repeat Yourself
-   - but avoid over-abstraction and frameworkitis
-- Always reuse
-   - we probably have a Python library for it
-   - reuse general design patterns
-   - GitHub templates
-   - follow exemplar repos
-       - [kgx](https://github.com/biolink/kgx) and [linkml](https://github.com/linkml/linkml) for general python
-       - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19) for ETL
-   - try especially hard not to reinvent what someone in the group or our collaborator has done
-- Avoid perfectionism
-   - iterate on solutions
-   - smaller batches of incremental progress >> long delays on perfect solution (that may turn out to be flawed)
-- For many tasks, the 80/20 rule may suffice
-   - Don't boil the ocean
-   - beware of rabbit holes
-- More to come...
 
