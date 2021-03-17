@@ -65,7 +65,7 @@ schemas, and analyses.
 
 - Use an existing repo from a group member as template for best practice, e.g.,
    - [kgx](https://github.com/biolink/kgx/)
-   - [linkml](https://github.com/biolink/biolinkml/)
+   - [linkml](https://github.com/linkml/linkml)
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
@@ -95,7 +95,7 @@ schemas, and analyses.
 
 ### Schema/Standards-centric Repos
 
-- You will be using [linkml](https://github.com/biolink/biolinkml/)
+- You will be using [linkml](https://github.com/linkml/linkml)
 - Create repo from [LinkML template](https://github.com/link-modeling/linkml-template)
 - Register with w3id.org
 - Include comprehensive examples
@@ -241,9 +241,7 @@ schemas, and analyses.
        - use `#` for header comments
    - seaborn within Jupyter
    - KGs
-      - kgx
-      - embiggen
-      - NEAT
+      - [kgx](https://github.com/biolink/kgx)
       - [BMT](https://github.com/biolink/biolink-model-toolkit)
       - [EnsmallenGraph](https://github.com/AnacletoLAB/ensmallen_graph), (Rust + Python bindings), fast graph ML
       - [Embiggen](https://github.com/monarch-initiative/embiggen) graph ML (e.g. node2vec), and some other things like word2vec
@@ -478,7 +476,7 @@ schemas, and analyses.
    - reuse general design patterns
    - GitHub templates
    - follow exemplar repos
-       - kgx and linkml for general python
+       - [kgx](https://github.com/biolink/kgx) and [linkml](https://github.com/linkml/linkml) for general python
        - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19) for ETL
    - try especially hard not to reinvent what someone in the group or our collaborator has done
 - Avoid perfectionism
