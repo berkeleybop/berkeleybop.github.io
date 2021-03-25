@@ -227,7 +227,7 @@ schemas, and analyses.
 - Docker
 - editor of your choice
 
-## Libraries
+## Programming Libraries
 
 - Data science
    - this is a fast changing field so recommendations here are general/loose
@@ -253,6 +253,7 @@ schemas, and analyses.
    - obographviz (js)
    - beware of using rdflib and RDF-level libraries for working with OWL files, too low level
    - never, ever use XML parsers to parse RDF/XML
+   - [Ubergraph](https://github.com/NCATS-Tangerine/ubergraph)
 - NER/NLP
    - fast changing but some tools to consider:
       - runNER (which wraps OGER)
@@ -296,7 +297,18 @@ schemas, and analyses.
       - KGX dump
       - KGX summary stats
 - Schemas
-   - Always author in linkml
+   - everything must have a schema, including:
+      - all TSVs should have data dictionary
+      - JSON/YAML
+      - KGs
+      - OWL ontologies and OWL instance graphs
+   - Understand basic concepts:
+      - normalized vs de-normalized
+      - identifiers and URIs
+      - closed-world vs open-world
+      - schema vs ontology
+   - Always author schemas in linkml
+      - derive alternate representations (e.g. json-schema)
    - JSON-schema for JSON-centric projects (never author, always derive from LinkML)
    - ShEx for ontology-centric (try and derive from LinkML)
    - kwalify is deprecated for us
@@ -307,7 +319,7 @@ schemas, and analyses.
       - Neo4J
       - ad-hoc TSVs
    - Include mappings:
-      - biolink
+      - map to biolink
 - Versioning
    - Semantic Versioning (semver) by default
    - ISO-8601 OBO style for ontologies
@@ -362,7 +374,7 @@ schemas, and analyses.
 - [ODK](https://github.com/INCATools/ontology-development-kit) and [ROBOT](https://github.com/ontodev/robot), for ontologies
 - runNER for NER
 
-## Ontologies
+## Building Ontologies
 
 - ontologies are for users, not ontologists
   - OWL and description logic is necessary for building robust ontologies, but needn't be exposed
@@ -428,6 +440,8 @@ schemas, and analyses.
    - avoid `@channel` unless necessary
    - don't be a channel anarchist
    - discussion about tickets OK but decisions and key points must be recorded in ticket
+- use GitHub for requests
+- [Data mapping guide: selecting and requesting terms from ontologies, data models, and standards](https://docs.google.com/document/d/19rPwv6vg9ipHdUn_lJo4l1TA402qjpAeEuom6cnPLb8/edit)
 
 ## Google docs/slides/sheets hygiene
 
