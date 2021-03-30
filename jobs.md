@@ -15,4 +15,4 @@ Note that applicants are not expected to have extensive knowledge of biology -- 
 
 We encourage you to submit a cover letter with your application, and to include a URL for your code repository (e.g., GitHub or GitLab).
 
-For more information about job responsibilities and requirements, and to apply for the position, go to https://lbl.referrals.selectminds.com/jobs/software-developer-3687.
+For more information about job responsibilities and requirements, and to apply for the position, go to [https://lbl.referrals.selectminds.com/jobs/software-developer-3687](https://lbl.referrals.selectminds.com/jobs/software-developer-3687).
