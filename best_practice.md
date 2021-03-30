@@ -100,6 +100,11 @@ schemas, and analyses.
 
 - You will be using [linkml](https://github.com/linkml/linkml)
 - Create repo from [LinkML template](https://github.com/link-modeling/linkml-template)
+- Examples:
+   - NMDC
+   - MIxS
+   - GFF3 linkml
+   - [cmungall/chem-schema](https://github.com/cmungall/chem-schema)
 - Register with w3id.org
 - Include comprehensive examples
 - Use LinkML mkdocs framework
@@ -114,14 +119,19 @@ schemas, and analyses.
 
 - Use [ODK seed](https://github.com/INCATools/ontology-development-kit/)
 - Register ontology with OBO
+   - include detailed metadata
+   - include all products
+   - include descriptive material in markdown
 - Use GitHub for .owl distribution unless ontology is large, then consider:
    - GitHub releases
    - S3
-- Follow group exemplars
-- distribute SSSOM
-- always distribute an .obo
-- always distribute a obo .json
-- distribute a kgx file
+- Follow group exemplars: Uberon, Mondo, GO, ENVO, CL, PATO
+   - but be aware each has their quirks
+- distribute useful products
+   - distribute SSSOM
+   - always distribute an .obo
+   - always distribute a obo .json
+   - distribute a kgx file (NEW)
 - enable zenodo syncing
 
 ### Analysis/Paper-centric Repos
