@@ -60,6 +60,9 @@ schemas, and analyses.
     - remove cruft such as obsolete files (GitHub preserves history)
     - avoid random stuff at top level
     - keep README in sync
+    - avoid using spaces in filenames
+    - always use standard suffixes (e.g. .tsv, .txt, .md)
+    - kabob-case-is-a-good-default.txt
 
 ### Software-centric Repos
 
@@ -102,6 +105,10 @@ schemas, and analyses.
 - Use LinkML mkdocs framework
 - Understand the difference between [OWL-centric and KG-centric modeling](https://douroucouli.wordpress.com/2019/03/14/biological-knowledge-graph-modeling-design-patterns/)
 - include mappings to biolink model
+- always include examples
+   - integrate these with documentation
+   - integrate these with unit tests
+- enable zenodo syncing
 
 ### Ontology-centric Repos
 
@@ -115,6 +122,7 @@ schemas, and analyses.
 - always distribute an .obo
 - always distribute a obo .json
 - distribute a kgx file
+- enable zenodo syncing
 
 ### Analysis/Paper-centric Repos
 
@@ -135,6 +143,7 @@ schemas, and analyses.
    - consider [cogs](https://github.com/ontodev/cogs) if TSVs must be managed in google sheets
 - use JSON for complex data
 - use KGX for anything that should be modeled as a KG
+- use descriptive filenames
 - manage metadata in GitHub
 - sync repo with Zenodo
 - use S3 for larger files
@@ -142,6 +151,9 @@ schemas, and analyses.
 - Dockerize   
 - Use Jupyter notebooks
 - Consider [Manubot](https://manubot.org/)
+- Other recommended best practices
+   - [datadryad](https://datadryad.org/stash/best_practices)
+- enable zenodo syncing
 
 ## Documentation
 
@@ -183,7 +195,9 @@ schemas, and analyses.
    - use Python 3.6+
 - Conform to the group style guide, or at least *some* style guide
    - [pep-0008](https://www.python.org/dev/peps/pep-0008/) for Python
-   - numpy-style docstrings
+   - use type annotations [PEP484](https://www.python.org/dev/peps/pep-0484/)
+   - ReST or [numpy-style docstrings or google style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#type-annotations)
+      - I think I favor ReST
 - use flask/fastAPI for web apps
    - don't author OpenAPI directly; derive
 - avoid authoring complex data models
@@ -195,6 +209,12 @@ schemas, and analyses.
 - ETL/ingest
    - follow existing exemplar repos
    - Read Chris' [10 simple rules for semantic ETL](https://docs.google.com/document/d/1Bgsyo-Z1oxEfxdNGB3KDM_NHfXYqdcXJIUd_j3iibi4/edit#)
+- use requests for URL calls
+- Always provide a CLI
+   - use click
+   - use de-facto standards
+      - `-i`, `--input`
+      - `-o`, `--output`
 - TODO: Best practice for
    - test framework (unittest vs pytest?)
    - environments: venv vs pipenv
@@ -285,6 +305,8 @@ schemas, and analyses.
    - [OBO JSON](https://douroucouli.wordpress.com/2016/10/04/a-developer-friendly-json-exchange-format-for-ontologies/)
    - consider obo format deprecated. Exception: easier to maintain edit file as obo for git diff/PR purposes
    - COB as upper ontology, but also pay attention to biolink
+   - Always use official PURLs for downloads
+      - the OBO page gives the list of products. E.g. [obofoundry.org/ontology/pato](http://obofoundry.org/ontology/pato)
 - Mappings (ontology or otherwise)
    - SSSOM with skos predicates
 - KGs
