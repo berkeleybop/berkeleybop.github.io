@@ -22,11 +22,12 @@ schemas, and analyses.
 - Use standard repo layouts
 - Include standard files:
    - README.md
-   - LICENSE (BSD preferred for software)
+   - LICENSE (BSD3 preferred for software)
    - CONTRIBUTING.md
+   - CODE_OF_CONDUCT.md (see for example [kgx CoC](https://github.com/biolink/biolink-model/blob/master/CODE_OF_CONDUCT.md)
    - Changes.md
    - .gitignore
-   - Makefile
+   - Makefile or equivalent
 - use GitHub
     - Like GitLab in principle, but GitHub has network effect
     - prefer to work on the main repo, not forks, but defer to project-specific guidelines
@@ -164,6 +165,16 @@ schemas, and analyses.
 - Other recommended best practices
    - [datadryad](https://datadryad.org/stash/best_practices)
 - enable zenodo syncing
+
+## Websites
+
+- GitHub pages favored over google sites over wikis
+- Manage and author content as markdown, managed in github, with PRs as for code
+- Google Analytics and similar (recommendations TODO)
+- avoid manually authoring anything that can be derived from metadata
+   - examplars: obofoundry.github.io, this site
+- use a CC license, CC-0 or CC-BY
+
 
 ## Documentation
 
