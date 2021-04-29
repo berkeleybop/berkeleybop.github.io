@@ -4,7 +4,7 @@ title: Mondo Disease Ontology
 active: yes
 homepage: https://mondo.monarchinitiative.org/
 source: https://github.com/monarch-initiative/mondo
-logo: mondo-logo-smaller.jpeg
+logo: /ontology/mondo/mondo-logo-smaller.jpeg
 travis: 
 docs:
 twitter: 
