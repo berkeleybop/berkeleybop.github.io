@@ -2,20 +2,45 @@
 title: Selected BBOP publications
 ---
 
-
 <ol class="bibliography">
-      
-<li>Shefchek KA, Harris NL, Gargano M, Matentzoglu N, Unni D, Brush M, Keith D, Conlin T, Vasilevsky N, Zhang XA, Balhoff JP, Babb L, Bello SM, Blau H, Bradford Y, Carbon S, Carmody L, Chan LE, Cipriani V, Cuzick A, Rocca MD, Dunn N, Essaid S, Fey P, Grove C, Gourdine J-P, Hamosh A, Harris M, Helbig I, Hoatlin M, Joachimiak M, Jupp S, Lett KB, Lewis SE, McNamara C, Pendlington ZM, Pilgrim C, Putman T, Ravanmehr V, Reese J, Riggs E, Robb S, Roncaglia P, Seager J, Segerdell E, Similuk M, Storm AL, Thaxon C, Thessen A, Jacobsen JOB, McMurry JA, Groza T, Köhler S, Smedley D, Robinson PN, Mungall CJ, Haendel MA, Munoz-Torres MC, Osumi-Sutherland D. The Monarch Initiative in 2019: an integrative data and analytic platform connecting phenotypes to genotypes across species. Nucleic Acids Res, 2019 Nov 8; http://dx.doi.org/10.1093/nar/gkz997 PMID: 31701156
+<li>Hannestad LM, Dančík V, Godden M, Suen IW, Huellas-Bruskiewicz KC, Good BM, <b>Mungall CJ</b>, Bruskiewich RM. Knowledge Beacons: Web services for data harvesting of distributed biomedical knowledge. PLoS One. 2021 Mar 23;16(3):e0231916. http://dx.doi.org/10.1371/journal.pone.0231916 PMCID: PMC7987184
 
-</li><li>Haendel M, Vasilevsky N, Unni D, Bologa C, Harris N, Rehm H, Hamosh A, Baynam G, Groza T, McMurry J, Dawkins H, Rath A, Thaxon C, Bocci G, Joachimiak MP, Köhler S, Robinson PN, Mungall C, Oprea TI. How many rare diseases are there? Nat Rev Drug Discov, 2019 Nov 5. https://www.nature.com/articles/d41573-019-00180-y
+</li><li>Vangay P, Burgin J, Johnston A, Beck KL, Berrios DC, Blumberg K, Canon S, Chain P, Chandonia J-M, Christianson D, Costes SV, Damerow J, <b>Duncan WD</b>, Dundore-Arias JP, Fagnan K, Galazka JM, Gibbons SM, Hays D, Hervey J, Hu B, Hurwitz BL, Jaiswal P, Joachimiak MP, Kinkel L, Ladau J, Martin SL, McCue LA, Miller K, Mouncey N, <b>Mungall </b>C, Pafilis E, Reddy TBK, Richardson L, Roux S, Shaffer JP, Sundaramurthi JC, Thompson LR, Timme RE, Zheng J, Wood-Charlson EM, Eloe-Fadrosh EA. Microbiome Metadata Standards: Report of the National Microbiome Data Collaborative’s Workshop and Follow-On Activities. mSystems. American Society for Microbiology Journals; 2021 Feb 23;6(1). https://msystems.asm.org/content/6/1/e01194-20
 
-</li><li>Mabee PM, Balhoff JP, Dahdul WM, Lapp H, Mungall CJ, Vision TJ. A Logical Model of Homology for Comparative Biology. Syst. Biol. 2019, p. 588822. http://dx.doi.org/10.1093/sysbio/syz067
+</li><li>Köhler S, Gargano M, Matentzoglu N, Carmody LC, Lewis-Smith D, Vasilevsky NA, Danis D, ..., Yüksel Z, Helbig I, <b>Mungall CJ</b>, Haendel MA, Robinson PN. The Human Phenotype Ontology in 2021. Nucleic Acids Res. 2021 Jan 8;49(D1):D1207–D1217. http://dx.doi.org/10.1093/nar/gkaa1043 PMCID: PMC7778952
 
-</li><li>Thomas PD, Hill DP, Mi H, Osumi-Sutherland D, Van Auken K, Carbon S, Balhoff JP, Albou L-P, Good B, Gaudet P, Lewis SE, Mungall CJ. Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems. Nat Genet, nature.com; 2019 Oct;51(10):1429–1433. http://dx.doi.org/10.1038/s41588-019-0500-1 PMID: 31548717
+</li><li><b>Joachimiak MP</b>. Zinc against COVID-19? Symptom surveillance and deficiency risk groups. PLoS Negl Trop Dis. 2021 Jan;15(1):e0008895. http://dx.doi.org/10.1371/journal.pntd.0008895 PMCID: PMC7781367
+
+</li><li>Gene Ontology Consortium. The Gene Ontology resource: enriching a GOld mine. Nucleic Acids Res. 2020 Dec 8; http://dx.doi.org/10.1093/nar/gkaa1113 PMID: 33290552
+
+</li><li><b>Reese JT</b>, Unni D, Callahan TJ, Cappelletti L, Ravanmehr V, <b>Carbon S</b>, Shefchek KA, Good BM, Balhoff JP, Fontana T, Blau H, Matentzoglu N, <b>Harris NL</b>, Munoz-Torres MC, Haendel MA, Robinson PN, <b>Joachimiak MP, Mungall CJ</b>. KG-COVID-19: a framework to produce customized knowledge graphs for COVID-19 response. Patterns (N Y). 2020 Nov 9;100155. http://dx.doi.org/10.1016/j.patter.2020.100155 PMCID: PMC7649624
+
+</li><li>Thessen AE, Walls RL, Vogt L, Singer J, Warren R, Buttigieg PL, Balhoff JP, <b>Mungall CJ</b>, McGuinness DL, Stucky BJ, Yoder MJ, Haendel MA. Transforming the study of organisms: Phenomic data models and knowledge bases. PLoS Comput Biol. 2020 Nov;16(11):e1008376. http://dx.doi.org/10.1371/journal.pcbi.1008376 PMID: 33232313
+
+</li><li>Rubinstein YR, Robinson PN, Gahl WA, Avillach P, Baynam G, Cederroth H, Goodwin RM, Groft SC, Hansson MG, <b>Harris NL</b>, Huser V, Mascalzoni D, McMurry JA, Might M, Nellaker C, Mons B, Paltoo DN, Pevsner J, Posada M, Rockett-Frase AP, Roos M, Rubinstein TB, Taruscio D, van Enckevort E, Haendel MA. The case for open science: rare diseases. Jamia Open. Oxford University Press; 2020 Sep 11; https://academic.oup.com/jamiaopen/advance-article-abstract/doi/10.1093/jamiaopen/ooaa030/5904414
+
+</li><li>Robinson PN, Ravanmehr V, Jacobsen JOB, Danis D, Zhang XA, Carmody LC, Gargano MA, Thaxton CL, UNC Biocuration Core, Karlebach G, <b>Reese J</b>, Holtgrewe M, Köhler S, McMurry JA, Haendel MA, Smedley D. Interpretable Clinical Genomics with a Likelihood Ratio Paradigm. Am J Hum Genet. 2020 Sep 3;107(3):403–417. http://dx.doi.org/10.1016/j.ajhg.2020.06.021 PMCID: PMC7477017
+
+</li><li>Wood V, Carbon S, Harris MA, Lock A, Engel SR, Hill DP, Van Auken K, Attrill H, Feuermann M, Gaudet P, Lovering RC, Poux S, Rutherford KM, <b>Mungall CJ</b>. Term Matrix: a novel Gene Ontology annotation quality control system based on ontology term co-annotation patterns. Open Biol. 2020 Sep;10(9):200149. http://dx.doi.org/10.1098/rsob.200149 PMCID: PMC7536087
+
+</li><li>Wood-Charlson EM, Anubhav, Auberry D, Blanco H, Borkum MI, Corilo YE, Davenport KW, Deshpande S, Devarakonda R, Drake M, <b>Duncan WD</b>, Flynn MC, Hays D, Hu B, Huntemann M, Li P-E, Lipton M, Lo C-C, Millard D, Miller K, Piehowski PD, Purvine S, Reddy TBK, Shakya M, Sundaramurthi JC, Vangay P, Wei Y, Wilson BE, Canon S, Chain PSG, Fagnan K, Martin S, McCue LA, <b>Mungall CJ</b>, Mouncey NJ, Maxon ME, Eloe-Fadrosh EA. The National Microbiome Data Collaborative: enabling microbiome science. Nat Rev Microbiol. nature.com; 2020 Jun;18(6):313–314. http://dx.doi.org/10.1038/s41579-020-0377-0 PMID: 32350400
+
+</li><li>Alliance of Genome Resources Consortium. Alliance of Genome Resources Portal: unified model organism research platform. Nucleic Acids Res. 2020 Jan 8;48(D1):D650–D658. http://dx.doi.org/10.1093/nar/gkz813 PMCID: PMC6943066
+
+</li><li>Hoyt C, <b>Mungall </b>C, Vasilevsky N, Domingo-Fernández D, Healy M, Colluru V. Extension of Roles in the ChEBI Ontology. ChemRxiv; 2020;
+
+
+</li><li>Shefchek KA, **Harris NL**, Gargano M, Matentzoglu N, Unni D, Brush M, Keith D, Conlin T, Vasilevsky N, Zhang XA, Balhoff JP, Babb L, Bello SM, Blau H, Bradford Y, **Carbon S**, Carmody L, Chan LE, Cipriani V, Cuzick A, Rocca MD, **Dunn N,** Essaid S, Fey P, Grove C, Gourdine J-P, Hamosh A, Harris M, Helbig I, Hoatlin M, **Joachimiak M**, Jupp S, Lett KB, Lewis SE, McNamara C, Pendlington ZM, Pilgrim C, Putman T, Ravanmehr V, **Reese J**, Riggs E, Robb S, Roncaglia P, Seager J, Segerdell E, Similuk M, Storm AL, Thaxon C, Thessen A, Jacobsen JOB, McMurry JA, Groza T, Köhler S, Smedley D, Robinson PN, **Mungall CJ**, Haendel MA, Munoz-Torres MC, Osumi-Sutherland D. The Monarch Initiative in 2019: an integrative data and analytic platform connecting phenotypes to genotypes across species. Nucleic Acids Res, 2019 Nov 8; http://dx.doi.org/10.1093/nar/gkz997 PMID: 31701156
+
+</li><li>Haendel M, Vasilevsky N, Unni D, Bologa C, **Harris N**, Rehm H, Hamosh A, Baynam G, Groza T, McMurry J, Dawkins H, Rath A, Thaxon C, Bocci G, **Joachimiak MP**, Köhler S, Robinson PN, **Mungall C**, Oprea TI. How many rare diseases are there? Nat Rev Drug Discov, 2019 Nov 5. https://www.nature.com/articles/d41573-019-00180-y
+
+</li><li>Mabee PM, Balhoff JP, Dahdul WM, Lapp H, **Mungall CJ**, Vision TJ. A Logical Model of Homology for Comparative Biology. Syst. Biol. 2019, p. 588822. http://dx.doi.org/10.1093/sysbio/syz067
+
+</li><li>Thomas PD, Hill DP, Mi H, Osumi-Sutherland D, Van Auken K, **Carbon S**, Balhoff JP, Albou L-P, Good B, Gaudet P, Lewis SE, **Mungall CJ**. Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems. Nat Genet, nature.com; 2019 Oct;51(10):1429–1433. http://dx.doi.org/10.1038/s41588-019-0500-1 PMID: 31548717
 
 </li><li>The Alliance of Genome Resources Consortium. The Alliance of Genome Resources: Building a Modern Data Ecosystem for Model Organism Databases. Genetics. 2019. p. 1189–1196. http://dx.doi.org/10.1534/genetics.119.302523
-</li><li>Jackson RC, Balhoff JP, Douglass E, Harris NL, Mungall CJ, Overton JA. ROBOT: A Tool for Automating Ontology Workflows. BMC Bioinformatics , 2019 Jul 29;20(1):407. http://dx.doi.org/10.1186/s12859-019-3002-3 PMID: 31357927
-</li><li>Carbon S</b> Champieux R, McMurry JA, Winfree L, Wyatt LR, Haendel MA. An analysis and metric of reusable data licensing practices for biomedical resources. PLoS One. 2019 Mar 27;14(3):e0213090. http://dx.doi.org/10.1371/journal.pone.0213090 PMID: 30917137
+</li><li>Jackson RC, Balhoff JP, **Douglass E, Harris NL, Mungall CJ,** Overton JA. ROBOT: A Tool for Automating Ontology Workflows. BMC Bioinformatics , 2019 Jul 29;20(1):407. http://dx.doi.org/10.1186/s12859-019-3002-3 PMID: 31357927
+</li><li><b>Carbon S</b> Champieux R, McMurry JA, Winfree L, Wyatt LR, Haendel MA. An analysis and metric of reusable data licensing practices for biomedical resources. PLoS One. 2019 Mar 27;14(3):e0213090. http://dx.doi.org/10.1371/journal.pone.0213090 PMID: 30917137
 </li><li><b>Dunn NA, Unni D</b>, Diesh C, Munoz-Torres M, <b>Harris NL</b>, Yao E, Rasche H, Holmes IH, Elsik CG, Lewis SE. Apollo: Democratizing genome annotation. PLoS Comput Biol. 2019 Feb;15(2):e1006790. http://dx.doi.org/10.1371/journal.pcbi.1006790 PMCID: PMC6380598
 </li><li><b>Mungall CJ</b>, Koehler S, Robinson P, Holmes I, Haendel M. k-BOOM: A Bayesian approach to ontology structure inference, with applications in disease ontology construction. bioRxiv. 2019. https://www.biorxiv.org/content/10.1101/048843v3
 </li><li>Giglio M, Tauber R, Nadendla S, Munro J, Olley D, Ball S, Mitraka E, Schriml LM, Gaudet P, Hobbs ET, Erill I, Siegele DA, Hu JC, <b>Mungall C</b>, Chibucos MC. ECO, the Evidence & Conclusion Ontology: community standard for evidence information. Nucleic Acids Res. 2019 Jan 8;47(D1):D1186–D1194. http://dx.doi.org/10.1093/nar/gky1036 PMCID: PMC6323956
