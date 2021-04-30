@@ -1,27 +1,15 @@
 ---
 layout: software
-title: BiolinkML
+title: LinkML - Linked data Modeling Language
 active: yes
-source: https://github.com/biolink/biolinkml
+homepage: https://linkml.github.io/
+source: https://github.com/linkml/linkml
+documentation: https://linkml.github.io/linkml-model/docs/
 logo: https://avatars1.githubusercontent.com/u/25489141?s=200&v=4
 ---
 
-The Biolink Modeling Language (BiolinkML) is a general purpose modeling language that inherits principles from both 
-the object-oriented world as well as the Web Ontology Language (OWL) world. 
-Models are authored in YAML where you can enumerate classes, slots, types and schema definitions.
+LinkML (formerly named BiolinkML, but it's not just for bio) is a general purpose modeling language that can be used with linked data, JSON, and other formalisms.
 
-BiolinkML allows the generation of variety of artefacts such as,
-- ShEx
-- JSON Schema
-- OWL
-- Python dataclasses
-- Java classes
-- UML diagrams
-- Graphviz 
-- GraphQL schema
-- GOlr schema
-- Protobuf
-- JSON-LD
-- Markdown documentation
+Models can be created in YAML, JSON or RDF. A variety of artefacts can be generated from the model, including ShEx, JSON-Schema, OWL, Python dataclasses, UML diagrams, Markdown pages for deployment in a GitHub pages site, and more.
 
-BiolinkML is actively being used for the development and maintenance of the [Biolink Model](https://biolink.github.io/biolink-model/).
+LinkML is actively being used for the development and maintenance of the [Biolink Model](https://biolink.github.io/biolink-model/).
