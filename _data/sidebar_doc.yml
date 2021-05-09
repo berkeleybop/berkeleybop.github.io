@@ -40,12 +40,6 @@ entries:
         - title: "Alliance for Genome Resources"
           url: /project/agr
           
-        - title: GMOD
-          url: /project/gmod
-          
-        - title: Xena
-          url: /project/xena
-          
         - title: NMDC
           url: /project/nmdc
           
@@ -54,6 +48,15 @@ entries:
           
         - title: KG-COVID-19
           url: /project/kg-covid-19
+          
+         - title: CCDH
+          url: /project/ccdh
+          
+         - title: GMOD
+          url: /project/gmod
+          
+        - title: Xena (inactive)
+          url: /project/xena
           
         - title: "Planteome (inactive)"
           url: /project/planteome       
@@ -131,7 +134,7 @@ entries:
         - title: FANTOM5 Ontology
           url: /ontology/fantom-ontology
           
-        - title: MONDO
+        - title: Mondo disease ontology
           url: /ontology/mondo
           
         - title: Phenotype Ontologies
@@ -179,10 +182,7 @@ entries:
           url: /people/nomi-harris
         - title: Harshad Hegde
           url: /people/harshad-hegde
-        - title: Mark Andrew Miller
-          url: /people/mark-a-miller
-        - title: Sierra Moxon
-          url: /people/sierra-moxon
+        - title: Marcin Joachimiak          
           url: /people/marcin-joachimiak
         - title: Mark Miller
           url: /people/mark-a-miller
@@ -190,8 +190,6 @@ entries:
           url: /people/sierra-moxon
         - title: Justin Reese
           url: /people/justin-reese
-        - title: Deepak Unni
-          url: /people/deepak-unni
         - title: Laurent-Philippe Albou (affiliate)
           url: /people/laurent-philippe
         - title: Suzanna Lewis (emerita)
