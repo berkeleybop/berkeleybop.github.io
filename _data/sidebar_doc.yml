@@ -49,10 +49,10 @@ entries:
         - title: KG-COVID-19
           url: /project/kg-covid-19
           
-         - title: CCDH
+        - title: CCDH
           url: /project/ccdh
           
-         - title: GMOD
+        - title: GMOD
           url: /project/gmod
           
         - title: Xena (inactive)
