@@ -31,13 +31,17 @@ Monarch encompasses multiple components: interface, data, ontologies, software a
 ## Communication and internal docs for team members
 
  * [GitHub](https://github.com/monarch-initiative/)
- * [Gitter](https://gitter.im/monarch-initiative/)
  * Mailing lists
     * monarch-internal (ask Julie to be added)
  * [Google Drive](https://drive.google.com/drive/u/1/folders/0B1ggMLKFepMxOWlJWVpPSXFHWGM)
 
 ## References
 
+* Köhler S, Gargano M, Matentzoglu N, Carmody LC, Lewis-Smith D, Vasilevsky NA, Danis D, ..., Yüksel Z, Helbig I, <b>Mungall CJ</b>, Haendel MA, Robinson PN. The Human Phenotype Ontology in 2021. Nucleic Acids Res. 2021 Jan 8;49(D1):D1207–D1217. http://dx.doi.org/10.1093/nar/gkaa1043 PMCID: PMC7778952
+* Thessen AE, Walls RL, Vogt L, Singer J, Warren R, Buttigieg PL, Balhoff JP, <b>Mungall CJ</b>, McGuinness DL, Stucky BJ, Yoder MJ, Haendel MA. Transforming the study of organisms: Phenomic data models and knowledge bases. PLoS Comput Biol. 2020 Nov;16(11):e1008376. http://dx.doi.org/10.1371/journal.pcbi.1008376 PMID: 33232313
+
+* Rubinstein YR, Robinson PN, Gahl WA, Avillach P, Baynam G, Cederroth H, Goodwin RM, Groft SC, Hansson MG, <b>Harris NL</b>, Huser V, Mascalzoni D, McMurry JA, Might M, Nellaker C, Mons B, Paltoo DN, Pevsner J, Posada M, Rockett-Frase AP, Roos M, Rubinstein TB, Taruscio D, van Enckevort E, Haendel MA. The case for open science: rare diseases. Jamia Open. Oxford University Press; 2020 Sep 11; https://academic.oup.com/jamiaopen/advance-article-abstract/doi/10.1093/jamiaopen/ooaa030/5904414
+   
  * Shefchek KA, Harris NL, Gargano M, Matentzoglu N, Unni D, Brush M, Keith D, Conlin T, Vasilevsky N, Zhang XA, Balhoff JP, Babb L, Bello SM, Blau H, Bradford Y, Carbon S, Carmody L, Chan LE, Cipriani V, Cuzick A, Rocca MD, Dunn N, Essaid S, Fey P, Grove C, Gourdine J-P, Hamosh A, Harris M, Helbig I, Hoatlin M, Joachimiak M, Jupp S, Lett KB, Lewis SE, McNamara C, Pendlington ZM, Pilgrim C, Putman T, Ravanmehr V, Reese J, Riggs E, Robb S, Roncaglia P, Seager J, Segerdell E, Similuk M, Storm AL, Thaxon C, Thessen A, Jacobsen JOB, McMurry JA, Groza T, Köhler S, Smedley D, Robinson PN, Mungall CJ, Haendel MA, Munoz-Torres MC, Osumi-Sutherland D. The Monarch Initiative in 2019: An integrative data and analytic platform connecting phenotypes to genotypes across species. _Nucleic Acids Res._ 2019 Nov 8; [http://dx.doi.org/10.1093/nar/gkz997](http://dx.doi.org/10.1093/nar/gkz997) PMID: 31701156 
  * Haendel MA, McMurry JA, Relevo R, Mungall CJ, Robinson PN, Chute CG. A Census of Disease Ontologies. Annu Rev Biomed Data Sci [Internet]. Annual Reviews; 2018 Jul 20;1(1):305–331. Available from: https://doi.org/10.1146/annurev-biodatasci-080917-013459
  * Vasilevsky NA, Foster ED, Engelstad ME, ... Mungall C, Holm IA, Rageth K, Brownstein CA, Shefchek K, McMurry JA, Robinson PN, Köhler S, Haendel MA. Plain-language medical vocabulary for precision diagnosis. Nat Genet. 2018 Apr;50(4):474–476. http://dx.doi.org/10.1038/s41588-018-0096-x PMCID: PMC6258202
