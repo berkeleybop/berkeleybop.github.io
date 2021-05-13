@@ -3,7 +3,9 @@ title: Selected BBOP publications
 ---
 
 <ol class="bibliography">
-  <li><b>Reese J</b>, Coleman B, Chan L, Callahan TJ, Cappelletti L, Fontana T, Bradwell KR, <b>Harris NL</b>, Casiraghi E, Valentini G, Karlebach G, Deer R, McMurry JA, Haendel MA, Chute CG, Pfaff E, Moffitt R, Spratt H, Singh J, <b>Mungall CJ</b>, Williams AE, Robinson PN. Cyclooxygenase inhibitor use is associated with increased COVID-19 severity. medRxiv, 2021. http://dx.doi.org/10.1101/2021.04.13.21255438
+  <li>Good BM, Van Auken K, Hill DP, Mi H, <b>Carbon S</b>, Balhoff JP, Albou L-P, Thomas PD, <b>Mungall CJ</b>, Blake JA, D’Eustachio P. Reactome and the Gene Ontology: Digital convergence of data resources. Bioinformatics. 2021 May 8; http://dx.doi.org/10.1093/bioinformatics/btab325 PMID: 33964129
+    
+ </li><li><b>Reese J</b>, Coleman B, Chan L, Callahan TJ, Cappelletti L, Fontana T, Bradwell KR, <b>Harris NL</b>, Casiraghi E, Valentini G, Karlebach G, Deer R, McMurry JA, Haendel MA, Chute CG, Pfaff E, Moffitt R, Spratt H, Singh J, <b>Mungall CJ</b>, Williams AE, Robinson PN. Cyclooxygenase inhibitor use is associated with increased COVID-19 severity. medRxiv, 2021. http://dx.doi.org/10.1101/2021.04.13.21255438
 
 </li><li>Vangay P, Burgin J, Johnston A, Beck KL, Berrios DC, Blumberg K, Canon S, Chain P, Chandonia J-M, Christianson D, Costes SV, Damerow J, <b>Duncan WD</b>, Dundore-Arias JP, Fagnan K, Galazka JM, Gibbons SM, Hays D, Hervey J, Hu B, Hurwitz BL, Jaiswal P, <b>Joachimiak MP</b>, Kinkel L, Ladau J, Martin SL, McCue LA, Miller K, Mouncey N, <b>Mungall </b>C, Pafilis E, Reddy TBK, Richardson L, Roux S, Shaffer JP, Sundaramurthi JC, Thompson LR, Timme RE, Zheng J, Wood-Charlson EM, Eloe-Fadrosh EA. Microbiome Metadata Standards: Report of the National Microbiome Data Collaborative’s Workshop and Follow-On Activities. mSystems. American Society for Microbiology Journals; 2021 Feb 23;6(1). https://msystems.asm.org/content/6/1/e01194-20
 
