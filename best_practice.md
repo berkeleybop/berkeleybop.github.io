@@ -57,6 +57,14 @@ schemas, and analyses.
 - set up GitHub actions to do CI
 - set up badges
 - read our [GitHub Overview](https://docs.google.com/document/d/1YZ4kLyGka7MZPy824CHN7V2lnChFwJAGWpubKGr8n7w/edit)
+- make sure all relevant artefacts are checked in
+    - use `git status` and `.gitignore`
+    - in general avoid checking in derived products (but see below)
+    - avoid checking in .xslx files (use TSVs; or consider cogs instead)
+- versioning
+    - do not check in files with version numbers e.g. `foo.v1.txt` into GitHub - git does versioning for you
+    - use the GitHub release mechanism
+    - use ISO-8601 or semver schemes (see guidelines on specific repo types below)
 - tend your repos
     - remove cruft such as obsolete files (GitHub preserves history)
     - avoid random stuff at top level
@@ -219,12 +227,23 @@ schemas, and analyses.
    - use type annotations [PEP484](https://www.python.org/dev/peps/pep-0484/)
    - ReST or [numpy-style docstrings or google style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#type-annotations)
       - I think I favor ReST
+   - See [knocean/practices/python](https://github.com/knocean/practises/tree/master/python)
+      - I like the simplicity of venv, but we are also considering pipenv
+      - Good advice: flake8, black, pytest
+      - we use click not argparse [TODO: evaluate Typer]
+      - Makefile defaults are good
+      - Note unlike Knocean, we make use of OO as appropriate
 - use flask/fastAPI for web apps
    - don't author OpenAPI directly; derive
 - avoid authoring complex data models
    - use LinkML and derived datamodel classes
+- use fstrings
 - use typing
+   - makes code more understandable
+   - allows code completion in PyCharm etc
+   - helps find bugs
 - use dataclasses or pydantic
+   - for DAOs, derive from linkml
 - use an IDE
    - PyCharm is most popular
 - ETL/ingest
@@ -232,10 +251,17 @@ schemas, and analyses.
    - Read Chris' [10 simple rules for semantic ETL](https://docs.google.com/document/d/1Bgsyo-Z1oxEfxdNGB3KDM_NHfXYqdcXJIUd_j3iibi4/edit#)
 - use requests for URL calls
 - Always provide a CLI
-   - use click
+   - separate CLI logic from core logic
+   - Read [CLIG guidelines](https://clig.dev/)
+   - Python: use click  [TODO: evaluate Typer]
+   - design for composability
+   - provide shortforms for common options
+   - [Display help text when passed no options, the -h flag, or the --help flag](https://clig.dev/#help)
    - use de-facto standards
       - `-i`, `--input`
       - `-o`, `--output`
+   - Follow exemplars
+      - ROBOT
 - TODO: Best practice for
    - test framework (unittest vs pytest?)
    - environments: venv vs pipenv
@@ -247,6 +273,9 @@ schemas, and analyses.
 - use whatever is appropriate for the job
    - blazegraph for ttl
    - neo4j for KGs
+   - Postgresql for SQL db server
+       - never use non-open SQL db solutions
+       - Some legacy apps may use MySQL but Pg is preferred
    - sqlite for lightweight tabular
    - avoid vendor lock-in
        - use generic sparql 1.1 API vs triplestore specific APIs
@@ -255,13 +284,16 @@ schemas, and analyses.
       - read [semantic columnar store patterns](https://docs.google.com/document/d/1GoTZd4HSHI9q48Q6WUR4eDgBy0WgwsXcfVBihs_l0CU/edit)
 - always have a schema no matter what the task
     - always derive from LinkML
+- SQL vs other DB engines
+   - this is an evolving area
+   - see [Knocean SQL guide](https://github.com/knocean/practises/tree/master/sql)
 
-## Developer tools
+## Handy developer and command line tools
 
-- GNU Make
+- GNU Make -- see [Knocean guide](https://github.com/knocean/practises/tree/master/make)
 - cogs
-- linkml
 - odk
+- [q](http://harelba.github.io/q/) -- query TSVs via SQL
 - robot
 - bash; small scripts only
 - pandoc
@@ -506,6 +538,9 @@ schemas, and analyses.
     - always have outline mode on (list-like icon near top left)
     - assume the reader has outline mode on
     - rarely need for a TOC
+- For google sheets / excel
+    - never manually color code or use font/strikethrough. Always add an explicit field and use conditional formatting
+    - always have a schema, even if it is a flat data dictionary. linkml-model-enrichment will derived one
 - Use formatted templates where appropriate (grants, papers)
 - Use Paperpile for citations / reference management (you have access via the lab)
 - Give documents meaningful names (e.g., not just "meeting")--assume that most people will find the doc via search rather than by going through the folder hierarchy
