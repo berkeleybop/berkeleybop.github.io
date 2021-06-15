@@ -38,7 +38,7 @@ schemas, and analyses.
     - tag people if necessary
        - note: if you tag me with @cmungall it's likely I won't see it. alert me to a ticket via slack if I am required
     - use GitHub's default labels: bug, question, enhancement, good first issue, etc.
-    - set up standard issue templates
+    - set up standard issue templates (helps ensure tickets are auto-assigned)
 - use GitHub Pull Requests
     - mark as draft until ready for review, then assign reviewers
     - description should link to an issue "Resolves #1234"
@@ -55,6 +55,11 @@ schemas, and analyses.
         - Ready for review: for manager to empty
     - order of preference for cards: PR link, issue link, text
 - set up GitHub actions to do CI
+    - travis no longer recommended
+    - use GitHub actions
+- set up teams
+    - default to public membership
+    - make sure it is clear who has permission to merge PRs
 - set up badges
 - read our [GitHub Overview](https://docs.google.com/document/d/1YZ4kLyGka7MZPy824CHN7V2lnChFwJAGWpubKGr8n7w/edit)
 - make sure all relevant artefacts are checked in
