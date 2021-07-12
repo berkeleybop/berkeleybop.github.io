@@ -77,6 +77,10 @@ schemas, and analyses.
     - avoid using spaces in filenames
     - always use standard suffixes (e.g. .tsv, .txt, .md)
     - kabob-case-is-a-good-default.txt
+- use topics and star relevant repos
+    - https://github.com/topics/linkml
+    - https://github.com/topics/obofoundry
+    - https://github.com/topics/geneontology
 
 ### Software-centric Repos
 
@@ -328,7 +332,7 @@ schemas, and analyses.
 - Ontologies
    - ontobio
    - OWLAPI (JVM) -- only where necessary
-   - obographviz (js)
+   - [obographviz](https://github.com/cmungall/obographviz/) (js)
    - beware of using rdflib and RDF-level libraries for working with OWL files, too low level
    - never, ever use XML parsers to parse RDF/XML
    - [Ubergraph](https://github.com/NCATS-Tangerine/ubergraph)
@@ -350,6 +354,7 @@ schemas, and analyses.
        - make it pandas-friendly
        - meaningful column names
        - SSSOM is an exemplar
+       - understand TidyData and Codd's normal forms and when to use them
    - hand-author YAML over JSON (+ follow schema)
    - Use JSON-LD / YAML-LD as appropriate
        - understand JSON-LD contexts
