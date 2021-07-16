@@ -44,6 +44,11 @@ schemas, and analyses.
     - description should link to an issue "Resolves #1234"
         - otherwise you have to clean up issues manually
     - update description as needed
+    - AVOID:
+       - making PRs too large
+       - mixing orthogonal concerns in one PR. Generally 1PR = 1 issue
+       - working on a PR for too long a time without feedback from others
+       - working on "invisible" branches. ALWAYS make a PR, ALWAYS push. You can mark as draft!
 - use GitHub Milestones to plan releases
 - use GitHub Releases to tag versions and attach binaries
 - use GitHub Pages for simple static content and documentation
@@ -526,11 +531,12 @@ schemas, and analyses.
    - don't be a channel anarchist
    - discussion about tickets OK but decisions and key points must be recorded in ticket
 - use GitHub for requests
-- [Data mapping guide: selecting and requesting terms from ontologies, data models, and standards](https://docs.google.com/document/d/19rPwv6vg9ipHdUn_lJo4l1TA402qjpAeEuom6cnPLb8/edit)
+- Use GitHub for requesting terms from ontologies etc
+   - [Data mapping guide: selecting and requesting terms from ontologies, data models, and standards](https://douroucouli.wordpress.com/2021/07/03/how-select-and-request-terms-from-ontologies/)
 
 ## Google docs/slides/sheets hygiene
 
-- Use google docs/slides over Microsoft/Apple
+- Use google docs/slides over Microsoft/Apple/Desktop
     - but sometimes markdown+git is more appropriate than either
     - for grants, papers, and other collaborative documents, move to Word at last possible minute (if at all)
     - pandocs can be used to make markdown
