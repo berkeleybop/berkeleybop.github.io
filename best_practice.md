@@ -296,7 +296,8 @@ schemas, and analyses.
    - environments: venv vs pipenv
    - config: requirements.txt vs toml vs Pipenv vs setup.cfg...
    - layout: src/name vs name
-   
+   - linter: black?
+
 ## Database Engines
 
 - use whatever is appropriate for the job
