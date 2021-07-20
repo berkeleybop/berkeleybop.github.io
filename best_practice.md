@@ -44,6 +44,11 @@ schemas, and analyses.
     - description should link to an issue "Resolves #1234"
         - otherwise you have to clean up issues manually
     - update description as needed
+    - always look over your PRs
+        - are there unexpected changes? You should only see YOUR changes
+        - Is it adding files unexpectedly? Some git clients are eager to do this
+        - are some changes not recognizable as yours? **Be careful not to clobber**
+        - follow repo-standard practice for rebase etc
     - AVOID:
        - making PRs too large
        - mixing orthogonal concerns in one PR. Generally 1PR = 1 issue
@@ -432,8 +437,14 @@ schemas, and analyses.
    - Read [McMurry et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
    - always use CURIEs for IDs
    - always use registered prefixes
+   - understand at a broad level the different registries:
+       - http://identifiers.org
+       - http://n2t.net -- synced(?) with identifiers.org but broader context
+       - http://bioregistry.io/
+          - has a lot of advantages over id.org: more transparent, github metadata based, lightweight
+       - https://github.com/prefixcommons/biocontext
+          - we developed this as an "overlay" on existing registries
    - have an explicit JSON-LD context or prefixes yaml file
-   - Use [github.com/prefixcommons/biocontext](https://github.com/prefixcommons/biocontext)
    - Use the [prefixcommons curie util library](https://github.com/prefixcommons)
    - Read the identifiers guides closely, even for projects you are not on
       - [Translator SRI/biolink identifiers](https://biolink.github.io/biolink-model/#identifiers)
