@@ -160,7 +160,17 @@ schemas, and analyses.
    - always distribute an .obo
    - always distribute a obo .json
    - distribute a kgx file (NEW)
+   - distribute a rdftab sqlite file (NEW)
+- use a sensible source format (foo-edit.owl)
+   - .obo is best for diffs but less expressive and gotchas for CURIEs
+   - functional syntax is often preferred
+   - for template-based ontologies, much of the source may be TSVs
 - enable zenodo syncing
+- Understand issues relating to git conflicts with ontologies
+   - .obo as source mitigates some of these
+   - See [this thread](https://anatomy-and-cell-onto.slack.com/archives/C01A7LRAKN1/p1626433475018000?thread_ts=1626331368.016700&cid=C01A7LRAKN1)
+   - See [this post](https://douroucouli.wordpress.com/2014/03/30/the-perils-of-managing-owl-in-a-version-control-system/)
+      - many issues have since been resolved but unfortunately some remain
 
 ### Analysis/Paper-centric Repos
 
@@ -433,6 +443,7 @@ schemas, and analyses.
       - flask or fastapi
    - Must have Docker container
    - Use grlc to make APIs from sparql endpoints
+
 - CURIEs and IRIs
    - Read [McMurry et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
    - always use CURIEs for IDs
