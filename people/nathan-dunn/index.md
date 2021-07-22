@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Nathan Dunn
-active: yes
+active: no
 position: Apollo Technical Lead
 background: Ph.D. Computer Science University of Oregon, MSc Chemical Engineering University of Washington
 image: Nathan2.jpg
