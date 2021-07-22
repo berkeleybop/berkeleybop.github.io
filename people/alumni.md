@@ -5,6 +5,7 @@ title: Alumni
 
 #### Recent BBOP Alumni
 
+- [Eric Douglass](eric-douglass.md)
 - [Ben Good](ben-good.md)
 - [Hyeongsik Kim](hyeongsik-kim.md)
 - [Suzanna Lewis](suzanna-lewis.md)
