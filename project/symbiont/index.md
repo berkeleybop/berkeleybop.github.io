@@ -12,8 +12,8 @@ twitter:
 
 # SymbiOnt: Augmenting and merging ontologies using ontology mappings and knowledge graph embeddings
 
-No matter how hard we try to reconcile our ontologies--for example, as part of efforts such as the [OBO Foundry](https://obofoundry.org/)--there will always be some level of overlap between them, 
-i.e. the same terms existing in multiple ontologies.
+No matter how hard we try to reconcile our ontologies -- for example, as part of efforts such as the [OBO Foundry](https://obofoundry.org/) --
+there will always be some level of overlap between them, i.e. the same terms existing in multiple ontologies.
 Data is regularly linked to concepts from different (sometimes internal, non-public) ontologies, and this data needs to be integrated – 
 which means that the different ontologies need to be carefully aligned.
 Furthermore, we want to be able to enrich our own ontologies with information (such as synonyms) from and links to other public sources.
@@ -30,4 +30,4 @@ The goal is to combine tools and techniques in a Docker-based workflow that enab
 For example, we want to be able to combine the many existing disease ontologies and terminologies into a rich coherent framework
 and keep them synchronised with minimal human curation effort.
 
-The SymbiOnt project is led by [Nico Matentzoglu](https://github.com/matentzn)
+The SymbiOnt project is led by [Nico Matentzoglu](https://github.com/matentzn).
