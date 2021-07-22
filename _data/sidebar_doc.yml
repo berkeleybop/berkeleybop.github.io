@@ -21,12 +21,15 @@ entries:
 
     - title: Projects
       print: true
-      items:
+      items:          
+        - title: Gene Ontology
+          url: /project/gene-ontology
+          
         - title: Monarch Initiative
           url: /project/monarch
           
-        - title: Gene Ontology
-          url: /project/gene-ontology
+        - title: Phenomics First
+          url: /project/phenomics-first
           
         - title: OBO Foundry
           url: /project/obo-foundry
@@ -42,6 +45,9 @@ entries:
           
         - title: NMDC
           url: /project/nmdc
+          
+        - title: SymbiOnt
+          url: /project/symbiont
           
         - title: IDG2KG
           url: /project/idg2kg
