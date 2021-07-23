@@ -111,7 +111,7 @@ schemas, and analyses.
    - use GitHub actions
 - Release code to PyPI or appropriate repo
    - use GitHub releases
-   - use GitHub actions to trigger releases to PyPI
+   - use [GitHub actions to trigger releases to PyPI](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
 - Consider a Dockerfile
 - For ETL repos, follow standard templates for
    - kg-hub
