@@ -112,6 +112,7 @@ schemas, and analyses.
 - Release code to PyPI or appropriate repo
    - use GitHub releases
    - use GitHub actions to trigger releases to PyPI
+      - see [nmdc-schema](https://github.com/microbiomedata/nmdc-schema/tree/main/.github/workflows) as exemplar
 - Consider a Dockerfile
 - For ETL repos, follow standard templates for
    - kg-hub
@@ -291,6 +292,8 @@ schemas, and analyses.
       - `-o`, `--output`
    - Follow exemplars
       - ROBOT
+- Learning resources
+   - [Charlie's Recommended Python Programming Videos](https://www.youtube.com/playlist?list=PLPFmTfhIBiumfYT3rsa35fHJxabB78er1)
 - TODO: Best practice for
    - test framework (unittest vs pytest?)
    - environments: venv vs pipenv
@@ -602,6 +605,8 @@ schemas, and analyses.
 
 - DRY: Don't Repeat Yourself
    - but avoid over-abstraction and frameworkitis
+- various 10 simple guides:
+   - [10 simple rules of quick and dirty scientific programming](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008549)
 - Always reuse
    - we probably have a Python library for it
    - reuse general design patterns
@@ -617,4 +622,3 @@ schemas, and analyses.
    - Don't boil the ocean
    - beware of rabbit holes
 - More to come...
-
