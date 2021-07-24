@@ -21,12 +21,15 @@ entries:
 
     - title: Projects
       print: true
-      items:
+      items:          
+        - title: Gene Ontology
+          url: /project/gene-ontology
+          
         - title: Monarch Initiative
           url: /project/monarch
           
-        - title: Gene Ontology
-          url: /project/gene-ontology
+        - title: Phenomics First
+          url: /project/phenomics-first
           
         - title: OBO Foundry
           url: /project/obo-foundry
@@ -42,6 +45,9 @@ entries:
           
         - title: NMDC
           url: /project/nmdc
+          
+        - title: SymbiOnt
+          url: /project/symbiont
           
         - title: IDG2KG
           url: /project/idg2kg
@@ -172,12 +178,8 @@ entries:
           url: /people/chris-mungall/
         - title: Seth Carbon
           url: /people/seth-carbon
-        - title: Eric Douglass
-          url: /people/eric-douglass     
         - title: Bill Duncan
           url: /people/bill-duncan
-        - title: Nathan Dunn
-          url: /people/nathan-dunn
         - title: Nomi Harris
           url: /people/nomi-harris
         - title: Harshad Hegde

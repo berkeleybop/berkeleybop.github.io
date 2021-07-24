@@ -112,6 +112,7 @@ schemas, and analyses.
 - Release code to PyPI or appropriate repo
    - use GitHub releases
    - use GitHub actions to trigger releases to PyPI
+      - use [GitHub actions to trigger releases to PyPI](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
       - see [nmdc-schema](https://github.com/microbiomedata/nmdc-schema/tree/main/.github/workflows) as exemplar
 - Consider a Dockerfile
 - For ETL repos, follow standard templates for
