@@ -379,7 +379,7 @@ schemas, and analyses.
        - make it pandas-friendly
        - meaningful column names
        - SSSOM is an exemplar
-       - understand TidyData and Codd's normal forms and when to use them
+       - understand [TidyData](https://vita.had.co.nz/papers/tidy-data.pdf) and Codd's [normal forms](https://en.wikipedia.org/wiki/Database_normalization#Normal_forms) and when to use them
    - hand-author YAML over JSON (+ follow schema)
    - Use JSON-LD / YAML-LD as appropriate
        - understand JSON-LD contexts
