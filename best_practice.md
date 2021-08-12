@@ -100,6 +100,7 @@ schemas, and analyses.
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
+   - include examples and use [txm](https://github.com/anko/txm) to use these as tests
 - Create reference documentation using RTD/Sphinx
    - let inline docstrings in Python do most of the work for you
 - Include installation instructions
@@ -187,6 +188,12 @@ schemas, and analyses.
    - check with Chris before using snakemake/CWL/alternatives
    - Chris still uses biomake
 - Use TSVs as default
+   - make pandas-friendly
+   - use unix newline characters, not dos
+   - use human readable but computationally friendly column headers
+      - NO ALL CAPS
+      - alphanumeric characters preferred
+      - spaces or underscores as word separators OK, but underscores preferred for formal formats
 - ALL TSVs MUST have data dictionaries
    - use LinkML (see above)
 - check in small-mid size data files (<10m)
@@ -520,7 +527,7 @@ schemas, and analyses.
       - liberal axiom annotations
       - key annotation properties: synonyms, definitions, mappings
       - See [documentation on uberon synonyms](https://github.com/obophenotype/uberon/wiki/Using-uberon-for-text-mining), this is an exemplar for us
-      - dosdp over robot, but always use the more appropriate tool for the job
+      - Generally [dosdp](https://github.com/INCATools/dead_simple_owl_design_patterns]) over robot template, but always use the more appropriate tool for the job
 - include comprehensive definitions clear to biologists
    - [read my definitions guide](https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/)
 - understand [compositional patterns](https://douroucouli.wordpress.com/2019/06/29/ontotip-learn-the-rector-normalization-technique/)
@@ -530,6 +537,7 @@ schemas, and analyses.
    - write clear operational definitions
    - document your design patterns
       - Watch [design pattern presentation](https://douroucouli.wordpress.com/2020/11/02/aligning-design-patterns-across-multiple-ontologies-in-the-life-sciences/)
+      - [DOSDP repo](https://github.com/INCATools/dead_simple_owl_design_patterns])
       - Mondo is our exemplar
 - understand limitations
 - use ontologies only where appropriate
@@ -601,6 +609,8 @@ schemas, and analyses.
 - follow TSV guidelines for google sheets
 - don't use color for semantics. Always use conditional formatting for colors etc
 - reuse slides from existing slide decks, but provide attribution
+- Tips
+   - [search operators](https://seosly.com/google-drive-search-operators/)
 
 ## General Principles
 
