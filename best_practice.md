@@ -442,6 +442,11 @@ schemas, and analyses.
    - ISO-8601 OBO style for ontologies
    - use GitHub releases for versioning as appropriate
    - release versions to appropriate repository/archive
+- Compression
+   - use `.gz` instead of `.zip`
+   - if compressing multiple files in an archive, use `.tar.gz`, not `.zip`
+   - Rememeber compressed files are not diffable in gif
+   - For very large files consider distributing gz files via S3 rather than in GitHub
 - Text
    - markdown by default
       - frontmatter metadata where appropriate
@@ -571,6 +576,7 @@ schemas, and analyses.
 
 ## Google docs/slides/sheets hygiene
 
+- Read [Julie's awesome guide](https://docs.google.com/presentation/d/1NqwMrJs5b95i4sLEfpKWtGNepNh8UCSOp6uFtq_DYic/edit#slide=id.p)
 - Use google docs/slides over Microsoft/Apple/Desktop
     - but sometimes markdown+git is more appropriate than either
     - for grants, papers, and other collaborative documents, move to Word at last possible minute (if at all)
