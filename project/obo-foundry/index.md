@@ -49,6 +49,7 @@ This [OBO Foundry blog](https://douroucouli.wordpress.com/) offers tips and exam
 
 ## References
 
+ * Jackson R, Matentzoglu N, Overton JA, Vita R, Balhoff JP, Buttigieg PL, Carbon S, Courtot M, Diehl AD, Dooley DM, Duncan WD, Harris NL, Haendel MA, Lewis SE, Natale DA, Osumi-Sutherland D, Ruttenberg A, Schriml LM, Smith B, Stoeckert CJ Jr, Vasilevsky NA, Walls RL, Zheng J, Mungall CJ, Peters B. OBO Foundry in 2021: operationalizing open data principles to evaluate ontologies. Database. 2021 Oct 26;2021. http://dx.doi.org/10.1093/database/baab069 PMCID: PMC8546234
  * Jackson, R.C., Balhoff, J.P., Douglass, E., Harris, N.L., Mungall, C.J., and Overton, J.A. (2019). [ROBOT: A Tool for Automating Ontology Workflows](https://link.springer.com/article/10.1186/s12859-019-3002-3). BMC Bioinformatics 20, 407.
  * Vita R, Overton JA, Mungall CJ, Sette A, Peters B. (2018). FAIR principles and the IEDB: short-term improvements and a long-term vision of OBO-foundry mediated machine-actionable interoperability. Database (Oxford). 2018 Jan 1;2018. [http://10.1093/database/bax105](http://10.1093/database/bax105). PubMed PMID: 29688354; PubMed Central PMCID: PMC5819722. 
  * Smith, B., Ashburner, M., Rosse, C., Bard, J., Bug, W., Ceusters, W., … Lewis, S. (2007). The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration. Nat Biotechnol, 25(11), 1251–1255. http://doi.org/10.1038/nbt1346
