@@ -4,7 +4,7 @@ published: true
 title: Best Practice
 ---
 
-This is the best practice / style guide for the BBOP group. Inspired by / cribbed from [Knocean practice](https://github.com/knocean/practises/)
+This is the best practice / house style guide for the BBOP group. Inspired by / cribbed from [Knocean practice](https://github.com/knocean/practises/) and other sources.
 
 We are a diverse group working on many different projects with
 different stakeholders and sets of collaborators. Nevertheless we
@@ -52,6 +52,7 @@ schemas, and analyses.
     - AVOID:
        - making PRs too large
        - mixing orthogonal concerns in one PR. Generally 1PR = 1 issue
+       - mixing in formatting changes on sections of the code unrelated to the semantic changes you are making
        - working on a PR for too long a time without feedback from others
        - working on "invisible" branches. ALWAYS make a PR, ALWAYS push. You can mark as draft!
 - use GitHub Milestones to plan releases
@@ -86,8 +87,8 @@ schemas, and analyses.
     - keep README in sync
     - avoid using spaces in filenames
     - always use standard suffixes (e.g. .tsv, .txt, .md)
-    - kabob-case-is-a-good-default.txt
-- use topics and star relevant repos
+    - kabob-case-is-a-good-default.txt. See [filenames](https://developers.google.com/style/filenames) in google developer guide
+- use topics and "star" relevant repos
     - https://github.com/topics/linkml
     - https://github.com/topics/obofoundry
     - https://github.com/topics/geneontology
@@ -103,6 +104,7 @@ schemas, and analyses.
    - include examples and use [txm](https://github.com/anko/txm) to use these as tests
 - Create reference documentation using RTD/Sphinx
    - let inline docstrings in Python do most of the work for you
+   - read [writethedocs](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 - Include installation instructions
 - use an OSI approved LICENSE, BSD3 preferred
 - Use unit tests
@@ -144,6 +146,9 @@ schemas, and analyses.
 - always include examples
    - integrate these with documentation
    - integrate these with unit tests
+- also include counter-examples
+   - data deliberately designed to fail validation
+   - check validation correctly identifiers these in github actions
 - enable zenodo syncing
 
 ### Ontology-centric Repos
@@ -194,6 +199,7 @@ schemas, and analyses.
       - NO ALL CAPS
       - alphanumeric characters preferred
       - spaces or underscores as word separators OK, but underscores preferred for formal formats
+   - [csvkit](https://csvkit.readthedocs.io/) is your friend
 - ALL TSVs MUST have data dictionaries
    - use LinkML (see above)
 - check in small-mid size data files (<10m)
@@ -224,9 +230,16 @@ schemas, and analyses.
 
 ## Documentation
 
+- See google guide on [Writing inclusive documentation](https://developers.google.com/style/inclusive-documentation)
+    - Avoid ableist language
+    - Avoid unnecessarily gendered language
+    - Avoid unnecessarily violent language
 - all code, schemas, analyses, ontologies, MUST be documented
-- code documentation is a love-letter to your future self
-- understand [this four-way distinction](https://www.divio.com/blog/documentation/): tutorial, how-to, reference, explanation
+- documentation is a love-letter to your future self
+- understand [the Diataxis four-way distinction](https://www.divio.com/blog/documentation/): tutorial, how-to, reference, explanation
+    - exemplar: obook
+    - exemplar: linkml docs
+- [google API documentation guide](https://developers.google.com/style/api-reference-comments)
 - have strategies to avoid staleness and documentation being out of sync
 - use inline documentation
     - publish via appropriate framework (RTD for code, mkdocs for schema, etc)
@@ -235,9 +248,9 @@ schemas, and analyses.
    - fenced examples in markdown docs
    - example standalone scripts
    - example Jupyter notebooks
-   - unit tests can serve as examples
+   - double up: unit tests can serve as examples and vice versa
 - use Markdown as default
-   - RST acceptable for RTD
+   - RST acceptable for Sphinx projects
    - Google docs acceptable for initial brainstorming
    - Don't use Wikis (mediawiki, GitHub wiki)
    - Manage markdown docs as version control
@@ -248,10 +261,11 @@ schemas, and analyses.
 - Python is the default language; use others as appropriate
    - javascript/typescript for client-side
        - don't implement domain/business logic in js. use python + APIs
+       - use typescript
    - Rust for speed
    - Scala for performance reasoners
    - Historically we used Java for anything requiring OWLAPI but being phased out
-   - Chris still uses Prolog
+   - Chris still uses Prolog occasionally
 - Why Python?
    - ubiquitous, cross-platform
    - good for scripting, interactive development
@@ -259,20 +273,27 @@ schemas, and analyses.
    - Easy for developers to pick up
    - Most bioinformaticians know it
    - use for anything more than about 10 lines of Bash/Perl
-   - use Python 3.6+
+   - use Python 3.7+
 - Conform to the group style guide, or at least *some* style guide
    - [pep-0008](https://www.python.org/dev/peps/pep-0008/) for Python
    - use type annotations [PEP484](https://www.python.org/dev/peps/pep-0484/)
-   - ReST or [numpy-style docstrings or google style](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#type-annotations)
-      - I think I favor ReST
+   - [google style guide](https://developers.google.com/style)
    - See [knocean/practices/python](https://github.com/knocean/practises/tree/master/python)
-      - I like the simplicity of venv, but we are also considering pipenv
-      - Good advice: flake8, black, pytest
-      - we use click not argparse [TODO: evaluate Typer]
+      - We are moving towards poetry for all repos
+      - See [sssom-py](https://github.com/mapping-commons/sssom-py) as exemplar of our best practice
+      - Use black and flake8
+      - Use tox
+      - we use click not argparse
+      - undecided on pytest vs unittest
       - Makefile defaults are good
       - Note unlike Knocean, we make use of OO as appropriate
+- document all public classes, methods, functions
+   - Always Use [type annotations](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#type-annotations)
+   - Always provide docstrings
+      - ReST  >>  numpy-style docstrings or google style
+      - SOME standard is always better than none
 - use flask/fastAPI for web apps
-   - don't author OpenAPI directly; derive
+   - NEVER author OpenAPI directly; ALWAYS derive
 - avoid authoring complex data models
    - use LinkML and derived datamodel classes
 - use fstrings
@@ -283,14 +304,15 @@ schemas, and analyses.
 - use dataclasses or pydantic
    - for DAOs, derive from linkml
 - use an IDE
-   - PyCharm is most popular
+   - PyCharm or VS is equally popular in the group
 - ETL/ingest
    - follow existing exemplar repos
    - Read Chris' [10 simple rules for semantic ETL](https://docs.google.com/document/d/1Bgsyo-Z1oxEfxdNGB3KDM_NHfXYqdcXJIUd_j3iibi4/edit#)
-- use requests for URL calls
+- use `requests` for URL calls
 - Always provide a CLI
    - separate CLI logic from core logic
    - Read [CLIG guidelines](https://clig.dev/)
+   - See also [Documenting command-line syntax ]https://developers.google.com/style/code-syntax) in google style guide
    - Python: use click  [TODO: evaluate Typer]
    - design for composability
    - provide shortforms for common options
@@ -304,10 +326,14 @@ schemas, and analyses.
    - [Charlie's Recommended Python Programming Videos](https://www.youtube.com/playlist?list=PLPFmTfhIBiumfYT3rsa35fHJxabB78er1)
 - TODO: Best practice for
    - test framework (unittest vs pytest?)
-   - environments: venv vs pipenv
+   - environments: venv vs pipenv vs poetry
    - config: requirements.txt vs toml vs Pipenv vs setup.cfg...
    - layout: src/name vs name
    - linter: black?
+
+## Shell
+
+- Use [ohmyz](https://ohmyz.sh/)
 
 ## Database Engines
 
@@ -335,6 +361,8 @@ schemas, and analyses.
 - cogs
 - odk
 - [q](http://harelba.github.io/q/) -- query TSVs via SQL
+- csvkit
+- jq/jq
 - robot
 - bash; small scripts only
 - pandoc
@@ -368,6 +396,7 @@ schemas, and analyses.
    - beware of using rdflib and RDF-level libraries for working with OWL files, too low level
    - never, ever use XML parsers to parse RDF/XML
    - [Ubergraph](https://github.com/NCATS-Tangerine/ubergraph)
+   - semsql
 - NER/NLP
    - fast changing but some tools to consider:
       - runNER (which wraps OGER)
@@ -429,7 +458,7 @@ schemas, and analyses.
    - JSON-schema for JSON-centric projects (never author, always derive from LinkML)
    - ShEx for ontology-centric (try and derive from LinkML)
    - kwalify is deprecated for us
-   - Always have a LinkML schema even when using
+   - Always have a LinkML schema even when using:
       - python dicts
       - open-ended JSON/YAML
       - RDF
@@ -439,32 +468,38 @@ schemas, and analyses.
       - map to biolink
 - Versioning
    - Semantic Versioning (semver) by default
-   - ISO-8601 OBO style for ontologies
+       - software MUST use semver
+       - schemas SHOULD use semver, but OBO-style may sometimes be appropriate
+   - ISO-8601 OBO style for OBO ontologies
    - use GitHub releases for versioning as appropriate
+       - always use the autofill feature to make release notes and to name releases
+       - for software follow the group github-action best practice to auto-release to pypi
    - release versions to appropriate repository/archive
 - Compression
    - use `.gz` instead of `.zip`
    - if compressing multiple files in an archive, use `.tar.gz`, not `.zip`
-   - Rememeber compressed files are not diffable in gif
+   - Rememeber compressed files are not diffable in git
    - For very large files consider distributing gz files via S3 rather than in GitHub
+       - remember: if a repo has 10 x 50m files that change every release, the repo will be 10g in size in 20 releases
 - Text
    - markdown by default
       - frontmatter metadata where appropriate
       - track in version control
+   - use .rst for sphinx sites where autodoc features are needed
 - APIs
    - RESTfulness
       - true REST may be too high a barrier
       - RPC-style (i.e. swagger/openAPI) may be fine
    - All web APIs should have OpenAPI exploration interface
    - derive OpenAPI from Python code
-      - flask or fastapi
+      - fastapi > flask >>> others
    - Must have Docker container
-   - Use grlc to make APIs from sparql endpoints
+   - Use grlc or sparqlfun to make APIs from sparql endpoints
 
 - CURIEs and IRIs
    - Read [McMurry et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
    - always use CURIEs for IDs
-   - always use registered prefixes
+   - always use prefixes registered in bioregistry.io
    - understand at a broad level the different registries:
        - http://identifiers.org
        - http://n2t.net -- synced(?) with identifiers.org but broader context
@@ -487,7 +522,11 @@ schemas, and analyses.
    - GPAD
    - Phenopackets
 - Dates
-   - If you don't use ISO-8601 you will go to hell
+   - use ISO-8601
+   - use ISO-8601
+   - use ISO-8601
+   - use ISO-8601
+   - never, ever write a date in non-ISO-8601
 
 ## Portability
 
@@ -518,6 +557,9 @@ schemas, and analyses.
   - Use [ROBOT](https://github.com/ontodev/robot)
   - Do the GO OWL tutorial
   - For advanced OWL-centric tasks, use scowl
+- Take the [OBO Academy training](https://oboacademy.github.io/obook/)
+  - work on the components on your own
+  - attend the Monarch tutorials
 - use the ontologies we work on as examplars
    - GO
    - Mondo
@@ -601,13 +643,17 @@ schemas, and analyses.
 - Use formatted templates where appropriate (grants, papers)
 - Use Paperpile for citations / reference management (you have access via the lab)
 - Give documents meaningful names (e.g., not just "meeting")--assume that most people will find the doc via search rather than by going through the folder hierarchy
+    - don't use camelcase or underscores in google doc names, it hinders search
 - Use a rolling agenda/notes doc, rather than one doc per meeting
+    - most recent first
+    - ISO-8601 >> human readable dates >> anything else
+    - The auto @today feature is useful
 - always have a google doc for every meeting you are in
 - include a link to the rolling doc in calendar invites
 - include the Zoom / videoconference link in the rolling notes doc
 - organize google docs in the relevant folder depending on what project is funding the work
 - understand how navigation works for google docs
-- make visible to all by default
+- make visible to all by default, unless sensitive
 - include links to slides of general relevance from project repos
 - favour TSV+github over google sheets
    - workflows clearly favor sheets
@@ -617,6 +663,10 @@ schemas, and analyses.
 - reuse slides from existing slide decks, but provide attribution
 - Tips
    - [search operators](https://seosly.com/google-drive-search-operators/)
+
+## DevOps
+
+- [12 factor app](https://www.12factor.net/)
 
 ## General Principles
 
