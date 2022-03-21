@@ -11,7 +11,9 @@ twitter:
 
 **KG-COVID-19: Knowledge Graph for COVID-19 Response**
 
-The KG-COVID-19 project ended in 2021. Publication:
+The KG-COVID-19 project ended in 2021.
+
+Publication:
 Reese JT, Unni D, Callahan TJ, Cappelletti L, Ravanmehr V, Carbon S, Shefchek KA, Good BM, Balhoff JP, Fontana T, Blau H, Matentzoglu N, Harris NL, Munoz-Torres MC, Haendel MA, Robinson PN, Joachimiak MP, Mungall CJ.
 KG-COVID-19: A Framework to Produce Customized Knowledge Graphs for COVID-19 Response. Patterns (N Y). 2021 Jan 8;2(1):100155. http://dx.doi.org/10.1016/j.patter.2020.100155 PMCID: PMC7649624
 
