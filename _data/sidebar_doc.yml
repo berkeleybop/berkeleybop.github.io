@@ -48,6 +48,9 @@ entries:
           
         - title: IDG2KG
           url: /project/idg2kg
+    
+        - title: Exomiser
+          url: /project/exomiser
           
         - title: CCDH
           url: /project/ccdh
@@ -58,7 +61,7 @@ entries:
         - title: OBO Foundry
           url: /project/obo-foundry
           
-        - title: KG-COVID-19 (inactive)
+        - title: KG-COVID-19
           url: /project/kg-covid-19
           
         - title: "INCA: Intelligent Concept Assistant (inactive)"
