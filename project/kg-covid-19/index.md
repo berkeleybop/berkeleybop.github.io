@@ -11,14 +11,18 @@ twitter:
 
 **KG-COVID-19: Knowledge Graph for COVID-19 Response**
 
-The goal of the KG-COVID-19 project is to use Machine Learning (ML) to generate useful
+The KG-COVID-19 project ended in 2021. Publication:
+Reese JT, Unni D, Callahan TJ, Cappelletti L, Ravanmehr V, Carbon S, Shefchek KA, Good BM, Balhoff JP, Fontana T, Blau H, Matentzoglu N, Harris NL, Munoz-Torres MC, Haendel MA, Robinson PN, Joachimiak MP, Mungall CJ.
+KG-COVID-19: A Framework to Produce Customized Knowledge Graphs for COVID-19 Response. Patterns (N Y). 2021 Jan 8;2(1):100155. http://dx.doi.org/10.1016/j.patter.2020.100155 PMCID: PMC7649624
+
+The goal of the KG-COVID-19 project was to use Machine Learning (ML) to generate useful
 COVID-related knowledge. Rich biological knowledge exists about SARS-CoV-2 and related 
 viruses (SARS-CoV, MERS-CoV), for example genomics, epidemiology, susceptibility, 
 clinical/symptoms, viral lifecycle, pathways, and inhibitors. However, much of this 
 information is either locked in textual form in the literature, or in individual 
 siloed databases, making integrative prediction difficult and costly. 
 
-To address this challenge, we have produced we have produced a COVID-19 knowledge graph
+To address this challenge, we produced a COVID-19 knowledge graph
 (KG) to support both DOE and international COVID-19 efforts:
 https://github.com/Knowledge-Graph-Hub/kg-covid-19/wiki
 
@@ -32,9 +36,9 @@ ontology-aware way.
 
 ![img](kg-covid-19-contents.png)
 
-We are currently applying machine learning (ML) techniques to discover new links 
+We applied machine learning (ML) techniques to discover new links 
 (for example, identifying existing drugs that could be repurposed to treat COVID-19)
-and generate actionable knowledge. In addition, we are providing this knowledge graph
+and generate actionable knowledge. In addition, we provided this knowledge graph
 to the COVID-19 research community in order to accelerate COVID-19 research.
 
 ![img](kg-covid-pipeline.png)
@@ -42,13 +46,13 @@ to the COVID-19 research community in order to accelerate COVID-19 research.
 People:
 
 - Justin Reese - LBNL
-- Deepak Unni - LBNL
+- Deepak Unni - LBNL (now EMBL)
 - Marcin Joachimiak - LBNL
 - Chris Mungall - LBNL 
 
 External Collaborators: 
 
 - Peter Robinson - Jackson Laboratory
-- Tiffany Callahan - University of Colorado Denver
+- Tiffany Callahan - University of Colorado Denver (now Columbia University)
 - Luca Cappelletti - University of Milan
 - Vida Ravanmehr - Jackson Laboratory
