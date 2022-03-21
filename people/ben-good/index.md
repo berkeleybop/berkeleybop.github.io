@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Ben Good
-active: yes
+active: no
 position: Software Developer
 background: PhD Bioinformatics (UBC), MSc Evolutionary and Adaptive Systems (University of Sussex), Cognitive Science (UCSD)
 email: bgood
