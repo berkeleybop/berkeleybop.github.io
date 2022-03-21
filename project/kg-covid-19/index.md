@@ -1,8 +1,8 @@
 ---
 layout: project
 title: KG-COVID-19
-active: no
-funding: DOE LDRD
+active: true
+funding: DOE LDRD (through 2021)
 homepage: https://github.com/Knowledge-Graph-Hub/kg-covid-19/wiki
 github: https://github.com/Knowledge-Graph-Hub/kg-covid-19
 logo: 
@@ -11,13 +11,11 @@ twitter:
 
 **KG-COVID-19: Knowledge Graph for COVID-19 Response**
 
-The KG-COVID-19 project ended in 2021.
-
 Publication:
 Reese JT, Unni D, Callahan TJ, Cappelletti L, Ravanmehr V, Carbon S, Shefchek KA, Good BM, Balhoff JP, Fontana T, Blau H, Matentzoglu N, Harris NL, Munoz-Torres MC, Haendel MA, Robinson PN, Joachimiak MP, Mungall CJ.
 KG-COVID-19: A Framework to Produce Customized Knowledge Graphs for COVID-19 Response. Patterns (N Y). 2021 Jan 8;2(1):100155. http://dx.doi.org/10.1016/j.patter.2020.100155 PMCID: PMC7649624
 
-The goal of the KG-COVID-19 project was to use Machine Learning (ML) to generate useful
+The goal of the KG-COVID-19 project is to use Machine Learning (ML) to generate useful
 COVID-related knowledge. Rich biological knowledge exists about SARS-CoV-2 and related 
 viruses (SARS-CoV, MERS-CoV), for example genomics, epidemiology, susceptibility, 
 clinical/symptoms, viral lifecycle, pathways, and inhibitors. However, much of this 
@@ -44,6 +42,10 @@ and generate actionable knowledge. In addition, we provided this knowledge graph
 to the COVID-19 research community in order to accelerate COVID-19 research.
 
 ![img](kg-covid-pipeline.png)
+
+The LDRD funding for the KG-COVID-19 project ended in 2021, but the software and KG continue to be used in N3C projects to investigate mechanisms of long COVID.
+The framework for building KGs that was developed in this project is being used as a building block for constructing other KGs.
+For example, in a current project, it is being used to build an integrated KG that includes patient-level data.
 
 People:
 
