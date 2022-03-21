@@ -31,19 +31,16 @@ entries:
         - title: Phenomics First
           url: /project/phenomics-first
           
-        - title: OBO Foundry
-          url: /project/obo-foundry
-          
-        - title: "INCA: Intelligent Concept Assistant"
-          url: /project/inca
-          
         - title: "NCATS Biomedical Translator"
           url: /project/ncats-translator
           
         - title: "Alliance for Genome Resources"
           url: /project/agr
           
-        - title: NMDC
+        - title: BioPortal
+          url: /project/bioportal
+          
+        - title: "National Microbiome Data Collaborative (NMDC)"
           url: /project/nmdc
           
         - title: SymbiOnt
@@ -52,14 +49,20 @@ entries:
         - title: IDG2KG
           url: /project/idg2kg
           
-        - title: KG-COVID-19
-          url: /project/kg-covid-19
-          
         - title: CCDH
           url: /project/ccdh
           
         - title: GMOD
           url: /project/gmod
+          
+        - title: OBO Foundry
+          url: /project/obo-foundry
+          
+        - title: KG-COVID-19 (inactive)
+          url: /project/kg-covid-19
+          
+        - title: "INCA: Intelligent Concept Assistant" (inactive)
+          url: /project/inca
           
         - title: Xena (inactive)
           url: /project/xena
