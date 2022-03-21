@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Bill Duncan
-active: yes
+active: false
 position: Software Developer
 background: PhD Philosophy (University at Buffalo), MS Computer Science (Clemson University)
 email: wdduncan
