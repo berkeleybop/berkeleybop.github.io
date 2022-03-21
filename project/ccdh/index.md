@@ -1,7 +1,7 @@
 ---
 layout: project
 title: CCDH
-active: yes
+active: no
 funding: NCI
 homepage: https://harmonization.datacommons.cancer.gov/
 github: https://github.com/cancerDHC
