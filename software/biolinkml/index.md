@@ -5,7 +5,7 @@ active: yes
 homepage: https://linkml.github.io/
 source: https://github.com/linkml/linkml
 documentation: https://linkml.github.io/linkml-model/docs/
-logo: logo: https://github.com/berkeleybop/berkeleybop.github.io/blob/master/project/biolinkml/linkml-logo-smaller.png?raw=true
+logo: https://github.com/berkeleybop/berkeleybop.github.io/blob/master/software/biolinkml/linkml-logo-smaller.png?raw=true
 ---
 
 LinkML (formerly named BiolinkML, but it's not just for bio) is a general purpose modeling language that can be used with linked data, JSON, and other formalisms.
