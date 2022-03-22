@@ -107,7 +107,10 @@ entries:
           url: /software/owlsim
 
         - title: ROBOT
-          url: /software/robot
+          url: /software/robot  
+          
+        - title: SSSOM
+          url: /software/sssom
 
         - title: OWLTools
           url: /software/owltools
