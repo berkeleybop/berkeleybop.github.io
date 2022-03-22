@@ -333,7 +333,13 @@ schemas, and analyses.
 
 ## Shell
 
-- Use [ohmyz](https://ohmyz.sh/)
+### Programming
+
+- bash/sh
+
+### Personal
+
+- Use [ohmyz](https://ohmyz.sh/) 
 
 ## Database Engines
 
