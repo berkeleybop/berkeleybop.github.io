@@ -57,6 +57,8 @@ schemas, and analyses.
        - working on "invisible" branches. ALWAYS make a PR, ALWAYS push. You can mark as draft!
 - use GitHub Milestones to plan releases
 - use GitHub Releases to tag versions and attach binaries
+    - use semver
+    - use the auto-generate release notes feature (corollary: write informative PR titles and never commit on main)
 - use GitHub Pages for simple static content and documentation
     - prefer the `docs/` directory option
 - use GitHub Projects ("project boards") for coordinating issues and PRs
@@ -68,10 +70,26 @@ schemas, and analyses.
 - set up GitHub actions to do CI
     - travis no longer recommended
     - use GitHub actions
-- set up teams
+    - All changes should be on PRs thus validated
+    - main branch should never ever be failing
+- set up GitHub teams
     - default to public membership
     - make sure it is clear who has permission to merge PRs
 - set up badges
+    - always: CI
+    - pypi, downloads, codecov, zenodo, ...
+- Configure the "About" (see gear icon on right)
+    - use standard topics
+        - [biolink](https://github.com/topics/biolink)
+        - [linkml](https://github.com/topics/linkml)
+        - [obofoundry](https://github.com/topics/obofoundry)
+        - [monarchinitiative](https://github.com/topics/monarchinitiative)
+        - [geneontology](https://github.com/topics/geneontology)
+- Orgs
+    - define a standard topic (see above)
+    - include a .github
+    - examplar: [github.com/linkml](https://github.com/linkml)
+    - pin repos
 - read our [GitHub Overview](https://docs.google.com/document/d/1YZ4kLyGka7MZPy824CHN7V2lnChFwJAGWpubKGr8n7w/edit)
 - make sure all relevant artefacts are checked in
     - use `git status` and `.gitignore`
@@ -117,6 +135,8 @@ schemas, and analyses.
    - use GitHub actions to trigger releases to PyPI
       - use [GitHub actions to trigger releases to PyPI](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
       - see [nmdc-schema](https://github.com/microbiomedata/nmdc-schema/tree/main/.github/workflows) as exemplar
+   - make release notes automatically [see github guide](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes)
+      - relies on using PRs with well-described titles
 - Consider a Dockerfile
 - For ETL repos, follow standard templates for
    - kg-hub
@@ -619,6 +639,20 @@ schemas, and analyses.
 ## Google docs/slides/sheets hygiene
 
 - Read [Julie's awesome guide](https://docs.google.com/presentation/d/1NqwMrJs5b95i4sLEfpKWtGNepNh8UCSOp6uFtq_DYic/edit#slide=id.p)
+- Read [Data Organization in Spreadsheets for Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/ from datacarpentry
+- Read [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) by Bronan and Woo
+    - be consistent
+    - write dates like YYYY-MM-DD
+    - put just one thing in a cell
+    - no not merge cells
+    - organize the data as a single rectangle (with subjects as rows and variables as columns, and with a single header row)
+    - create a data dictionary
+    - do not include calculations in the raw data files
+    - do not use font color or highlighting as data
+    - choose good names for things
+    - make backups
+    - use data validation to avoid data entry errors
+    - save the data in plain text files
 - Use google docs/slides over Microsoft/Apple/Desktop
     - but sometimes markdown+git is more appropriate than either
     - for grants, papers, and other collaborative documents, move to Word at last possible minute (if at all)
@@ -689,3 +723,7 @@ schemas, and analyses.
    - Don't boil the ocean
    - beware of rabbit holes
 - More to come...
+
+## Dates
+
+![img](https://imgs.xkcd.com/comics/iso_8601_2x.png)
