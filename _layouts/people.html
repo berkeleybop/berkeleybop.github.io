@@ -5,7 +5,7 @@ layout: default
    <h1 class="post-title-main">{% if page.homepage == true %} {{site.homepage_title}} {% else %}{{ page.title }}{% endif %}</h1>
 </div>
 {% if page.image %}
-<img alt="image" src="{{page.image}}"/>
+<img alt="image" src="{{page.image}}" style="max-width: 350px;" />
 {% endif %}
 {% if page.twitter %}
       <iframe style="position: static; visibility: visible; width: 190px; height: 20px;" 
@@ -16,14 +16,22 @@ layout: default
       </iframe>
 {% endif %}
 <dl>
+  {% if page.github %}
   <dh>GitHub:</dh>
   <dt><a href="{{ page.github }}">{{ page.github }}</a></dt>
+  {% endif %}
+  {% if page.linkedin %}
   <dh>Linkedin:</dh>
   <dt><a href="{{ page.linkedin }}">{{ page.linkedin }}</a></dt>
+  {% endif %}
+  {% if page.scholar %}
   <dh>Google Scholar:</dh>
   <dt><a href="{{ page.scholar }}">{{ page.scholar }}</a></dt>
-    <dh>ORCID:</dh>
-    <dt><a href="{{ page.orcid }}">{{ page.orcid }}</a></dt>
+  {% endif %}
+  {% if page.orcid %}
+  <dh>ORCID:</dh>
+  <dt><a href="{{ page.orcid }}">{{ page.orcid }}</a></dt>
+  {% endif %}
 </dl>
   
 
