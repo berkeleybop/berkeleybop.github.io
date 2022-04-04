@@ -18,3 +18,5 @@ tramp
 .org-id-locations
 *_archive
 .jekyll-cache/
+
+.ruby-version
