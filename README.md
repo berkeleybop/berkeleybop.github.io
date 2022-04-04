@@ -22,7 +22,7 @@ To run the development server with live reloading run:
 bundle exec jekyll serve --livereload
 ```
 
-Edit the menu: see _data/sidebar_doc.yml
+Edit the menu: see `_data/sidebar_doc.yml`
 
 Each page has its own directory containing an index.md file (this was to preserve URLs from the old site)
 
