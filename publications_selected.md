@@ -2,7 +2,7 @@
 title: Selected BBOP publications
 ---
 
-Please note: this page is hand-curated and may be out of date. You can find our Paperpile folder of BBOP publications at https://paperpile.com/shared/EXYLSk.
+**Please note: this page is hand-curated and may be out of date. You can find our Paperpile folder of BBOP publications at [https://paperpile.com/shared/EXYLSk](https://paperpile.com/shared/EXYLSk).**
 <ol class="bibliography">
  
   <li>Danis D, Jacobsen JOB, Balachandran P, Zhu Q, Yilmaz F, Reese J, Haimel M, Lyon GJ, Helbig I, <b>Mungall CJ</b>, Beck CR, Lee C, Smedley D, Robinson PN. SvAnna: efficient and accurate pathogenicity prediction of coding and regulatory structural variants in long-read genome sequencing. Genome Med. 2022 Apr 28;14(1):44. http://dx.doi.org/10.1186/s13073-022-01046-6 PMID: 35484572
