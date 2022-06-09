@@ -6,11 +6,16 @@ title: Best Practice
 
 This is the best practice / house style guide for the BBOP group. Inspired by / cribbed from [Knocean practice](https://github.com/knocean/practises/) and other sources.
 
+Source: [berkeleybop/berkeleybop.github.io/blob/master/best_practice.md](https://github.com/berkeleybop/berkeleybop.github.io/blob/master/best_practice.md)
+
 We are a diverse group working on many different projects with
 different stakeholders and sets of collaborators. Nevertheless we
 strive to follow a set of core best practices so we can be most
 efficient and develop the highest quality code, ontologies, standards,
 schemas, and analyses.
+
+This document may be overwhelming at first but as you become more familiar with projects it should become second nature.
+If there is anything you don't understand, **ask on slack**!
 
 ## Git and GitHub
 
@@ -18,16 +23,19 @@ schemas, and analyses.
 - [commit early, commit often](https://deepsource.io/blog/git-best-practices)
    - perfect later!
    - you should always be working on a branch, so don't worry about breaking things
+   - make a PR for your branch - mark as draft if not ready
 - Make repos public by default
 - Use standard repo layouts
+   - don't invent - look at exemplars
 - Include standard files:
    - README.md
-   - LICENSE (BSD3 preferred for software)
+   - LICENSE (BSD3 or Apache preferred for software)
    - CONTRIBUTING.md
    - CODE_OF_CONDUCT.md (see for example [kgx CoC](https://github.com/biolink/biolink-model/blob/master/CODE_OF_CONDUCT.md)
    - Changes.md
    - .gitignore
    - Makefile or equivalent
+   - see below for more specific recommendations for specific kinds of repos
 - use GitHub
     - Like GitLab in principle, but GitHub has network effect
     - prefer to work on the main repo, not forks, but defer to project-specific guidelines
@@ -44,7 +52,7 @@ schemas, and analyses.
     - description should link to an issue "Resolves #1234"
         - otherwise you have to clean up issues manually
     - update description as needed
-    - always look over your PRs
+    - always look over your commits before making a PR
         - are there unexpected changes? You should only see YOUR changes
         - Is it adding files unexpectedly? Some git clients are eager to do this
         - are some changes not recognizable as yours? **Be careful not to clobber**
@@ -61,6 +69,7 @@ schemas, and analyses.
     - use the auto-generate release notes feature (corollary: write informative PR titles and never commit on main)
 - use GitHub Pages for simple static content and documentation
     - prefer the `docs/` directory option
+    - See exemplars
 - use GitHub Projects ("project boards") for coordinating issues and PRs
     - three columns:
         - To do: for manager to fill and prioritize
@@ -72,6 +81,7 @@ schemas, and analyses.
     - use GitHub actions
     - All changes should be on PRs thus validated
     - main branch should never ever be failing
+    - EVERY repo should have actions and PR checking
 - set up GitHub teams
     - default to public membership
     - make sure it is clear who has permission to merge PRs
@@ -116,10 +126,11 @@ schemas, and analyses.
 - Use an existing repo from a group member as template for best practice, e.g.,
    - [kgx](https://github.com/biolink/kgx/)
    - [linkml](https://github.com/linkml/linkml)
+   - [OAK](https://github.com/INCATools/ontology-access-kit)
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
-   - include examples and use [txm](https://github.com/anko/txm) to use these as tests
+   - include examples and use examples as tests
 - Create reference documentation using RTD/Sphinx
    - let inline docstrings in Python do most of the work for you
    - read [writethedocs](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
@@ -151,7 +162,7 @@ schemas, and analyses.
    - PyPI
    - TODO: ADD MORE
 
-### Schema/Standards-centric Repos
+### Schema/Standards-centric Repos, Data and metadata repos
 
 - You will be using [linkml](https://github.com/linkml/linkml)
 - Create repo from [LinkML template](https://github.com/link-modeling/linkml-template)
@@ -159,7 +170,7 @@ schemas, and analyses.
    - NMDC
    - MIxS
    - GFF3 linkml
-   - [cmungall/chem-schema](https://github.com/cmungall/chem-schema)
+   - [chemkg/chemrof](https://github.com/chemkg/chemrof)
 - Register with w3id.org
 - Include comprehensive examples
 - Use LinkML mkdocs framework
@@ -172,6 +183,8 @@ schemas, and analyses.
    - data deliberately designed to fail validation
    - check validation correctly identifiers these in github actions
 - enable zenodo syncing
+- For repos that have data:
+   - consider a dashboard (see [semantic dashbaord patterns](https://docs.google.com/document/d/1ld73pVz_BIH22jRBZuV0RVDeSiuGyQpD1u_F9Yv9gg0/edit#))
 
 ### Ontology-centric Repos
 
@@ -180,17 +193,22 @@ schemas, and analyses.
    - include detailed metadata
    - include all products
    - include descriptive material in markdown
+   - Exceptions:
+      - application ontologies
+      - ontologies that deliberately not OBO-esque
+- Register non OBOs with Bioportal      
 - Use GitHub for .owl distribution unless ontology is large, then consider:
    - GitHub releases
    - S3
-- Follow group exemplars: Uberon, Mondo, GO, ENVO, CL, PATO
+   - See Nico's application ontology tutorial
+- Follow group exemplars: Uberon, Mondo, GO, ENVO, CL, PATO, BERO, PhenIO
    - but be aware each has their quirks
 - distribute useful products
    - distribute SSSOM
    - always distribute an .obo
    - always distribute a obo .json
    - distribute a kgx file (NEW)
-   - distribute a rdftab sqlite file (NEW)
+   - distribute a rdftab/semsql sqlite file (NEW)
 - use a sensible source format (foo-edit.owl)
    - .obo is best for diffs but less expressive and gotchas for CURIEs
    - functional syntax is often preferred
@@ -247,7 +265,10 @@ schemas, and analyses.
 - avoid manually authoring anything that can be derived from metadata
    - examplars: obofoundry.github.io, this site
 - use a CC license, CC-0 or CC-BY
-
+- Examplars:
+   - LinkML splash page
+   - Phenopackets splash page
+   - Cell Ontology splash page
 
 ## Documentation
 
@@ -261,7 +282,7 @@ schemas, and analyses.
     - exemplar: obook
     - exemplar: linkml docs
 - [google API documentation guide](https://developers.google.com/style/api-reference-comments)
-- have strategies to avoid staleness and documentation being out of sync
+- have strategies to avoid staleness and documentation getting out of sync
 - use inline documentation
     - publish via appropriate framework (RTD for code, mkdocs for schema, etc)
     - follow appropriate style guide
@@ -283,10 +304,10 @@ schemas, and analyses.
    - javascript/typescript for client-side
        - don't implement domain/business logic in js. use python + APIs
        - use typescript
+       - generate typescript datamodels using linkml gen-typescript
    - Rust for speed
    - Scala for performance reasoners
    - Historically we used Java for anything requiring OWLAPI but being phased out
-   - Chris still uses Prolog occasionally
 - Why Python?
    - ubiquitous, cross-platform
    - good for scripting, interactive development
@@ -295,6 +316,7 @@ schemas, and analyses.
    - Most bioinformaticians know it
    - use for anything more than about 10 lines of Bash/Perl
    - use Python 3.8+
+   - Ensure github actions tests 3.9 and 3.10
 - Conform to the group style guide, or at least *some* style guide
    - [pep-0008](https://www.python.org/dev/peps/pep-0008/) for Python
    - use type annotations [PEP484](https://www.python.org/dev/peps/pep-0484/)
@@ -324,8 +346,9 @@ schemas, and analyses.
    - NEVER author OpenAPI directly; ALWAYS derive
    - we are exploring GraphQL frameworks like strawberry.rocks
 - use dataclasses or pydantic
-   - for DAOs, derive from linkml
+   - for DAOs, ALWAYS derive from linkml
    - avoid authoring data models directly in python
+- list comprehensions >> lambdas
 - use fstrings
 - ALWAYS use typing
    - makes code more understandable
@@ -349,12 +372,13 @@ schemas, and analyses.
       - `-i`, `--input`
       - `-o`, `--output`
       - `-h`, `--help`
-   - always use dashes as separators
+   - always use dashes as separators, NOT underscores
       - click will make corresponding python vars with underscores
    - Follow exemplars
       - ROBOT
       - SSSOM
       - OAK
+      - linkml
    - Always write unittests for CLIs
       - see OAK for examples
 - Learning resources
@@ -364,11 +388,16 @@ schemas, and analyses.
 ## Shell
 
 - Up to you but most of us use [ohmyz](https://ohmyz.sh/)
+- TODO: figure way to share common aliases
 
 ## Database Engines
 
-- use whatever is appropriate for the job
-   - blazegraph/joskei for ttl
+- Current preferred stack
+   - sqlite or postgres (normalized/write)
+   - solr (denormalized/read)
+   - that's it
+- BUT: use whatever is appropriate for the job
+   - blazegraph/joseki for ttl
    - neo4j for KGs
    - Postgresql for SQL db server
        - never use non-open SQL db solutions
@@ -426,7 +455,7 @@ schemas, and analyses.
            - core logic (extract into separate lib with tests)
            - ETL
            - anything that should be run in a pipeline
-       - all notebooks must be reproducible
+       - all notebooks MUST be reproducible
            - check small files into github
            - reproducible Makefile or snakemake for obtaining other files
            - ideally test all notebooks via gh-actions
@@ -444,14 +473,14 @@ schemas, and analyses.
    - Use OAK for everything
       - ontobio is deprecated for non-GO specific tasks
       - OWLAPI (JVM) -- only where absolutely necessary
-      - beware of using rdflib and RDF-level libraries for working with OWL files, too low level
+      - beware of using rdflib and RDF-level libraries for working with OWL files, too low level (and slow)
    - access [Ubergraph](https://github.com/incatools/ubergraph) through OAK
    - access [semsql](https://github.com/incatools/semantic-sql) through OAK
    - [obographviz](https://github.com/incatools/obographviz/) (js)
    - never, ever use XML parsers to parse RDF/XML
 - NER/NLP
    - fast changing but some tools to consider:
-      - runNER (which wraps OGER)
+      - ontorunNER (which wraps OGER)
       - BERT for language models (experimental)
 
 ## File formats, languages, and standards
@@ -546,7 +575,7 @@ schemas, and analyses.
       - fastapi > flask >>> others
       - considering GraphQL
    - Must have Docker container
-   - Deprecated" Use grlc or sparqlfun to make APIs from sparql endpoints
+   - Deprecated: Use grlc or sparqlfun to make APIs from sparql endpoints
 
 - CURIEs and IRIs
    - Read [McMurry et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
@@ -594,7 +623,7 @@ schemas, and analyses.
 - [OAK](https://github.com/INCATools/ontology-access-kit), for ontologies
 - [kgx](https://github.com/biolink/kgx)
 - [ODK](https://github.com/INCATools/ontology-development-kit) and [ROBOT](https://github.com/ontodev/robot), for ontologies
-- runNER for NER
+- ontorunNER for NER
 
 ## Building Ontologies
 
@@ -652,6 +681,7 @@ schemas, and analyses.
 - make best effort attempt to provide mappings
    - use SSSOM
    - use boomer
+   - use oak lexmatch
 
 ## Collaboration
 
@@ -667,7 +697,6 @@ schemas, and analyses.
 - keep your calendar up to date, this facilitates scheduling meetings
 - slack
    - avoid `@channel` unless necessary
-   - don't be a channel anarchist
    - discussion about tickets OK but decisions and key points must be recorded in ticket
 - use GitHub for requests
 - Use GitHub for requesting terms from ontologies etc
@@ -720,6 +749,7 @@ schemas, and analyses.
     - ISO-8601 >> human readable dates >> anything else
     - The auto @today feature is useful
 - always have a google doc for every meeting you are in
+- record decisions
 - include a link to the rolling doc in calendar invites
 - include the Zoom / videoconference link in the rolling notes doc
 - organize google docs in the relevant folder depending on what project is funding the work
