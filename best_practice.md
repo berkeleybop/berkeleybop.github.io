@@ -137,6 +137,8 @@ schemas, and analyses.
       - see [nmdc-schema](https://github.com/microbiomedata/nmdc-schema/tree/main/.github/workflows) as exemplar
    - make release notes automatically [see github guide](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes)
       - relies on using PRs with well-described titles
+   - always have multiple owners of a pypi package on the pypi site
+   - use standard semver, start from 0.1.0, move to 1.0.0 when stable
 - Consider a Dockerfile
 - For ETL repos, follow standard templates for
    - kg-hub
@@ -211,7 +213,6 @@ schemas, and analyses.
       - training
       - evaluation
    - check with Chris before using snakemake/CWL/alternatives
-   - Chris still uses biomake
 - Use TSVs as default
    - make pandas-friendly
    - use unix newline characters, not dos
@@ -293,36 +294,43 @@ schemas, and analyses.
    - Easy for developers to pick up
    - Most bioinformaticians know it
    - use for anything more than about 10 lines of Bash/Perl
-   - use Python 3.7+
+   - use Python 3.8+
 - Conform to the group style guide, or at least *some* style guide
    - [pep-0008](https://www.python.org/dev/peps/pep-0008/) for Python
    - use type annotations [PEP484](https://www.python.org/dev/peps/pep-0484/)
    - [google style guide](https://developers.google.com/style)
-   - See [knocean/practices/python](https://github.com/knocean/practises/tree/master/python)
-      - We are moving towards poetry for all repos
-      - See [sssom-py](https://github.com/mapping-commons/sssom-py) as exemplar of our best practice
+   - We are inspired by [knocean/practices/python](https://github.com/knocean/practises/tree/master/python) but differ in some places
+      - We make use of OO as appropriate - just don't go overboard like in java
+   - All repos should use poetry
+      - Set up this way: `poetry new --src my-project-name`
+      - OR use linkml-ws new for schema-centric repos
+      - follow standard layouts, with code in src/
+   - Examplars:
+      - [sssom-py](https://github.com/mapping-commons/sssom-py)
+      - [linkml](https://github.com/linkml/linkml)
+      - [OAK](https://github.com/incatools/ontology-access-kit)
+   - Linting/formatting:
       - Use black and flake8
-      - Use tox
-      - we use click not argparse
-      - undecided on pytest vs unittest
-      - Makefile defaults are good
-      - Note unlike Knocean, we make use of OO as appropriate
+   - Use tox
+   - click >> argparse
+   - unittest >> pytest
 - document all public classes, methods, functions
    - Always Use [type annotations](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#type-annotations)
    - Always provide docstrings
       - ReST  >>  numpy-style docstrings or google style
       - SOME standard is always better than none
+      - Be sure to set up your IDE for automatic docstrings
 - use flask/fastAPI for web apps
    - NEVER author OpenAPI directly; ALWAYS derive
-- avoid authoring complex data models
-   - use LinkML and derived datamodel classes
+   - we are exploring GraphQL frameworks like strawberry.rocks
+- use dataclasses or pydantic
+   - for DAOs, derive from linkml
+   - avoid authoring data models directly in python
 - use fstrings
-- use typing
+- ALWAYS use typing
    - makes code more understandable
    - allows code completion in PyCharm etc
    - helps find bugs
-- use dataclasses or pydantic
-   - for DAOs, derive from linkml
 - use an IDE
    - PyCharm or VS is equally popular in the group
 - ETL/ingest
@@ -333,56 +341,62 @@ schemas, and analyses.
    - separate CLI logic from core logic
    - Read [CLIG guidelines](https://clig.dev/)
    - See also [Documenting command-line syntax ]https://developers.google.com/style/code-syntax) in google style guide
-   - Python: use click  [TODO: evaluate Typer]
+   - Python: use click
    - design for composability
    - provide shortforms for common options
    - [Display help text when passed no options, the -h flag, or the --help flag](https://clig.dev/#help)
    - use de-facto standards
       - `-i`, `--input`
       - `-o`, `--output`
+      - `-h`, `--help`
+   - always use dashes as separators
+      - click will make corresponding python vars with underscores
    - Follow exemplars
       - ROBOT
+      - SSSOM
+      - OAK
+   - Always write unittests for CLIs
+      - see OAK for examples
 - Learning resources
    - [Charlie's Recommended Python Programming Videos](https://www.youtube.com/playlist?list=PLPFmTfhIBiumfYT3rsa35fHJxabB78er1)
-- TODO: Best practice for
-   - test framework (unittest vs pytest?)
-   - environments: venv vs pipenv vs poetry
-   - config: requirements.txt vs toml vs Pipenv vs setup.cfg...
-   - layout: src/name vs name
-   - linter: black?
+   - obook
 
 ## Shell
 
-- Use [ohmyz](https://ohmyz.sh/)
+- Up to you but most of us use [ohmyz](https://ohmyz.sh/)
 
 ## Database Engines
 
 - use whatever is appropriate for the job
-   - blazegraph for ttl
+   - blazegraph/joskei for ttl
    - neo4j for KGs
    - Postgresql for SQL db server
        - never use non-open SQL db solutions
        - Some legacy apps may use MySQL but Pg is preferred
    - sqlite for lightweight tabular
+   - mongo for docs
    - avoid vendor lock-in
        - use generic sparql 1.1 API vs triplestore specific APIs
    - solr for searchable / denormalized / analytics
       - always use golr patterns
       - read [semantic columnar store patterns](https://docs.google.com/document/d/1GoTZd4HSHI9q48Q6WUR4eDgBy0WgwsXcfVBihs_l0CU/edit)
 - always have a schema no matter what the task
-    - always derive from LinkML
+    - always __author__ in LinkML
+    - __translate__ to SQL schema, JSON-Schema, Solr schema etc
+    - familiarize yourself with the tools to do this
 - SQL vs other DB engines
    - this is an evolving area
    - see [Knocean SQL guide](https://github.com/knocean/practises/tree/master/sql)
 
 ## Handy developer and command line tools
 
+- runoak
 - GNU Make -- see [Knocean guide](https://github.com/knocean/practises/tree/master/make)
 - cogs
 - odk
 - [q](http://harelba.github.io/q/) -- query TSVs via SQL
 - csvkit
-- jq/jq
+- jq/yq
 - robot
 - bash; small scripts only
 - pandoc
@@ -396,12 +410,26 @@ schemas, and analyses.
    - generally prefer Python >> R >> other languages for data sciences
    - we frequently use tensorflow, scikitlearn, keras
    - scikit-learn
-   - catboost
+   - catboost, xgboost
    - pandas
        - TSV >> CSV
-       - parquet for large files
+       - parquet or sqlite for large files
        - use `#` for header comments
-   - seaborn within Jupyter
+       - always have a data dictionary in LinkML
+   - always be working in a github repo (see below)
+   - notebooks:
+       - seaborn for plotting
+       - Use notebooks for:
+           - generating figs for paper
+           - exploration
+       - NEVER use notebooks for
+           - core logic (extract into separate lib with tests)
+           - ETL
+           - anything that should be run in a pipeline
+       - all notebooks must be reproducible
+           - check small files into github
+           - reproducible Makefile or snakemake for obtaining other files
+           - ideally test all notebooks via gh-actions
    - KGs
       - [kgx](https://github.com/biolink/kgx)
       - [BMT](https://github.com/biolink/biolink-model-toolkit)
@@ -409,23 +437,22 @@ schemas, and analyses.
       - [Embiggen](https://github.com/monarch-initiative/embiggen) graph ML (e.g. node2vec), and some other things like word2vec
       - [NEAT](https://github.com/Knowledge-Graph-Hub/NEAT) is a Python wrapper for reproducible graph ML in a YAML-driven way
       - also exploring pykeen ampligraph
+- Follow FAIR in a *meaningful* way
+   - data dictionaries with LinkML
+   - follow identifier best practice
 - Ontologies
-   - ontobio
-   - OWLAPI (JVM) -- only where necessary
-   - [obographviz](https://github.com/cmungall/obographviz/) (js)
-   - beware of using rdflib and RDF-level libraries for working with OWL files, too low level
+   - Use OAK for everything
+      - ontobio is deprecated for non-GO specific tasks
+      - OWLAPI (JVM) -- only where absolutely necessary
+      - beware of using rdflib and RDF-level libraries for working with OWL files, too low level
+   - access [Ubergraph](https://github.com/incatools/ubergraph) through OAK
+   - access [semsql](https://github.com/incatools/semantic-sql) through OAK
+   - [obographviz](https://github.com/incatools/obographviz/) (js)
    - never, ever use XML parsers to parse RDF/XML
-   - [Ubergraph](https://github.com/NCATS-Tangerine/ubergraph)
-   - semsql
 - NER/NLP
    - fast changing but some tools to consider:
       - runNER (which wraps OGER)
       - BERT for language models (experimental)
-- Data
-   - [curie_util](https://github.com/prefixcommons/curie-util)
-   - LinkML
-- Code
-   - typing
 
 ## File formats, languages, and standards
 
@@ -443,6 +470,7 @@ schemas, and analyses.
    - Turtle for some purposes
    - RDF/XML as default for OWL
 - Ontologies
+   - Use OAK to access everything
    - OWL
    - [OBO JSON](https://douroucouli.wordpress.com/2016/10/04/a-developer-friendly-json-exchange-format-for-ontologies/)
    - consider obo format deprecated. Exception: easier to maintain edit file as obo for git diff/PR purposes
@@ -453,8 +481,7 @@ schemas, and analyses.
    - SSSOM with skos predicates
 - KGs
    - biolink
-   - kgx
-   - RDF*
+   - kgx >> rdf* >> rdf
    - make available as:
       - RDF dump
       - Neo4J dump
@@ -476,8 +503,8 @@ schemas, and analyses.
    - Always author schemas in linkml
       - derive alternate representations (e.g. json-schema)
    - JSON-schema for JSON-centric projects (never author, always derive from LinkML)
-   - ShEx for ontology-centric (try and derive from LinkML)
-   - kwalify is deprecated for us
+   - ShEx or SHACL for ontology-centric (try and derive from LinkML)
+   - Don't use kwalify any more
    - Always have a LinkML schema even when using:
       - python dicts
       - open-ended JSON/YAML
@@ -499,13 +526,17 @@ schemas, and analyses.
    - use `.gz` instead of `.zip`
    - if compressing multiple files in an archive, use `.tar.gz`, not `.zip`
    - Rememeber compressed files are not diffable in git
-   - For very large files consider distributing gz files via S3 rather than in GitHub
+   - For very large files consider distributing gz files via S3 or zenodo rather than in GitHub
        - remember: if a repo has 10 x 50m files that change every release, the repo will be 10g in size in 20 releases
+   - As a general rule of thumb, think very carefully before committing files > 1m to github
+       - exceptions for existing best practice e.g. odk
+       - ask if unsure
 - Text
    - markdown by default
       - frontmatter metadata where appropriate
       - track in version control
    - use .rst for sphinx sites where autodoc features are needed
+   - don't use wikis or github wikis except where precedent is set
 - APIs
    - RESTfulness
       - true REST may be too high a barrier
@@ -513,13 +544,16 @@ schemas, and analyses.
    - All web APIs should have OpenAPI exploration interface
    - derive OpenAPI from Python code
       - fastapi > flask >>> others
+      - considering GraphQL
    - Must have Docker container
-   - Use grlc or sparqlfun to make APIs from sparql endpoints
+   - Deprecated" Use grlc or sparqlfun to make APIs from sparql endpoints
 
 - CURIEs and IRIs
    - Read [McMurry et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
+   - Take the time to read ALL docs on [bioregistry.io](https://bioregistry.io)
    - always use CURIEs for IDs
-   - always use prefixes registered in bioregistry.io
+       - CURIEs + prefixmap >> URIs >>>> ad-hoc
+   - always use prefixes registered in [bioregistry.io](https://bioregistry.io)
    - understand at a broad level the different registries:
        - http://identifiers.org
        - http://n2t.net -- synced(?) with identifiers.org but broader context
@@ -557,7 +591,7 @@ schemas, and analyses.
 
 ## Key specialized libraries and command line tools
 
-- [ontobio](https://github.com/biolink/ontobio), for ontologies and associations
+- [OAK](https://github.com/INCATools/ontology-access-kit), for ontologies
 - [kgx](https://github.com/biolink/kgx)
 - [ODK](https://github.com/INCATools/ontology-development-kit) and [ROBOT](https://github.com/ontodev/robot), for ontologies
 - runNER for NER
@@ -572,31 +606,34 @@ schemas, and analyses.
    - annotations, as in the sense used by curators
    - ontologies without annotations are generally of limited use, avoid working on them
 - learn tools and best practice for robust ontology engineering
-  - Read [my Onto-Tips](https://douroucouli.wordpress.com/2019/03/09/ontotips-a-series-of-assorted-ontology-development-guidelines/)
-  - Use [ODK](https://github.com/INCATools/ontology-development-kit)
+  - Read [Onto-Tips](https://douroucouli.wordpress.com/2019/03/09/ontotips-a-series-of-assorted-ontology-development-guidelines/)
+  - Use and understand [ODK](https://github.com/INCATools/ontology-development-kit)
   - Use [ROBOT](https://github.com/ontodev/robot)
-  - Do the GO OWL tutorial
-  - For advanced OWL-centric tasks, use scowl
 - Take the [OBO Academy training](https://oboacademy.github.io/obook/)
   - work on the components on your own
   - attend the Monarch tutorials
 - use the ontologies we work on as examplars
    - GO
+   - Uberon
    - Mondo
    - Phenotype Ontologies
    - ENVO
-   - Uberon
    - RO
+   - CL
 - follow OBO best practice and principles
    - ontologies should be open
    - if OBO is underspecified, follow the examples of projects done in this group
-      - oio over IAO
+      - NEW: see ontology-metadata in OAK
+      - oio >> IAO
       - liberal axiom annotations
       - key annotation properties: synonyms, definitions, mappings
       - See [documentation on uberon synonyms](https://github.com/obophenotype/uberon/wiki/Using-uberon-for-text-mining), this is an exemplar for us
-      - Generally [dosdp](https://github.com/INCATools/dead_simple_owl_design_patterns]) over robot template, but always use the more appropriate tool for the job
+   - Programmatic generation
+      - linkml-owl
+      - [dosdp](https://github.com/INCATools/dead_simple_owl_design_patterns]) OR robot template
+      - always use the more appropriate tool for the job
 - include comprehensive definitions clear to biologists
-   - [read my definitions guide](https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/)
+   - [read definitions guide](https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/)
 - understand [compositional patterns](https://douroucouli.wordpress.com/2019/06/29/ontotip-learn-the-rector-normalization-technique/)
 - avoid overmodeling
 - Document ontologies
@@ -727,3 +764,5 @@ schemas, and analyses.
 ## Dates
 
 ![img](https://imgs.xkcd.com/comics/iso_8601_2x.png)
+
+
