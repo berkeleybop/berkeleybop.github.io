@@ -323,19 +323,24 @@ If there is anything you don't understand, **ask on slack**!
    - [google style guide](https://developers.google.com/style)
    - We are inspired by [knocean/practices/python](https://github.com/knocean/practises/tree/master/python) but differ in some places
       - We make use of OO as appropriate - just don't go overboard like in java
-   - All repos should use poetry
-      - Set up this way: `poetry new --src my-project-name`
-      - OR use linkml-ws new for schema-centric repos
-      - follow standard layouts, with code in src/
-   - Examplars:
-      - [sssom-py](https://github.com/mapping-commons/sssom-py)
-      - [linkml](https://github.com/linkml/linkml)
-      - [OAK](https://github.com/incatools/ontology-access-kit)
-   - Linting/formatting:
-      - Use black and flake8
-   - Use tox
-   - click >> argparse
-   - unittest >> pytest
+- All repos should use [poetry](https://python-poetry.org/)
+  - Set up this way: `poetry new --src my-project-name`
+  - OR use `linkml-ws new` for schema-centric repos
+  - follow standard layouts, with code in `src/`
+- Linting/formatting:
+  - Use [black](https://github.com/psf/black) and [flake8](https://pypi.org/project/flake8/)
+- Test Runners
+  - To automate building and testing distributions in multiple Python versions
+  - [tox](https://tox.wiki/en/latest/)
+  - DE FACTO: Github hosted runner via [Github Actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+- CLI development
+  - [click](https://click.palletsprojects.com/en/latest/)
+- Testing
+  - [unittest](https://docs.python.org/3/library/unittest.html)
+  - DE FACTO: [pytest](https://docs.pytest.org/en/latest/)
+- Test coverage
+  - [Coverage.py](https://pypi.org/project/coverage/)
+  - [codecov](https://about.codecov.io/language/python/)
 - document all public classes, methods, functions
    - Always Use [type annotations](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#type-annotations)
    - Always provide docstrings
@@ -379,8 +384,12 @@ If there is anything you don't understand, **ask on slack**!
       - SSSOM
       - OAK
       - linkml
-   - Always write unittests for CLIs
-      - see OAK for examples
+- Always write unittests for CLIs
+   - see OAK for examples
+- Examplars:
+   - [sssom-py](https://github.com/mapping-commons/sssom-py)
+   - [linkml](https://github.com/linkml/linkml)
+   - [OAK](https://github.com/incatools/ontology-access-kit)
 - Learning resources
    - [Charlie's Recommended Python Programming Videos](https://www.youtube.com/playlist?list=PLPFmTfhIBiumfYT3rsa35fHJxabB78er1)
    - obook
