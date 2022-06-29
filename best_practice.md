@@ -360,7 +360,7 @@ If there is anything you don't understand, **ask on slack**!
    - allows code completion in PyCharm etc
    - helps find bugs
 - use an IDE
-   - PyCharm or VS is equally popular in the group
+   - PyCharm or VS Code is equally popular in the group
 - ETL/ingest
    - follow existing exemplar repos
    - Read Chris' [10 simple rules for semantic ETL](https://docs.google.com/document/d/1Bgsyo-Z1oxEfxdNGB3KDM_NHfXYqdcXJIUd_j3iibi4/edit#)
