@@ -720,6 +720,8 @@ If there is anything you don't understand, **ask on slack**!
 - we are a collaborative group, reach out if you have issues
    - join relevant channels on bbop and other slacks
    - questions always welcome but make best effort to see if information available in group reference guides
+   - don't struggle alone!
+   - others are likely to either have similar questions/frustrations to you, or will have faced them in the past
 - questions are always welcome but always check standard sources first
    - for programming questions, search Stack Overflow
    - for questions regarding group or collaborator tools, is it in the FAQ?
@@ -731,7 +733,7 @@ If there is anything you don't understand, **ask on slack**!
    - give concise, actionable issue titles
    - your problem should be reproducible as far as possible
    - ideally contribute a a test case following idioms of appropriate repo (learn how to do this)
-- make things easier for those who follow you
+- make things easier for those who follow you 
    - the same questions often come up repeatedly
    - if someone answers a question for you, update the relevant guide (FAQ etc) to make it clearer for others
    - upvote answers on Stack Overflow you find useful
