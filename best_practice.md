@@ -188,6 +188,11 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
   * Save workspace in order to open a specific view of the project directory
     * `File > Save Workspace As`
     * `File > Open Workspace From File`
+* Debugger
+  * On the left toolbar of VS Code, there is a flask-like icon which on hovering onver with a mouse reads 'Testing'.
+  * Click on the icon > Configure Python Tests > Select one (unittest / pytest) depending on preference.
+  * Note: Before this please make sure the python interpretor is selected for the workspace.
+  * All tests in the project should show up in the space next to the toolbar. Clicking the 'Play' icon should ru nall tests. Individual tests can also be run separately if needed.
 
 #### Useful Extensions
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
