@@ -168,6 +168,75 @@ If there is anything you don't understand, **ask on slack**!
    - PyPI
    - TODO: ADD MORE
 
+### Development Environment Setup
+
+#### Code Editor: VSCode
+
+VSCode, short for Visual Studio Code, a code editor by Microsoft can be downloaded from [here](https://code.visualstudio.com/), for your operating system of choice.
+
+#### Keyboard Shortcuts
+* Command palette: `Cmd/Ctrl + Shift + P`
+* Search for file in project: `Cmd/Ctrl + P`
+* Open integrated terminal in VSCode: `Cmd/Ctrl + ~`
+* Open settings page: `Cmd/Ctrl + ,`
+* Set up custom keymap bindings
+   * Mac
+      * Code > Preferences > Keyboard Shortcuts > +`
+      * Type in the key combination you want to use and assign it to an action of your choice
+      * For ex., `Cmd/Ctrl + i` as a shortcut for selecting the Python interpreter
+
+#### Essentials
+* [Git configuration](https://www.jcchouinard.com/install-git-in-vscode/)
+  * Set username: `git config --global user.name "YOUR_USERNAME"`
+  * Set password: `git config --global user.email "YOUR_EMAIL@EXAMPLE.COM"`
+* Workspace setup
+  * Make sure you have correctly [selected the Python interpreter](https://code.visualstudio.com/docs/python/environments)
+  * Save workspace in order to open a specific view of the project directory
+    * `File > Save Workspace As`
+    * `File > Open Workspace From File`
+* Debugger
+  * On the left toolbar of VS Code, there is a flask-like icon which on hovering onver with a mouse reads 'Testing'.
+  * Click on the icon > Configure Python Tests > Select one (unittest / pytest) depending on preference.
+  * Note: Before this please make sure the python interpretor is selected for the workspace.
+  * All tests in the project should show up in the space next to the toolbar. Clicking the 'Play' icon should ru nall tests. Individual tests can also be run separately if needed.
+
+#### Useful Extensions
+* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  * Python IntelliSense
+  * Linting
+  * Debugging
+  * Code navigation
+  * Formatting
+  * Refactoring
+* [AutoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+  * Docstring for Python methods
+* [`black`](https://github.com/psf/black)
+  * Opinionated Python code formatter
+* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  * Visualize code authorship
+* [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+  * Human friendly comments
+* [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+  * Highlight columns in csv and tsv files
+  * Transforms and filtering using querying language
+* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+  * Keyboard shortcuts
+  * Table of contents
+  * Auto preview
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  * Formatting YAML, JSON
+  * But primarily an opinionated formatter for frontend web code like JS, TS, etc.
+* [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+  * YAML validation
+  * Auto completion
+  * Hover support
+  * Useful while writing LinkML schemas
+* [vs-code-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+  * Beautiful icons
+* [Austin VS Code](https://marketplace.visualstudio.com/items?itemName=p403n1x87.austin-vscode)
+  * Code profiler
+  * Can be used when trying to optimize Python codebase
+
 ### Schema/Standards-centric Repos, Data and metadata repos
 
 - You will be using [linkml](https://github.com/linkml/linkml)
