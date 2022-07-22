@@ -47,6 +47,10 @@ If there is anything you don't understand, **ask on slack**!
        - note: if you tag me with @cmungall it's likely I won't see it. alert me to a ticket via slack if I am required
     - use GitHub's default labels: bug, question, enhancement, good first issue, etc.
     - set up standard issue templates (helps ensure tickets are auto-assigned)
+    - When creating issues:
+       - give a meaningful issue title
+       - word title as a bug "e.g. under condition X, Y fails" or request "add option A to method B"
+       - give issues actionable descriptions, make it clear when it can be closed
 - use GitHub Pull Requests
     - mark as draft until ready for review, then assign reviewers
     - description should link to an issue "Resolves #1234"
@@ -63,6 +67,8 @@ If there is anything you don't understand, **ask on slack**!
        - mixing in formatting changes on sections of the code unrelated to the semantic changes you are making
        - working on a PR for too long a time without feedback from others
        - working on "invisible" branches. ALWAYS make a PR, ALWAYS push. You can mark as draft!
+    - give PRs a meaningful a title and description
+       - remember: titles will be used when auto-making release notes
 - use GitHub Milestones to plan releases
 - use GitHub Releases to tag versions and attach binaries
     - use semver
@@ -161,6 +167,7 @@ If there is anything you don't understand, **ask on slack**!
    - Code coverage
    - PyPI
    - TODO: ADD MORE
+
 ### Schema/Standards-centric Repos, Data and metadata repos
 
 - You will be using [linkml](https://github.com/linkml/linkml)
@@ -407,9 +414,9 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - document all public classes, methods, functions
    - Always Use [type annotations](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/#type-annotations)
    - Always provide docstrings
-      - ReST  >>  numpy-style docstrings or google style
+      - ReST (reStructuredText) >>  numpy-style docstrings or google style >> nothing
       - SOME standard is always better than none
-      - Be sure to set up your IDE for automatic docstrings
+      - Be sure to set up your IDE for automatic docstring generation
 - use flask/fastAPI for web apps
    - NEVER author OpenAPI directly; ALWAYS derive
    - we are exploring GraphQL frameworks like strawberry.rocks
@@ -417,7 +424,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - for DAOs, ALWAYS derive from linkml
    - avoid authoring data models directly in python
 - list comprehensions >> lambdas
-- use fstrings
+- use fstrings; never write java-style python
 - ALWAYS use typing
    - makes code more understandable
    - allows code completion in PyCharm etc
@@ -456,6 +463,23 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - Learning resources
    - [Charlie's Recommended Python Programming Videos](https://www.youtube.com/playlist?list=PLPFmTfhIBiumfYT3rsa35fHJxabB78er1)
    - obook
+
+## Web APIs
+
+- Authoring
+   - FastAPI > Flask
+   - Seperate business logic from API code
+      - this should be independently testable
+- Accessing
+   - Use python requests library (unless a higher level lib is available)
+   - Do not construct URL strings yourself - use `params` instead
+   - for non-trivial tasks consider building a reusable client library
+   - use a client library if it already exists!
+   - examplars: OAK bioportal implementation
+   - when querying a sparql endpoint
+      - sparqlfun > sparqlwrapper > requests > curl
+      - if constructing sparql is necessary
+         - use a query builder rather than string manipulation
 
 ## Shell
 
@@ -760,9 +784,25 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - we are a collaborative group, reach out if you have issues
    - join relevant channels on bbop and other slacks
    - questions always welcome but make best effort to see if information available in group reference guides
-- make things easier for those who follow you
+   - don't struggle alone!
+   - others are likely to either have similar questions/frustrations to you, or will have faced them in the past
+- questions are always welcome but always check standard sources first
+   - for programming questions, search Stack Overflow
+   - for questions regarding group or collaborator tools, is it in the FAQ?
+- make it easy for people to help you
+   - be concise, yet provide sufficient relevant context
+   - make it actionable
+       - Discouraged: X doesn't work
+       - Encouraged: when I do A, I get result B, but I expect C
+   - give concise, actionable issue titles
+   - your problem should be reproducible as far as possible
+   - ideally contribute a a test case following idioms of appropriate repo (learn how to do this)
+- make things easier for those who follow you 
    - the same questions often come up repeatedly
-   - if someone answers a question for you, update the relevant guide to make it clearer for others
+   - if someone answers a question for you, update the relevant guide (FAQ etc) to make it clearer for others
+   - upvote answers on Stack Overflow you find useful
+   - give thumbs up to helpful comments
+   - star repos you find useful
 - follow codes of conduct
 - be constructive in any criticism
 - use your Berkeley Lab account for email, calendars
