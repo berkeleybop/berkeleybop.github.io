@@ -51,10 +51,7 @@ entries:
     
         - title: Exomiser
           url: /project/exomiser
-          
-        - title: CCDH
-          url: /project/ccdh
-          
+        
         - title: GMOD
           url: /project/gmod
           
@@ -62,7 +59,10 @@ entries:
           url: /project/obo-foundry
           
         - title: KG-COVID-19
-          url: /project/kg-covid-19
+          url: /project/kg-covid-19 
+            
+        - title: CCDH (inactive)
+          url: /project/ccdh
           
         - title: "INCA: Intelligent Concept Assistant (inactive)"
           url: /project/inca
