@@ -9,7 +9,7 @@ logo:
 source: https://github.com/INCATools/ontology-access-kit
 documentation: https://incatools.github.io/ontology-access-kit/
 ---
-## Ontology Access Kit (OAK)
+**Ontology Access Kit (OAK)**
 
 OAK is a Python library for executing common ontology operations over a variety of backends.
 
