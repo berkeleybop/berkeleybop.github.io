@@ -97,8 +97,8 @@ entries:
         - title: LinkML (formerly BiolinkML)
           url: /software/biolinkml
 
-        - title: Ontobio
-          url: /software/ontobio
+        - title: OAK
+          url: /software/OAK
 
         - title: Chado Schema
           url: /software/chado
