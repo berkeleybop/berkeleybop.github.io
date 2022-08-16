@@ -152,8 +152,8 @@ entries:
         - title: Mondo disease ontology
           url: /ontology/mondo
           
-        - title: Phenotype Ontologies
-          url: /ontology/pheno
+        - title: Phenotype ontologies
+          url: /ontology/uPheno
           
         - title: Relation Ontology
           url: /ontology/ro
