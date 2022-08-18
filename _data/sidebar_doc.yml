@@ -45,9 +45,6 @@ entries:
           
         - title: SymbiOnt
           url: /project/symbiont
-          
-        - title: IDG2KG
-          url: /project/idg2kg
     
         - title: Exomiser
           url: /project/exomiser
@@ -59,7 +56,10 @@ entries:
           url: /project/obo-foundry
           
         - title: KG-COVID-19
-          url: /project/kg-covid-19 
+          url: /project/kg-covid-19     
+                    
+        - title: IDG2KG
+          url: /project/idg2kg
             
         - title: CCDH (inactive)
           url: /project/ccdh
@@ -132,6 +132,9 @@ entries:
 
         - title: SciGraph
           url: /software/scigraph
+          
+        - title: NEAT
+          url: /software/NEAT
 
     - title: Ontologies
       print: true
@@ -158,29 +161,6 @@ entries:
         - title: Relation Ontology
           url: /ontology/ro
           
-    - title: Research Areas
-      items:
-        - title: "Data Integration"
-          url: /research/data-integration
-
-        - title: "Environments"
-          url: /research/environments
-
-        - title: "Evolution"
-          url: /research/evolution
-
-        - title: "Functional Genomics"
-          url: /research/functional-genomics
-
-        - title: "Ontologies"
-          url: /research/ontologies
-
-        - title: "Phenomics"
-          url: /research/phenomics
-
-        - title: "Software and Infrastructure"
-          url: /research/software-and-infrastructure
-
     - title: People
       items:
         - title: Chris Mungall (PI)
