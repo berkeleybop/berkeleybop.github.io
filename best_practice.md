@@ -39,8 +39,9 @@ If there is anything you don't understand, **ask on slack**!
 - use GitHub
     - Like GitLab in principle, but GitHub has network effect
     - prefer to work on the main repo, not forks, but defer to project-specific guidelines
-- use GitHub issues
-    - in general you should always we working to a ticket assigned to you
+- Read our [GitHub Overview](https://docs.google.com/presentation/d/1xiALnyqKJ_cAF0hmR99v1FdQ-CC7WW33/edit#slide=id.gb4c63b0a22_0_0)
+- Use GitHub issues
+    - in general you should always be working to a ticket assigned to you
     - try to assign every issue to somebody
     - try to have a single assignee / responsible person
     - tag people if necessary
@@ -53,7 +54,7 @@ If there is anything you don't understand, **ask on slack**!
        - give issues actionable descriptions, make it clear when it can be closed
 - use GitHub Pull Requests
     - mark as draft until ready for review, then assign reviewers
-    - description should link to an issue "Resolves #1234"
+    - description should link to an issue ("Resolves #1234") to automatically close issue when PR is merged
         - otherwise you have to clean up issues manually
     - update description as needed
     - always look over your commits before making a PR
@@ -63,11 +64,11 @@ If there is anything you don't understand, **ask on slack**!
         - follow repo-standard practice for rebase etc
     - AVOID:
        - making PRs too large
-       - mixing orthogonal concerns in one PR. Generally 1PR = 1 issue
+       - mixing orthogonal concerns in one PR. Generally 1 PR = 1 issue
        - mixing in formatting changes on sections of the code unrelated to the semantic changes you are making
        - working on a PR for too long a time without feedback from others
        - working on "invisible" branches. ALWAYS make a PR, ALWAYS push. You can mark as draft!
-    - give PRs a meaningful a title and description
+    - give PRs a meaningful title and description
        - remember: titles will be used when auto-making release notes
 - use GitHub Milestones to plan releases
 - use GitHub Releases to tag versions and attach binaries
@@ -75,7 +76,7 @@ If there is anything you don't understand, **ask on slack**!
     - use the auto-generate release notes feature (corollary: write informative PR titles and never commit on main)
 - use GitHub Pages for simple static content and documentation
     - prefer the `docs/` directory option
-    - See exemplars
+    - See exemplars: [OAK](https://incatools.github.io/ontology-access-kit/index.html), [Biolink Model](https://biolink.github.io/biolink-model/)
 - use GitHub Projects ("project boards") for coordinating issues and PRs
     - three columns:
         - To do: for manager to fill and prioritize
@@ -83,8 +84,7 @@ If there is anything you don't understand, **ask on slack**!
         - Ready for review: for manager to empty
     - order of preference for cards: PR link, issue link, text
 - set up GitHub actions to do CI
-    - travis no longer recommended
-    - use GitHub actions
+    - Travis no longer recommended
     - All changes should be on PRs thus validated
     - main branch should never ever be failing
     - EVERY repo should have actions and PR checking
@@ -106,7 +106,6 @@ If there is anything you don't understand, **ask on slack**!
     - include a .github
     - examplar: [github.com/linkml](https://github.com/linkml)
     - pin repos
-- read our [GitHub Overview](https://docs.google.com/document/d/1YZ4kLyGka7MZPy824CHN7V2lnChFwJAGWpubKGr8n7w/edit)
 - make sure all relevant artefacts are checked in
     - use `git status` and `.gitignore`
     - in general avoid checking in derived products (but see below)
@@ -122,6 +121,7 @@ If there is anything you don't understand, **ask on slack**!
     - avoid using spaces in filenames
     - always use standard suffixes (e.g. .tsv, .txt, .md)
     - kabob-case-is-a-good-default.txt. See [filenames](https://developers.google.com/style/filenames) in google developer guide
+    - Don't rename files and commit - use "git mv" instead, so that the history of the file is preserved
 - use topics and "star" relevant repos
     - https://github.com/topics/linkml
     - https://github.com/topics/obofoundry
@@ -170,7 +170,7 @@ If there is anything you don't understand, **ask on slack**!
 
 ### Schema/Standards-centric Repos, Data and metadata repos
 
-- You will be using [linkml](https://github.com/linkml/linkml)
+- Use [LinkML](https://github.com/linkml/linkml)
 - Create repo from [LinkML template](https://github.com/link-modeling/linkml-template)
 - Examples:
    - NMDC
@@ -181,7 +181,7 @@ If there is anything you don't understand, **ask on slack**!
 - Include comprehensive examples
 - Use LinkML mkdocs framework
 - Understand the difference between [OWL-centric and KG-centric modeling](https://douroucouli.wordpress.com/2019/03/14/biological-knowledge-graph-modeling-design-patterns/)
-- include mappings to biolink model
+- include mappings to [Biolink Model](https://biolink.github.io/biolink-model/)
 - always include examples
    - integrate these with documentation
    - integrate these with unit tests
@@ -210,7 +210,7 @@ If there is anything you don't understand, **ask on slack**!
 - Follow group exemplars: Uberon, Mondo, GO, ENVO, CL, PATO, BERO, PhenIO
    - but be aware each has their quirks
 - distribute useful products
-   - distribute SSSOM
+   - distribute [SSSOM](https://mapping-commons.github.io/sssom/)
    - always distribute an .obo
    - always distribute a obo .json
    - distribute a kgx file (NEW)
@@ -336,8 +336,8 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - examplars: obofoundry.github.io, this site
 - use a CC license, CC-0 or CC-BY
 - Examplars:
-   - LinkML splash page
-   - Phenopackets splash page
+   - [LinkML splash page](https://linkml.io/)
+   - [Phenopackets splash page](http://phenopackets.org/)
    - Cell Ontology splash page
 
 ## Documentation
@@ -745,7 +745,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - ENVO
    - RO
    - CL
-- follow OBO best practice and principles
+- follow [OBO best practice and principles](https://obofoundry.org/principles/fp-000-summary.html)
    - ontologies should be open
    - if OBO is underspecified, follow the examples of projects done in this group
       - NEW: see ontology-metadata in OAK
@@ -782,19 +782,19 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 ## Collaboration
 
 - we are a collaborative group, reach out if you have issues
-   - join relevant channels on bbop and other slacks
+   - join relevant channels on bbop and other Slack workspaces
    - questions always welcome but make best effort to see if information available in group reference guides
    - don't struggle alone!
    - others are likely to either have similar questions/frustrations to you, or will have faced them in the past
 - questions are always welcome but always check standard sources first
-   - for programming questions, search Stack Overflow
+   - for programming questions, search [Stack Overflow](https://stackoverflow.com/)
    - for questions regarding group or collaborator tools, is it in the FAQ?
 - make it easy for people to help you
    - be concise, yet provide sufficient relevant context
    - make it actionable
        - Discouraged: X doesn't work
        - Encouraged: when I do A, I get result B, but I expect C
-   - give concise, actionable issue titles
+   - create issues with  concise, actionable titles
    - your problem should be reproducible as far as possible
    - ideally contribute a a test case following idioms of appropriate repo (learn how to do this)
 - make things easier for those who follow you 
@@ -807,7 +807,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - be constructive in any criticism
 - use your Berkeley Lab account for email, calendars
 - keep your calendar up to date, this facilitates scheduling meetings
-- slack
+- Slack
    - avoid `@channel` unless necessary
    - discussion about tickets OK but decisions and key points must be recorded in ticket
 - use GitHub for requests
@@ -816,7 +816,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 
 ## Google docs/slides/sheets hygiene
 
-- Read [Julie's awesome guide](https://docs.google.com/presentation/d/1NqwMrJs5b95i4sLEfpKWtGNepNh8UCSOp6uFtq_DYic/edit#slide=id.p)
+- Read [Julie's awesome intro to Google Drive](https://docs.google.com/presentation/d/1NqwMrJs5b95i4sLEfpKWtGNepNh8UCSOp6uFtq_DYic/edit#slide=id.p)
 - Read [Data Organization in Spreadsheets for Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/ from datacarpentry
 - Read [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) by Bronan and Woo
     - be consistent
@@ -845,17 +845,31 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
     - assign/tag people appropriately
     - avoid comment wars
 - Make the doc outline-mode-friendly
-    - use H1/H2/etc
+    - use H1/H2/etc. for headers (don't just style normal text)
     - always have outline mode on (list-like icon near top left)
     - assume the reader has outline mode on
     - rarely need for a TOC
 - For google sheets / excel
     - never manually color code or use font/strikethrough. Always add an explicit field and use conditional formatting
     - always have a schema, even if it is a flat data dictionary. linkml-model-enrichment will derived one
+    - favour TSV+github over google sheets
+       - workflows clearly favor sheets
+       - when using sheets, use [cogs](https://github.com/ontodev/cogs)
+    - follow TSV guidelines for google sheets
 - Use formatted templates where appropriate (grants, papers)
-- Use Paperpile for citations / reference management (you have access via the lab)
+- Use Paperpile for citations / reference management (you have access via the Lab)
 - Give documents meaningful names (e.g., not just "meeting")--assume that most people will find the doc via search rather than by going through the folder hierarchy
     - don't use camelcase or underscores in google doc names, it hinders search
+- organize google docs in the relevant folder depending on what project is funding the work
+- understand how navigation works for google docs
+- make docs and folders viewable by all by default, unless sensitive
+- include links to slides of general relevance from project repos
+- reuse slides from existing slide decks, but provide attribution
+- Tips
+   - [search operators](https://seosly.com/google-drive-search-operators/)
+
+## Best practices for meetings
+- See [Best practices for writing a good meeting reminder](https://docs.google.com/presentation/d/169D2P1jKLyqXysOBMO7aehDI2UvY1BoS/edit#slide=id.p2)
 - Use a rolling agenda/notes doc, rather than one doc per meeting
     - most recent first
     - ISO-8601 >> human readable dates >> anything else
@@ -864,18 +878,6 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - record decisions
 - include a link to the rolling doc in calendar invites
 - include the Zoom / videoconference link in the rolling notes doc
-- organize google docs in the relevant folder depending on what project is funding the work
-- understand how navigation works for google docs
-- make visible to all by default, unless sensitive
-- include links to slides of general relevance from project repos
-- favour TSV+github over google sheets
-   - workflows clearly favor sheets
-   - when using sheets, use [cogs](https://github.com/ontodev/cogs)
-- follow TSV guidelines for google sheets
-- don't use color for semantics. Always use conditional formatting for colors etc
-- reuse slides from existing slide decks, but provide attribution
-- Tips
-   - [search operators](https://seosly.com/google-drive-search-operators/)
 
 ## DevOps
 
