@@ -675,6 +675,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 
 - CURIEs and IRIs
    - Read [McMurry et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878/pdf/pbio.2001414.pdf)
+   - [Prefixmaps](https://github.com/linkml/prefixmaps) (a Python library for retrieving semantic prefix maps) is now our source of truth for all things prefix/namespace related
    - Take the time to read ALL docs on [bioregistry.io](https://bioregistry.io)
    - always use CURIEs for IDs
        - CURIEs + prefixmap >> URIs >>>> ad-hoc
