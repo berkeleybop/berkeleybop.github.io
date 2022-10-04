@@ -50,8 +50,9 @@ If there is anything you don't understand, **ask on slack**!
     - set up standard issue templates (helps ensure tickets are auto-assigned)
     - When creating issues:
        - give a meaningful issue title
-       - word title as a bug "e.g. under condition X, Y fails" or request "add option A to method B"
-       - give issues actionable descriptions, make it clear when it can be closed
+       - word title as a bug, e.g. "under condition X, Y fails" or a request, e.g. "add option A to method B"
+       - give issue actionable descriptions, make it clear when an issue can be closed
+       - see [Seth's suggestions for creating awesome issues](https://github.com/kltm/how-to-write-an-awesome-issue)
 - use GitHub Pull Requests
     - mark as draft until ready for review, then assign reviewers
     - description should link to an issue ("Resolves #1234") to automatically close issue when PR is merged
