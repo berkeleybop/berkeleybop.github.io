@@ -189,7 +189,7 @@ If there is anything you don't understand, **ask on slack**!
 - also include counter-examples
    - data deliberately designed to fail validation
    - check validation correctly identifiers these in github actions
-- enable zenodo syncing
+- [enable zenodo syncing](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 - For repos that have data:
    - consider a dashboard (see [semantic dashbaord patterns](https://docs.google.com/document/d/1ld73pVz_BIH22jRBZuV0RVDeSiuGyQpD1u_F9Yv9gg0/edit#))
 
@@ -220,7 +220,7 @@ If there is anything you don't understand, **ask on slack**!
    - .obo is best for diffs but less expressive and gotchas for CURIEs
    - functional syntax is often preferred
    - for template-based ontologies, much of the source may be TSVs
-- enable zenodo syncing
+- [enable zenodo syncing](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 - Understand issues relating to git conflicts with ontologies
    - .obo as source mitigates some of these
    - See [this thread](https://anatomy-and-cell-onto.slack.com/archives/C01A7LRAKN1/p1626433475018000?thread_ts=1626331368.016700&cid=C01A7LRAKN1)
@@ -254,7 +254,7 @@ If there is anything you don't understand, **ask on slack**!
 - use KGX for anything that should be modeled as a KG
 - use descriptive filenames
 - manage metadata in GitHub
-- sync repo with Zenodo
+- [enable zenodo syncing](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 - use S3 for larger files
    - release files to Zenodo
 - Dockerize   
@@ -262,7 +262,6 @@ If there is anything you don't understand, **ask on slack**!
 - Consider [Manubot](https://manubot.org/)
 - Other recommended best practices
    - [datadryad](https://datadryad.org/stash/best_practices)
-- enable zenodo syncing
 
 ## Development Environment Setup
 
@@ -350,8 +349,8 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - all code, schemas, analyses, ontologies, MUST be documented
 - documentation is a love-letter to your future self
 - understand [the Diataxis four-way distinction](https://www.divio.com/blog/documentation/): tutorial, how-to, reference, explanation
-    - exemplar: obook
-    - exemplar: linkml docs
+    - exemplar: [OBOOK](https://oboacademy.github.io/obook/)
+    - exemplar: [LinkML docs](https://linkml.io/)
 - [google API documentation guide](https://developers.google.com/style/api-reference-comments)
 - have strategies to avoid staleness and documentation getting out of sync
 - use inline documentation
@@ -463,7 +462,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - [OAK](https://github.com/incatools/ontology-access-kit)
 - Learning resources
    - [Charlie's Recommended Python Programming Videos](https://www.youtube.com/playlist?list=PLPFmTfhIBiumfYT3rsa35fHJxabB78er1)
-   - obook
+   - [OBOOK - Open Biological and Biomedical Ontologies Organized Knowledge](https://oboacademy.github.io/obook/)
 
 ## Web APIs
 
