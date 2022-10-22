@@ -604,6 +604,10 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
       - the OBO page gives the list of products. E.g. [obofoundry.org/ontology/pato](http://obofoundry.org/ontology/pato)
 - Mappings (ontology or otherwise)
    - SSSOM with skos predicates
+- Cookiecutters for starting a new project.
+  - General-purpose projects using [`Sphinx + tox + poetry`](https://github.com/hrshdhgd/sphintoxetry-cookiecutter)
+  - LinkML based projects using [`linkml-project-cookiecutter`](https://github.com/linkml/linkml-project-cookiecutter)
+  - Ontology Access Kit (`oaklib`) plugin projects using [`oakx-plugin-cookiecutter](https://github.com/INCATools/oakx-plugin-cookiecutter) 
 - KGs
    - biolink
    - kgx >> rdf* >> rdf
