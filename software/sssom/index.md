@@ -5,7 +5,7 @@ active: yes
 homepage: https://mapping-commons.github.io/sssom/spec/
 source: https://github.com/mapping-commons/sssom
 documentation: https://mapping-commons.github.io/sssom/spec/
-logo: 
+logo: https://raw.githubusercontent.com/jmcmurry/closed-illustrations/master/logos/sssom-logos/sssom_logo_BLACK-NO-WORDS.svg
 ---
 Despite progress in the development of standards for describing and exchanging scientific information, the lack of easy-to-use standards for mapping between different representations of the same or similar objects in different databases poses a major impediment to data integration and interoperability. Mappings often lack the metadata needed to be correctly interpreted and applied. For example, are two terms equivalent or merely related? Are they narrow or broad matches? Are they associated in some other way? Such relationships between the mapped terms are often not documented,
 leading to incorrect assumptions and making them hard to use in scenarios that require a high degree of precision (such as diagnostics or risk prediction). 
@@ -18,4 +18,4 @@ The Simple Standard for Sharing Ontological Mappings (SSSOM) addresses these pro
 3. Implementing open and community-driven collaborative workflows designed to evolve the standard continuously to address changing requirements and mapping practices.
 4. Providing reference tools and software libraries for working with the standard.
 
-**Publication**: Matentzoglu, N., et al. (2021). [A Simple Standard for Sharing Ontological Mappings (SSSOM)](http://arxiv.org/abs/2112.07051). arXiv, 2112.07051.
+**Publication**: Matentzoglu, N., *et al.* (2022). [A Simple Standard for Sharing Ontological Mappings (SSSOM)](https://doi.org/10.1093/database/baac035). *Database*, baac035.
