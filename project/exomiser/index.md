@@ -24,3 +24,5 @@ Precision clinical management is often hindered by the difficulties in making an
 that can scan all genes or even all genetic material (the ‘genome’) at once.
 We are extending xomiser to meet current challenges and opportunities in pediatrics by adding algorithms for new genomic technologies, analyzing molecular pathways involved in intellectual disability,
 and providing approaches to analyze groups of unsolved cases to identify novel disease genes.
+
+<img src="Exomiser-team-May2022%20-%201%20(1).jpeg" width="40%">

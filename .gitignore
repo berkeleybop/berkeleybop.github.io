@@ -18,3 +18,10 @@ tramp
 .org-id-locations
 *_archive
 .jekyll-cache/
+
+# For rbenv users
+.ruby-version
+
+# For people using Jekyll via a Bundler environment
+Gemfile
+Gemfile.lock
