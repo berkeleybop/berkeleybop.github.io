@@ -483,8 +483,13 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 
 ## Shell
 
-- Up to you but most of us use [ohmyz](https://ohmyz.sh/)
-- TODO: figure way to share common aliases
+### Programming
+
+- bash/sh
+
+### Personal
+
+- Use [ohmyz](https://ohmyz.sh/) 
 
 ## Database Engines
 
