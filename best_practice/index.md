@@ -393,6 +393,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - [google style guide](https://developers.google.com/style)
    - We are inspired by [knocean/practices/python](https://github.com/knocean/practises/tree/master/python) but differ in some places
       - We make use of OO as appropriate - just don't go overboard like in java
+- See the [Working with Python Environments](/best_practice/python_environments) guide for details on installing Python versions and managing virtual environments.      
 - All repos should use [poetry](https://python-poetry.org/)
   - Set up this way: `poetry new --src my-project-name`
   - OR use `linkml-ws new` for schema-centric repos
