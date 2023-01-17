@@ -19,14 +19,16 @@ If there is anything you don't understand, **ask on slack**!
 
 ## Git and GitHub
 
-- use git
-- [commit early, commit often](https://deepsource.io/blog/git-best-practices)
+- use git ubiquitously
+   - [commit early, commit often](https://deepsource.io/blog/git-best-practices)
    - perfect later!
    - you should always be working on a branch, so don't worry about breaking things
    - make a PR for your branch - mark as draft if not ready
 - Make repos public by default
 - Use standard repo layouts
-   - don't invent - look at exemplars
+   - choose a cookiecutter
+   - don't reinvent
+   - look at exemplars
 - Include standard files:
    - README.md
    - LICENSE (BSD3 or Apache preferred for software)
@@ -127,8 +129,10 @@ If there is anything you don't understand, **ask on slack**!
     - https://github.com/topics/linkml
     - https://github.com/topics/obofoundry
     - https://github.com/topics/geneontology
+- tips
+    - the `gh` [github cli client](https://github.com/cli/cli) is very useful, e.g. `gh pr Software`: 
 
-### Software-centric Repos
+### create-centric Repos
 
 - Use an existing repo from a group member as template for best practice, e.g.,
    - [kgx](https://github.com/biolink/kgx/)
@@ -361,8 +365,14 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - example standalone scripts
    - example Jupyter notebooks
    - double up: unit tests can serve as examples and vice versa
+   - See linkml-run-examples framework
+- Use existing templates
+   - [sphinxtoxetry](https://github.com/hrshdhgd/sphintoxetry-cookiecutter/) for code-oriented projects
+   - linkml cookiecutter for schema projects
+   - ODK for ontology projects
+   - kghub template for KG projects
 - use Markdown as default
-   - RST acceptable for Sphinx projects
+   - RST for Sphinx projects
    - Google docs acceptable for initial brainstorming
    - Don't use Wikis (mediawiki, GitHub wiki)
    - Manage markdown docs as version control
@@ -581,9 +591,14 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - [obographviz](https://github.com/incatools/obographviz/) (js)
    - never, ever use XML parsers to parse RDF/XML
 - NER/NLP
+   - Read Harry's awesome [caufieldjh/awesome-bioie](https://github.com/caufieldjh/awesome-bioie) list
    - fast changing but some tools to consider:
       - ontorunNER (which wraps OGER)
       - BERT for language models (experimental)
+      - Note we are now wrapping more of this functionality in OAK
+   - join the monarch nlp slack channel
+- Shell commands
+   - [sh](https://github.com/amoffat/sh) > subprocess
 
 ## File formats, languages, and standards
 
