@@ -50,7 +50,7 @@ For example, in a current project, it is being used to build an integrated KG th
 People:
 
 - Justin Reese - LBNL
-- Deepak Unni - LBNL (now EMBL)
+- Deepak Unni - LBNL (now SIB)
 - Marcin Joachimiak - LBNL
 - Chris Mungall - LBNL 
 
