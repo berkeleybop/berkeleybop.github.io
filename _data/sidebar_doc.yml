@@ -43,11 +43,14 @@ entries:
         - title: "National Microbiome Data Collaborative (NMDC)"
           url: /project/nmdc
           
-        - title: SymbiOnt
-          url: /project/symbiont
+        - title: Bridge2AI
+          url: /project/Bridge2AI
     
         - title: Exomiser
           url: /project/exomiser
+          
+        - title: SymbiOnt
+          url: /project/symbiont
         
         - title: GMOD
           url: /project/gmod
@@ -55,10 +58,10 @@ entries:
         - title: OBO Foundry
           url: /project/obo-foundry
           
-        - title: KG-COVID-19
+        - title: KG-COVID-19 (inactive)
           url: /project/kg-covid-19     
                     
-        - title: IDG2KG
+        - title: IDG2KG (inactive)
           url: /project/idg2kg
             
         - title: CCDH (inactive)
