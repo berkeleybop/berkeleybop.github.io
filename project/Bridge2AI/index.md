@@ -2,7 +2,7 @@
 layout: project
 title: Bridge2AI Standards Core
 active: true
-funding: NIH Common Fund, #1U54HG012513
+funding: NIH Common Fund 1U54HG012513
 homepage: https://bridge2ai.org/
 github: https://github.com/bridge2ai
 logo: https://bridge2ai.org/wp-content/uploads/2023/02/cropped-bridge-center-logo_color-e1677259956433.png
