@@ -367,7 +367,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - double up: unit tests can serve as examples and vice versa
    - See linkml-run-examples framework
 - Use existing templates
-   - [sphinxtoxetry](https://github.com/hrshdhgd/sphintoxetry-cookiecutter/) for code-oriented projects
+   - [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template) for code-oriented projects
    - linkml cookiecutter for schema projects
    - ODK for ontology projects
    - kghub template for KG projects
@@ -626,7 +626,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - Mappings (ontology or otherwise)
    - SSSOM with skos predicates
 - Cookiecutters for starting a new project.
-  - General-purpose projects using [`Sphinx + tox + poetry`](https://github.com/hrshdhgd/sphintoxetry-cookiecutter)
+  - General-purpose projects using [`monarch-project-template`](https://github.com/monarch-initiative/monarch-project-template)
   - LinkML based projects using [`linkml-project-cookiecutter`](https://github.com/linkml/linkml-project-cookiecutter)
   - Ontology Access Kit (`oaklib`) plugin projects using [`oakx-plugin-cookiecutter](https://github.com/INCATools/oakx-plugin-cookiecutter) 
 - KGs
