@@ -264,7 +264,7 @@ If there is anything you don't understand, **ask on slack**!
    - release files to Zenodo
 - Dockerize   
 - Use Jupyter notebooks
-- Consider [Manubot](https://manubot.org/)
+- Consider [Manubot](https://manubot.org/)   
 - Other recommended best practices
    - [datadryad](https://datadryad.org/stash/best_practices)
 
@@ -536,6 +536,11 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 ## LLMs
 
 - [ontogpt](https://github.com/monarch-initiative/ontogpt)
+- code assistance
+    - many of us use copilot + vscode/pycharm; see onboarding for how to charge
+    - gpt-4 works better for de-novo
+- OpenAI accounts
+    - see onboarding doc on how to get added to Mungall group account
 
 
 ## Handy developer and command line tools
