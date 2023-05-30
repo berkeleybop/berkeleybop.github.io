@@ -56,6 +56,7 @@ If there is anything you don't understand, **ask on slack**!
        - give issue actionable descriptions, make it clear when an issue can be closed
        - see [Seth's suggestions for creating awesome issues](https://github.com/kltm/how-to-write-an-awesome-issue)
 - use GitHub Pull Requests
+    - read the [obook PR review guide](https://oboacademy.github.io/obook/howto/review-pull-request/)
     - mark as draft until ready for review, then assign reviewers
     - description should link to an issue ("Resolves #1234") to automatically close issue when PR is merged
         - otherwise you have to clean up issues manually
