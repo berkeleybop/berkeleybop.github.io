@@ -479,9 +479,12 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 ## Web APIs
 
 - Authoring
-   - FastAPI > Flask
+   - FastAPI >> Flask
    - Seperate business logic from API code
       - this should be independently testable
+- Testing
+   - use `fastapi.testclient`
+   - follow [GO exemplar](https://github.com/geneontology/go-fastapi/blob/main/tests/unit/test_bioentity_endpoints.py)
 - Accessing
    - Use python requests library (unless a higher level lib is available)
    - Do not construct URL strings yourself - use `params` instead
@@ -529,6 +532,11 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - SQL vs other DB engines
    - this is an evolving area
    - see [Knocean SQL guide](https://github.com/knocean/practises/tree/master/sql)
+
+## LLMs
+
+- [ontogpt](https://github.com/monarch-initiative/ontogpt)
+
 
 ## Handy developer and command line tools
 
