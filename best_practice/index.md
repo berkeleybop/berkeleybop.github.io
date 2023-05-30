@@ -56,6 +56,7 @@ If there is anything you don't understand, **ask on slack**!
        - give issue actionable descriptions, make it clear when an issue can be closed
        - see [Seth's suggestions for creating awesome issues](https://github.com/kltm/how-to-write-an-awesome-issue)
 - use GitHub Pull Requests
+    - read the [obook PR review guide](https://oboacademy.github.io/obook/howto/review-pull-request/)
     - mark as draft until ready for review, then assign reviewers
     - description should link to an issue ("Resolves #1234") to automatically close issue when PR is merged
         - otherwise you have to clean up issues manually
@@ -263,7 +264,7 @@ If there is anything you don't understand, **ask on slack**!
    - release files to Zenodo
 - Dockerize   
 - Use Jupyter notebooks
-- Consider [Manubot](https://manubot.org/)
+- Consider [Manubot](https://manubot.org/)   
 - Other recommended best practices
    - [datadryad](https://datadryad.org/stash/best_practices)
 
@@ -478,9 +479,12 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 ## Web APIs
 
 - Authoring
-   - FastAPI > Flask
+   - FastAPI >> Flask
    - Seperate business logic from API code
       - this should be independently testable
+- Testing
+   - use `fastapi.testclient`
+   - follow [GO exemplar](https://github.com/geneontology/go-fastapi/blob/main/tests/unit/test_bioentity_endpoints.py)
 - Accessing
    - Use python requests library (unless a higher level lib is available)
    - Do not construct URL strings yourself - use `params` instead
@@ -528,6 +532,16 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - SQL vs other DB engines
    - this is an evolving area
    - see [Knocean SQL guide](https://github.com/knocean/practises/tree/master/sql)
+
+## LLMs
+
+- [ontogpt](https://github.com/monarch-initiative/ontogpt)
+- code assistance
+    - many of us use copilot + vscode/pycharm; see onboarding for how to charge
+    - gpt-4 works better for de-novo
+- OpenAI accounts
+    - see onboarding doc on how to get added to Mungall group account
+
 
 ## Handy developer and command line tools
 
