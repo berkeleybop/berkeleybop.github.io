@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: software
 title: SymbiOnt
 active: yes
 homepage: 
