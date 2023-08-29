@@ -97,7 +97,7 @@ entries:
         - title: Biolink API
           url: /software/biolink-api
 
-        - title: LinkML (formerly BiolinkML)
+        - title: LinkML
           url: /software/biolinkml
 
         - title: OAK
