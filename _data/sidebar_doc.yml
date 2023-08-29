@@ -49,38 +49,23 @@ entries:
         - title: Exomiser
           url: /project/exomiser
           
-        - title: SymbiOnt
-          url: /project/symbiont
-        
-        - title: GMOD
-          url: /project/gmod
-          
         - title: OBO Foundry
           url: /project/obo-foundry
-
-        - title: Past projects
-          print: true
-          items:          
-            - title: KG-COVID-19 (inactive)
-              url: /project/kg-covid-19     
+          
+          - title: GMOD (inactive)
+          url: /project/gmod
+          
+        - title: KG-COVID-19 (inactive)
+          url: /project/kg-covid-19     
                     
-            - title: IDG2KG (inactive)
-              url: /project/idg2kg
+        - title: IDG2KG (inactive)
+          url: /project/idg2kg
             
         - title: CCDH (inactive)
           url: /project/ccdh
           
         - title: "INCA: Intelligent Concept Assistant (inactive)"
           url: /project/inca
-          
-        - title: Xena (inactive)
-          url: /project/xena
-          
-        - title: "Planteome (inactive)"
-          url: /project/planteome       
-                   
-        - title: "Phenoscape (inactive)"
-          url: /project/phenoscape
           
     - title: Software
       print: true
@@ -134,7 +119,7 @@ entries:
           url: /software/NEAT
 
        - title: SymbiOnt
-          url: /software/SymbiOnt
+          url: /software/symbiont
 
     - title: Ontologies
       print: true
