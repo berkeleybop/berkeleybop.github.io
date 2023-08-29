@@ -3,7 +3,7 @@ layout: project
 title: AI/ML projects
 active: true
 funding: 
-homepage: https://monarch-initiative.github.io/ontogpt/
+homepage: https://monarch-initiative.github.io/ontogpt
 github: https://github.com/monarch-initiative/ontogpt 
 logo: 
 twitter: 
@@ -23,12 +23,13 @@ OntoGPT implements two different strategies for knowledge extraction: SPIRES and
 ***SPIRES (Structured Prompt Interrogation and Recursive Extraction of Semantics)***
 - A Zero-shot learning (ZSL) approach to extracting nested semantic structures from text
 - Takes two inputs - 1) LinkML schema 2) free text, and outputs knowledge in a structure conformant with the supplied schema in JSON, YAML, RDF or OWL formats
-- Source: part of [OntoGPT]((https://github.com/monarch-initiative/ontogpt))
+- Source: part of [OntoGPT](https://github.com/monarch-initiative/ontogpt)
 - [Templates (see sidebar)](https://monarch-initiative.github.io/ontogpt/core/)
 - Preprint: Caufield JH, Hegde H, Emonet V, Harris NL, Joachimiak MP, Matentzoglu N, Kim H, Moxon SAT, Reese JT, Haendel MA, Robinson PN, Mungall CJ. Structured prompt interrogation and recursive extraction of semantics (SPIRES): A method for populating knowledge bases using zero-shot learning. arXiv [cs.AI]. 2023. [http://arxiv.org/abs/2304.02711](https://arxiv.org/abs/2304.02711)
 
 ***SPINDOCTOR (Structured Prompt Interpolation of Natural Language Descriptions Of Controlled Terms for Ontology Reporting)****
-- Source: part of [OntoGPT]((https://github.com/monarch-initiative/ontogpt))
+- Uses GPT models to perform gene set function summarization as a complement to standard enrichment analysis
+- Source: part of [OntoGPT](https://github.com/monarch-initiative/ontogpt)
 - Gene enrichment using SPINDOCTOR: [https://monarch-initiative.github.io/ontogpt/#gene-enrichment-using-spindoctor](https://monarch-initiative.github.io/ontogpt/#gene-enrichment-using-spindoctor)
 - Preprint: Joachimiak MP, Caufield JH, Harris NL, Kim H, Mungall CJ. Gene Set Summarization using Large Language Models. arXiv [q-bio.GN]. 2023. [http://arxiv.org/abs/2305.13338](https://arxiv.org/abs/2305.13338)
 
