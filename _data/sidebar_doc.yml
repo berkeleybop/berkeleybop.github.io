@@ -57,12 +57,15 @@ entries:
           
         - title: OBO Foundry
           url: /project/obo-foundry
-          
-        - title: KG-COVID-19 (inactive)
-          url: /project/kg-covid-19     
+
+        - title: Past projects
+          print: true
+          items:          
+            - title: KG-COVID-19 (inactive)
+              url: /project/kg-covid-19     
                     
-        - title: IDG2KG (inactive)
-          url: /project/idg2kg
+            - title: IDG2KG (inactive)
+              url: /project/idg2kg
             
         - title: CCDH (inactive)
           url: /project/ccdh
@@ -85,9 +88,6 @@ entries:
         - title: AmiGO and GOlr
           url: /software/amigo
 
-        - title: Apollo / JBrowse
-          url: /software/apollo
-
         - title: Noctua
           url: /software/noctua
 
@@ -102,9 +102,6 @@ entries:
 
         - title: OAK
           url: /software/OAK
-
-        - title: Chado Schema
-          url: /software/chado
 
         - title: OwlSim
           url: /software/owlsim
@@ -127,9 +124,6 @@ entries:
         - title: BioMake
           url: /software/biomake
 
-        - title: Dipper
-          url: /software/dipper
-
         - title: PAINT
           url: /software/paint
 
@@ -138,6 +132,9 @@ entries:
           
         - title: NEAT
           url: /software/NEAT
+
+       - title: SymbiOnt
+          url: /software/SymbiOnt
 
     - title: Ontologies
       print: true
