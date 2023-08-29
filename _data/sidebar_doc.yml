@@ -21,7 +21,10 @@ entries:
 
     - title: Projects
       print: true
-      items:          
+      items:   
+        - title: AI/ML projects
+          url: /project/AI
+          
         - title: Gene Ontology
           url: /project/gene-ontology
           
