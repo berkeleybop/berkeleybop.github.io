@@ -36,6 +36,12 @@ OntoGPT implements two different strategies for knowledge extraction: SPIRES and
 - Gene enrichment using SPINDOCTOR: [https://monarch-initiative.github.io/ontogpt/#gene-enrichment-using-spindoctor](https://monarch-initiative.github.io/ontogpt/#gene-enrichment-using-spindoctor)
 - Preprint: Joachimiak MP, Caufield JH, Harris NL, Kim H, Mungall CJ. Gene Set Summarization using Large Language Models. arXiv [q-bio.GN]. 2023. [http://arxiv.org/abs/2305.13338](https://arxiv.org/abs/2305.13338)
 
+**CurateGPT**
+- An LLM-driven tool to assist with curation (pre-alpha)
+- Source: [https://github.com/monarch-initiative/curate-gpt](https://github.com/monarch-initiative/curate-gpt)
+- [Try it! (Pre-alpha version--not guaranteed to work)](http://curategpt.ai/)
+
+
 ***More info***
 - [OBO Academy article on Leveraging ChatGPT for ontology curation](https://oboacademy.github.io/obook/lesson/chatgpt-ontology-curation/)
 - [Article about knowledge-backed AI with Monarch](https://monarchinit.medium.com/knowledge-backed-ai-with-monarch-a-match-made-in-heaven-a8296eec6b9f)
