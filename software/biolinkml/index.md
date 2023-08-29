@@ -8,8 +8,10 @@ documentation: https://linkml.github.io/linkml-model/docs/
 logo: https://github.com/berkeleybop/berkeleybop.github.io/blob/master/software/biolinkml/linkml-logo-smaller.png?raw=true
 ---
 
-LinkML (formerly named BiolinkML, but it's not just for bio) is a general purpose modeling language that can be used with linked data, JSON, and other formalisms.
-
-Models can be created in YAML, JSON or RDF. A variety of artefacts can be generated from the model, including ShEx, JSON-Schema, OWL, Python dataclasses, UML diagrams, Markdown pages for deployment in a GitHub pages site, and more.
+LinkML (formerly named BiolinkML, but it's not just for bio) is an open, extensible modeling framework that allows computers and people to work cooperatively to model, validate, and distribute data that is reusable and interoperable.
+As a flexible yet expressive standard for describing data models ranging from value sets and flat, checklist-style standards to complex normalized data structures that use polymorphism and inheritance, LinkML enables even non-developers to create data models.
+Additionally, it is a framework for working with and validating data in a variety of formats (JSON, RDF, TSV), with generators for compiling LinkML schemas to other frameworks.
 
 LinkML is actively being used for the development and maintenance of the [Biolink Model](https://biolink.github.io/biolink-model/).
+
+Follow us on LinkedIn: https://www.linkedin.com/groups/14303246/
