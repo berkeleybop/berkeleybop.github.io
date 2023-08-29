@@ -118,7 +118,7 @@ entries:
         - title: NEAT
           url: /software/NEAT
 
-       - title: SymbiOnt
+        - title: SymbiOnt
           url: /software/symbiont
 
     - title: Ontologies
