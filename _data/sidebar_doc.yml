@@ -52,7 +52,7 @@ entries:
         - title: OBO Foundry
           url: /project/obo-foundry
           
-          - title: GMOD (inactive)
+        - title: GMOD (inactive)
           url: /project/gmod
           
         - title: KG-COVID-19 (inactive)
