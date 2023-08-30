@@ -14,4 +14,4 @@ Additionally, it is a framework for working with and validating data in a variet
 
 LinkML is actively being used for the development and maintenance of the [Biolink Model](https://biolink.github.io/biolink-model/).
 
-Follow us on LinkedIn: https://www.linkedin.com/groups/14303246/
+Join the LinkML group on LinkedIn: [https://www.linkedin.com/groups/14303246/](https://www.linkedin.com/groups/14303246/)
