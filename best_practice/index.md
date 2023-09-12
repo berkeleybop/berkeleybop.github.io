@@ -6,7 +6,7 @@ title: Best Practice
 
 This is the best practice / house style guide for the BBOP group. Inspired by / cribbed from [Knocean practice](https://github.com/knocean/practises/) and other sources.
 
-Source: [berkeleybop/berkeleybop.github.io/blob/master/best_practice.md](https://github.com/berkeleybop/berkeleybop.github.io/blob/master/best_practice.md)
+Source: [berkeleybop/berkeleybop.github.io/blob/master/best_practice](https://github.com/berkeleybop/berkeleybop.github.io/blob/master/best_practice)
 
 We are a diverse group working on many different projects with
 different stakeholders and sets of collaborators. Nevertheless we
@@ -539,6 +539,11 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 
 - [ontogpt](https://github.com/monarch-initiative/ontogpt)
 - [curategpt](https://github.com/monarch-initiative/curate-gpt)
+- For command line usage and direct Python usage:
+    - https://llm.datasette.io/en/stable/
+    - also follow Simon's blog for *practical* guides to LLMs for engineers:
+        - https://simonwillison.net/
+        - 
 - code assistance
     - many of us use copilot + vscode/pycharm; see onboarding for how to charge
     - gpt-4 works better for de-novo
