@@ -1,7 +1,7 @@
 ---
 layout: software
 title: TermGenie
-active: yes
+active: no
 homepage: http://termgenie.org
 source: https://github.com/geneontology/termgenie
 docs: https://github.com/geneontology/termgenie/wiki

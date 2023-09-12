@@ -131,7 +131,7 @@ If there is anything you don't understand, **ask on slack**!
     - https://github.com/topics/obofoundry
     - https://github.com/topics/geneontology
 - tips
-    - the `gh` [github cli client](https://github.com/cli/cli) is very useful, e.g. `gh pr Software`: 
+    - the `gh` [github cli client](https://github.com/cli/cli) is very useful, e.g. `gh pr Software`:
 
 ### create-centric Repos
 
@@ -208,7 +208,7 @@ If there is anything you don't understand, **ask on slack**!
    - Exceptions:
       - application ontologies
       - ontologies that deliberately not OBO-esque
-- Register non OBOs with Bioportal      
+- Register non OBOs with Bioportal
 - Use GitHub for .owl distribution unless ontology is large, then consider:
    - GitHub releases
    - S3
@@ -262,9 +262,9 @@ If there is anything you don't understand, **ask on slack**!
 - [enable zenodo syncing](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 - use S3 for larger files
    - release files to Zenodo
-- Dockerize   
+- Dockerize
 - Use Jupyter notebooks
-- Consider [Manubot](https://manubot.org/)   
+- Consider [Manubot](https://manubot.org/)
 - Other recommended best practices
    - [datadryad](https://datadryad.org/stash/best_practices)
 
@@ -332,14 +332,15 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
     * Code profiler
     * Can be used when trying to optimize Python codebase
 
-## Websites
+## Simple Websites
 
 - GitHub pages favored over google sites over wikis
 - Manage and author content as markdown, managed in github, with PRs as for code
-- Google Analytics and similar (recommendations TODO)
+- Google Analytics
+   - Example GA 4 conversion and walkthrough info at https://github.com/berkeleybop/bbops/issues/28#issuecomment-1712154894
 - avoid manually authoring anything that can be derived from metadata
    - examplars: obofoundry.github.io, this site
-- use a CC license, CC-0 or CC-BY
+- use CC-BY 4.0 or the CC0 public domain declaration
 - Examplars:
    - [LinkML splash page](https://linkml.io/)
    - [Phenopackets splash page](http://phenopackets.org/)
@@ -506,7 +507,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 
 ### Personal
 
-- Use [ohmyz](https://ohmyz.sh/) 
+- Use [ohmyz](https://ohmyz.sh/)
 
 ## Database Engines
 
@@ -651,7 +652,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - Cookiecutters for starting a new project.
   - General-purpose projects using [`monarch-project-template`](https://github.com/monarch-initiative/monarch-project-template)
   - LinkML based projects using [`linkml-project-cookiecutter`](https://github.com/linkml/linkml-project-cookiecutter)
-  - Ontology Access Kit (`oaklib`) plugin projects using [`oakx-plugin-cookiecutter](https://github.com/INCATools/oakx-plugin-cookiecutter) 
+  - Ontology Access Kit (`oaklib`) plugin projects using [`oakx-plugin-cookiecutter](https://github.com/INCATools/oakx-plugin-cookiecutter)
 - KGs
    - biolink
    - kgx >> rdf* >> rdf
@@ -741,7 +742,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
       - [Translator SRI/biolink identifiers](https://biolink.github.io/biolink-model/#identifiers)
       - [Identifiers in NMDC](https://microbiomedata.github.io/nmdc-metadata/identifiers/)
       - [Identifiers in GO](http://wiki.geneontology.org/index.php/Identifiers)
-      
+
 - Genomics
    - GFF3
    - SO
@@ -846,7 +847,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - create issues with  concise, actionable titles
    - your problem should be reproducible as far as possible
    - ideally contribute a a test case following idioms of appropriate repo (learn how to do this)
-- make things easier for those who follow you 
+- make things easier for those who follow you
    - the same questions often come up repeatedly
    - if someone answers a question for you, update the relevant guide (FAQ etc) to make it clearer for others
    - upvote answers on Stack Overflow you find useful
@@ -957,5 +958,3 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 ## Dates
 
 ![img](https://imgs.xkcd.com/comics/iso_8601_2x.png)
-
-

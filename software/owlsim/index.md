@@ -7,7 +7,7 @@ source: https://github.com/monarch-initiative/owlsim-v3
 logo: https://github.com/berkeleybop/berkeleybop.github.io/blob/master/software/owlsim/Owlsim-logo%20-%201.jpeg?raw=true
 ---
 
-[![Build Status](https://travis-ci.org/monarch-initiative/owlsim-v3.svg?branch=master)](https://travis-ci.org/monarch-initiative/owlsim-v3)
+**NOTE**: OwlSim has been replaced by [Semsimian](https://github.com/monarch-initiative/semsimian).
 
 OwlSim is a tool for ontology-based profile matching, used by the Monarch Initiative and other projects.
 

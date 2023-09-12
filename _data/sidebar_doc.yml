@@ -21,7 +21,10 @@ entries:
 
     - title: Projects
       print: true
-      items:          
+      items:   
+        - title: AI/ML projects
+          url: /project/AI
+          
         - title: Gene Ontology
           url: /project/gene-ontology
           
@@ -49,14 +52,11 @@ entries:
         - title: Exomiser
           url: /project/exomiser
           
-        - title: SymbiOnt
-          url: /project/symbiont
-        
-        - title: GMOD
-          url: /project/gmod
-          
         - title: OBO Foundry
           url: /project/obo-foundry
+          
+        - title: GMOD (inactive)
+          url: /project/gmod
           
         - title: KG-COVID-19 (inactive)
           url: /project/kg-covid-19     
@@ -70,23 +70,11 @@ entries:
         - title: "INCA: Intelligent Concept Assistant (inactive)"
           url: /project/inca
           
-        - title: Xena (inactive)
-          url: /project/xena
-          
-        - title: "Planteome (inactive)"
-          url: /project/planteome       
-                   
-        - title: "Phenoscape (inactive)"
-          url: /project/phenoscape
-          
     - title: Software
       print: true
       items:
         - title: AmiGO and GOlr
           url: /software/amigo
-
-        - title: Apollo / JBrowse
-          url: /software/apollo
 
         - title: Noctua
           url: /software/noctua
@@ -97,14 +85,11 @@ entries:
         - title: Biolink API
           url: /software/biolink-api
 
-        - title: LinkML (formerly BiolinkML)
+        - title: LinkML
           url: /software/biolinkml
 
         - title: OAK
           url: /software/OAK
-
-        - title: Chado Schema
-          url: /software/chado
 
         - title: OwlSim
           url: /software/owlsim
@@ -127,9 +112,6 @@ entries:
         - title: BioMake
           url: /software/biomake
 
-        - title: Dipper
-          url: /software/dipper
-
         - title: PAINT
           url: /software/paint
 
@@ -138,6 +120,9 @@ entries:
           
         - title: NEAT
           url: /software/NEAT
+
+        - title: SymbiOnt
+          url: /software/symbiont
 
     - title: Ontologies
       print: true

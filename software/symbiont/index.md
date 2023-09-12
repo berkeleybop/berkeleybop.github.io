@@ -1,13 +1,9 @@
 ---
-layout: project
+layout: software
 title: SymbiOnt
 active: yes
 homepage: 
-funding: 
-github: https://github.com/matentzn/symbiont
-logo: 
-docs:
-twitter: 
+source: https://github.com/matentzn/symbiont
 ---
 
 # SymbiOnt: Augmenting and merging ontologies using ontology mappings and knowledge graph embeddings
