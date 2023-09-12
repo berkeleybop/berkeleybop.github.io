@@ -404,6 +404,8 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - [google style guide](https://developers.google.com/style)
    - We are inspired by [knocean/practices/python](https://github.com/knocean/practises/tree/master/python) but differ in some places
       - We make use of OO as appropriate - just don't go overboard like in java
+   - Follow conventional variable naming
+      - Example: https://docs.fast.ai/dev/abbr.html
 - See the [Working with Python Environments](/best_practice/python_environments) guide for details on installing Python versions and managing virtual environments.      
 - All repos should use [poetry](https://python-poetry.org/)
   - Set up this way: `poetry new --src my-project-name`
@@ -536,6 +538,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 ## LLMs
 
 - [ontogpt](https://github.com/monarch-initiative/ontogpt)
+- [curategpt](https://github.com/monarch-initiative/curate-gpt)
 - code assistance
     - many of us use copilot + vscode/pycharm; see onboarding for how to charge
     - gpt-4 works better for de-novo
@@ -596,6 +599,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - data dictionaries with LinkML
    - follow identifier best practice
 - Ontologies
+   - Read the [OAK guide](https://incatools.github.io/ontology-access-kit/guide/index.html)
    - Use OAK for everything
       - ontobio is deprecated for non-GO specific tasks
       - OWLAPI (JVM) -- only where absolutely necessary
