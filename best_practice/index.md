@@ -6,7 +6,7 @@ title: Best Practice
 
 This is the best practice / house style guide for the BBOP group. Inspired by / cribbed from [Knocean practice](https://github.com/knocean/practises/) and other sources.
 
-Source: [berkeleybop/berkeleybop.github.io/blob/master/best_practice.md](https://github.com/berkeleybop/berkeleybop.github.io/blob/master/best_practice.md)
+Source: [berkeleybop/berkeleybop.github.io/blob/master/best_practice](https://github.com/berkeleybop/berkeleybop.github.io/blob/master/best_practice)
 
 We are a diverse group working on many different projects with
 different stakeholders and sets of collaborators. Nevertheless we
@@ -405,7 +405,9 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - [google style guide](https://developers.google.com/style)
    - We are inspired by [knocean/practices/python](https://github.com/knocean/practises/tree/master/python) but differ in some places
       - We make use of OO as appropriate - just don't go overboard like in java
-- See the [Working with Python Environments](/best_practice/python_environments) guide for details on installing Python versions and managing virtual environments.
+   - Follow conventional variable naming
+      - Example: https://docs.fast.ai/dev/abbr.html
+- See the [Working with Python Environments](/best_practice/python_environments) guide for details on installing Python versions and managing virtual environments.      
 - All repos should use [poetry](https://python-poetry.org/)
   - Set up this way: `poetry new --src my-project-name`
   - OR use `linkml-ws new` for schema-centric repos
@@ -537,6 +539,12 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 ## LLMs
 
 - [ontogpt](https://github.com/monarch-initiative/ontogpt)
+- [curategpt](https://github.com/monarch-initiative/curate-gpt)
+- For command line usage and direct Python usage:
+    - https://llm.datasette.io/en/stable/
+    - also follow Simon's blog for *practical* guides to LLMs for engineers:
+        - https://simonwillison.net/
+        - 
 - code assistance
     - many of us use copilot + vscode/pycharm; see onboarding for how to charge
     - gpt-4 works better for de-novo
@@ -597,6 +605,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - data dictionaries with LinkML
    - follow identifier best practice
 - Ontologies
+   - Read the [OAK guide](https://incatools.github.io/ontology-access-kit/guide/index.html)
    - Use OAK for everything
       - ontobio is deprecated for non-GO specific tasks
       - OWLAPI (JVM) -- only where absolutely necessary
