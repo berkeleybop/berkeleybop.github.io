@@ -27,6 +27,7 @@ If there is anything you don't understand, **ask on slack**!
 - Make repos public by default
 - Use standard repo layouts
    - choose a cookiecutter
+       - [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template) for code-oriented projects
    - don't reinvent
    - look at exemplars
 - Include standard files:
@@ -76,8 +77,10 @@ If there is anything you don't understand, **ask on slack**!
        - remember: titles will be used when auto-making release notes
 - use GitHub Milestones to plan releases
 - use GitHub Releases to tag versions and attach binaries
-    - use semver
-    - use the auto-generate release notes feature (corollary: write informative PR titles and never commit on main)
+    - use semver (except for ontologies)
+    - use the auto-generate release notes feature
+        - corollary: write informative PR titles and never commit on main
+        - if making a non-patch release, select the previous minor/major to diff from
 - use GitHub Pages for simple static content and documentation
     - prefer the `docs/` directory option
     - See exemplars: [OAK](https://incatools.github.io/ontology-access-kit/index.html), [Biolink Model](https://biolink.github.io/biolink-model/)
@@ -88,7 +91,7 @@ If there is anything you don't understand, **ask on slack**!
         - Ready for review: for manager to empty
     - order of preference for cards: PR link, issue link, text
 - set up GitHub actions to do CI
-    - Travis no longer recommended
+    - Migrate if you are on an old travis repo
     - All changes should be on PRs thus validated
     - main branch should never ever be failing
     - EVERY repo should have actions and PR checking
@@ -130,15 +133,20 @@ If there is anything you don't understand, **ask on slack**!
     - https://github.com/topics/linkml
     - https://github.com/topics/obofoundry
     - https://github.com/topics/geneontology
+    - https://github.com/topics/monarchinitiative
+    - always star your own repos
+    - star your colleagues and collaborator's repos
 - tips
     - the `gh` [github cli client](https://github.com/cli/cli) is very useful, e.g. `gh pr Software`:
+    - Nico recommends gh Desktop
 
-### create-centric Repos
+### Code-centric Repos
 
 - Use an existing repo from a group member as template for best practice, e.g.,
    - [kgx](https://github.com/biolink/kgx/)
    - [linkml](https://github.com/linkml/linkml)
    - [OAK](https://github.com/INCATools/ontology-access-kit)
+   - Or better: monarch project cookiecutter
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
@@ -177,7 +185,7 @@ If there is anything you don't understand, **ask on slack**!
 ### Schema/Standards-centric Repos, Data and metadata repos
 
 - Use [LinkML](https://github.com/linkml/linkml)
-- Create repo from [LinkML template](https://github.com/link-modeling/linkml-template)
+- Create repo from [LinkML template](https://github.com/linkml/linkml-template)
 - Examples:
    - NMDC
    - MIxS
@@ -201,14 +209,14 @@ If there is anything you don't understand, **ask on slack**!
 ### Ontology-centric Repos
 
 - Use [ODK seed](https://github.com/INCATools/ontology-development-kit/)
-- Register ontology with OBO
+- Register ontology with OBO if appropriate
    - include detailed metadata
    - include all products
    - include descriptive material in markdown
    - Exceptions:
       - application ontologies
       - ontologies that deliberately not OBO-esque
-- Register non OBOs with Bioportal
+- Register non OBOs with Bioportal + w3id
 - Use GitHub for .owl distribution unless ontology is large, then consider:
    - GitHub releases
    - S3
@@ -270,10 +278,10 @@ If there is anything you don't understand, **ask on slack**!
 
 ## Development Environment Setup
 
-* Code Editor: `VSCode`
-
-VSCode, short for Visual Studio Code, a code editor by Microsoft can be downloaded from [here](https://code.visualstudio.com/), for your operating system of choice.
-
+* Code Editors:
+   * vscode
+   * pycharm
+       * get professional, we will pay
 * Keyboard Shortcuts
   * Command palette: `Cmd/Ctrl + Shift + P`
   * Search for file in project: `Cmd/Ctrl + P`
@@ -362,6 +370,8 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
 - use inline documentation
     - publish via appropriate framework (RTD for code, mkdocs for schema, etc)
     - follow appropriate style guide
+    - use and test docstring in python
+        - https://docs.python.org/3/library/doctest.html
 - examples, examples, examples
    - fenced examples in markdown docs
    - example standalone scripts
@@ -374,7 +384,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - ODK for ontology projects
    - kghub template for KG projects
 - use Markdown as default
-   - RST for Sphinx projects
+   - RST for Sphinx/Code projects
    - Google docs acceptable for initial brainstorming
    - Don't use Wikis (mediawiki, GitHub wiki)
    - Manage markdown docs as version control
@@ -388,7 +398,9 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
        - use typescript
        - generate typescript datamodels using linkml gen-typescript
    - Rust for speed
-   - Scala for performance reasoners
+       - should always have PyO3 wrappers
+       - follow semsimian GH actions for wheels
+   - Scala for performance reasoners or anything requiring owlapi
    - Historically we used Java for anything requiring OWLAPI but being phased out
 - Why Python?
    - ubiquitous, cross-platform
@@ -398,7 +410,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - Most bioinformaticians know it
    - use for anything more than about 10 lines of Bash/Perl
    - use Python 3.8+
-   - Ensure github actions tests 3.9 and 3.10
+   - Ensure github actions tests 3.9, 3.11
 - Conform to the group style guide, or at least *some* style guide
    - [pep-0008](https://www.python.org/dev/peps/pep-0008/) for Python
    - use type annotations [PEP484](https://www.python.org/dev/peps/pep-0484/)
@@ -413,7 +425,7 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
   - OR use `linkml-ws new` for schema-centric repos
   - follow standard layouts, with code in `src/`
 - Linting/formatting:
-  - Use [black](https://github.com/psf/black) and [flake8](https://pypi.org/project/flake8/)
+  - Use [black](https://github.com/psf/black) and [flake8](https://pypi.org/project/flake8/) and ruff
 - Test Runners
   - To automate building and testing distributions in multiple Python versions
   - [tox](https://tox.wiki/en/latest/)
@@ -614,12 +626,15 @@ VSCode, short for Visual Studio Code, a code editor by Microsoft can be download
    - access [semsql](https://github.com/incatools/semantic-sql) through OAK
    - [obographviz](https://github.com/incatools/obographviz/) (js)
    - never, ever use XML parsers to parse RDF/XML
+   - don't every write a new obo format parser
+   - obographs json direct access sometimes OK
 - NER/NLP
    - Read Harry's awesome [caufieldjh/awesome-bioie](https://github.com/caufieldjh/awesome-bioie) list
    - fast changing but some tools to consider:
       - ontorunNER (which wraps OGER)
       - BERT for language models (experimental)
       - Note we are now wrapping more of this functionality in OAK
+      - now subsumed by LLMs
    - join the monarch nlp slack channel
 - Shell commands
    - [sh](https://github.com/amoffat/sh) > subprocess
