@@ -144,6 +144,11 @@ poetry add requests
 
 This will install the requests package into the project's virtual environment, add it to the `pyproject.toml` file, and update the `poetry.lock` file with information about the exact version installed.
 
+In order to synchronize your poetry.lock file with any manual changes to pyproject.yaml directly, be sure to run: 
+```shell
+poetry lock --no-update
+```
+
 ### Updating Dependencies
 
 The `poetry add` command can also be used to upgrade a package to a particular version (or range of versions):
@@ -162,6 +167,12 @@ To update a dependency to the latest version that still respects what is specifi
 
 ```shell
 poetry update requests
+```
+
+If you need to debug a dependency tree, use the `poetry show` command:
+
+```shell
+poetry show --tree my_package
 ```
 
 ### Running Commands

@@ -282,6 +282,7 @@ If there is anything you don't understand, **ask on slack**!
    * vscode
    * pycharm
        * get professional, we will pay
+       * GitHub copilot can be purchased as well, and is an excellent addition to a pycharm environment.
 * Keyboard Shortcuts
   * Command palette: `Cmd/Ctrl + Shift + P`
   * Search for file in project: `Cmd/Ctrl + P`
@@ -483,6 +484,15 @@ If there is anything you don't understand, **ask on slack**!
       - linkml
 - Always write unittests for CLIs
    - see OAK for examples
+  - Profiling:
+    - [cProfile](https://docs.python.org/3/library/profile.html) and SnakeViz are useful for profiling Python code
+     ```bash
+    # Generate the profile results:
+    python -m cProfile -o output.prof my_program.py
+    
+    #  View them:
+    pipx run snakeviz output.prof
+    ```
 - Examplars:
    - [sssom-py](https://github.com/mapping-commons/sssom-py)
    - [linkml](https://github.com/linkml/linkml)
