@@ -12,7 +12,7 @@ orcid: https://orcid.org/0000-0002-2411-565X
 scholar: https://scholar.google.com/citations?user=e9scndgAAAAJ&hl=en
 ---
 
-I joined BBOP in October 2020 as a software developer. I have a master's degree in Biomedical Engineering but have been a software developer most of my career. Currently I'm involved in many projects with the [Monarch Initiative](https://monarch-ui-new.monarchinitiative.org). I've also contributed in projects relevant to [Knowledge-Graph-Hub](https://github.com/Knowledge-Graph-Hub) , [Mapping Commons](https://github.com/mapping-commons), [LinkML](https://github.com/linkml) and [INCATools](https://github.com/INCATools).
+I joined BBOP in October 2020 as a software developer. I have a master's degree in Biomedical Engineering but have been a software developer most of my career. Currently I'm involved in many projects with the [Monarch Initiative](https://monarchinitiative.org). I've also contributed in projects relevant to [Knowledge-Graph-Hub](https://github.com/Knowledge-Graph-Hub) , [Mapping Commons](https://github.com/mapping-commons), [LinkML](https://github.com/linkml) and [INCATools](https://github.com/INCATools).
 
 Some of the fun projects I'm involved in:
 
