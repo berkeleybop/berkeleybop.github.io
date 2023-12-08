@@ -17,6 +17,7 @@ I joined BBOP in October 2020 as a software developer. I have a master's degree 
 Some of the fun projects I'm involved in:
 
  - [ontobot-change-agent](https://github.com/hrshdhgd/ontobot-change-agent): A GitHub bot for modifying ontology resources.
+ - [curate-gpt](https://github.com/monarch-initiative/curate-gpt): CurateGPT is a prototype web application and framework for performing general purpose AI-guided curation and curation-related operations over collections of objects.
  - [semsimian](https://github.com/monarch-initiative/semsimian): Rust implementation of semantic similarity
  - [OAK](https://github.com/INCATools/ontology-access-kit): Ontology Access Kit (OAK) is a python library & command line application for working with ontologies.
  - [SSSOM](https://github.com/mapping-commons/sssom-py): Simple Standard for Sharing Ontology Mappings (SSSOM) is a TSV-based representation for ontology term mappings.
