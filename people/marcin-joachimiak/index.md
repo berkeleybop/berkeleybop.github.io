@@ -13,4 +13,4 @@ scholar: https://scholar.google.com/citations?user=zSlIlYQAAAAJ&hl=en&oi=ao
 twitter: https://twitter.com/realmarcin
 ---
 My background is in computational biology in the areas of functional genomics and systems biology, where I develop algorithms and machine learning methods, with a focus on bioontologies, knowledge graphs, large language models, and graph learning.
-I lead a LBNL project to predict growth conditions for microbes using knowledge graphs [KG-Microbe](/project/kg-microbe) and graph learning, and contribute to several BBOP projects: [Bridge2AI](/project/bridge2ai) [KG-Hub](/project/kg-hub), [KG-COVID-19](/project/kg-covid-19).
+I lead a LBNL project to predict growth conditions for microbes using knowledge graphs [KG-Microbe](/project/kg-microbe) and graph learning, as well as the Datasheets for Datasets effort [Datasheets for Datasets](/project/datasheets) and contribute to several BBOP projects including: [Bridge2AI](/project/bridge2ai), [KG-Hub](/project/kg-hub), [KG-COVID-19](/project/kg-covid-19).
