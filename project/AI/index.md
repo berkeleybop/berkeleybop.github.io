@@ -59,5 +59,4 @@ OntoGPT implements two different strategies for knowledge extraction: SPIRES and
 
 ***More info***
 
-- [OBO Academy article on Leveraging ChatGPT for ontology curation](https://oboacademy.github.io/obook/lesson/chatgpt-ontology-curation/)
 - [Article about knowledge-backed AI with Monarch](https://monarchinit.medium.com/knowledge-backed-ai-with-monarch-a-match-made-in-heaven-a8296eec6b9f)
