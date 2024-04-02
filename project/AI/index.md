@@ -53,6 +53,13 @@ OntoGPT implements two different strategies for knowledge extraction: SPIRES and
 - Source: part of [CurateGPT](https://github.com/monarch-initiative/curate-gpt)
 - Preprint: Toro A, Anagnostopoulos AV, Bello S, Blumberg K, et al. Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence (DRAGON-AI). arXiv [cs.AI]. 2023. [https://arxiv.org/abs/2312.10904](https://arxiv.org/abs/2312.10904)
 
+***Phenomics Assistant***
+
+- A user-friendly interface that uses large language models (LLMs) to enable natural-language interaction with a knowledge graph of biomolecular and biomedical information.
+- Interface: [https://monarch-assistant.streamlit.app/](https://monarch-assistant.streamlit.app/)
+- Source: [Phenomics Assistant](https://github.com/monarch-initiative/phenomics-assistant)
+- Preprint: O’Neil ST, Schaper K, Elsarboukh G, Reese JT, Moxon SAT, Harris NL, Munoz-Torres MC, Robinson PN, Haendel MA, Mungall CJ. Phenomics Assistant: An Interface for LLM-based Biomedical Knowledge Graph Exploration. bioRxiv 2024.01.31.578275. [https://doi.org/10.1101/2024.01.31.578275](https://doi.org/10.1101/2024.01.31.578275)
+
 ***Other work***
 
 - [OBO Academy article on Leveraging ChatGPT for ontology curation](https://oboacademy.github.io/obook/lesson/chatgpt-ontology-curation/)
