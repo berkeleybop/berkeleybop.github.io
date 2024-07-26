@@ -10,55 +10,66 @@ twitter:
 ---
 
 BBOP is at the cutting edge of developing and applying new artificial intelligence (AI) and machine learning (ML) techniques in bioinformatics and biomedical ontologies.
-Approaches we are exploring include Knowledge Graphs (KGs) and Large Language Models (LLMs) such as GPT-3/4 and LLAMA2.
+Approaches we are exploring include Knowledge Graphs (KGs) and Large Language Models (LLMs) such as GPT and LLAMA.
 
 Below are some examples of AI/ML-related projects we are currently engaged in.
 Note that this work is evolving quickly, so this page may not be up to date!
 
-***OntoGPT: a Python package for the generation of Ontologies and Knowledge Bases using large language models (LLMs)***
+***OntoGPT: Using ontologies and AI to extract knowledge from text***
 
-OntoGPT implements two different strategies for knowledge extraction: SPIRES and TALISMAN (see below for info about those)
-- Source: [https://github.com/monarch-initiative/ontogpt](https://github.com/monarch-initiative/ontogpt)
-- Documentation: [https://monarch-initiative.github.io/ontogpt](https://monarch-initiative.github.io/ontogpt)
+Description: OntoGPT is a package for the generation of ontologies and knowledge bases using large language models (LLMs).<br/>
+Link: https://monarch-initiative.github.io/ontogpt<br/>
+Publications:
+- Caufield JH, Hegde H, Emonet V, Harris NL, Joachimiak MP, Matentzoglu N, et al. Structured prompt interrogation and recursive extraction of semantics (SPIRES): A method for populating knowledge bases using zero-shot learning. Bioinformatics, Volume 40, Issue 3, March 2024, btae104, https://doi.org/10.1093/bioinformatics/btae104.
+- O’Neil ST, Schaper K, Elsarboukh G, Reese JT, Moxon SAT, Harris NL, Munoz-Torres MC, Robinson PN, Haendel MA, Mungall CJ. Phenomics Assistant: An Interface for LLM-based Biomedical Knowledge Graph Exploration. bioRxiv. 2024. p. 2024.01.31.578275. https://www.biorxiv.org/content/biorxiv/early/2024/02/02/2024.01.31.578275
+- Toro S, Anagnostopoulos AV, Bello S, Blumberg K, Cameron R, Carmody L, Diehl AD, Dooley D, Duncan W, Fey P, Gaudet P, Harris NL, Joachimiak M, Kiani L, Lubiana T, Munoz-Torres MC, O’Neil S, Osumi-Sutherland D, Puig A, Reese JP, Reiser L, Robb S, Ruemping T, Seager J, Sid E, Stefancsik R, Weber M, Wood V, Haendel MA, Mungall CJ. Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence (DRAGON-AI). arXiv [cs.AI]. 2023. http://arxiv.org/abs/2312.10904
+- Groza T, Caufield H, Gration D, Baynam G, Haendel MA, Robinson PN, Mungall CJ, Reese JT. An evaluation of GPT models for phenotype concept recognition. BMC Med Inform Decis Mak. 2024 Jan 31;24(1):30. http://dx.doi.org/10.1186/s12911-024-02439-w PMCID: PMC10829255
+- Matentzoglu N, Caufield JH, Hegde HB, Reese JT, Moxon S, Kim H, Harris NL, Haendel MA, Mungall CJ. MapperGPT: Large Language Models for Linking and Mapping Entities. arXiv [cs.CL]. 2023. http://arxiv.org/abs/2310.03666
 
-***SPIRES (Structured Prompt Interrogation and Recursive Extraction of Semantics)***
+***TALISMAN: Using generative AI to summarize and interpret complex genomic data***
 
-- A Zero-shot learning (ZSL) approach to extracting nested semantic structures from text
-- Takes two inputs - 1) LinkML schema 2) free text, and outputs knowledge in a structure conformant with the supplied schema in JSON, YAML, RDF or OWL formats
-- Source: part of [OntoGPT](https://github.com/monarch-initiative/ontogpt)
-- [Templates (see sidebar)](https://monarch-initiative.github.io/ontogpt/core/)
-- [Blog post](https://monarchinit.medium.com/spires-building-structured-knowledge-bases-from-unstructured-text-using-large-language-models-eb68c12dea75)
-- Paper: Caufield JH, Hegde H, Emonet V, Harris NL, Joachimiak MP, Matentzoglu N, Kim H, Moxon SAT, Reese JT, Haendel MA, Robinson PN, Mungall CJ. Structured prompt interrogation and recursive extraction of semantics (SPIRES): A method for populating knowledge bases using zero-shot learning. Bioinformatics. 2024. [https://doi.org/10.1093/bioinformatics/btae104](https://doi.org/10.1093/bioinformatics/btae104)
+Description: Uses GPT models to perform gene set function summarization as a complement to standard enrichment analysis.<br/>
+Link: https://monarch-initiative.github.io/ontogpt/#gene-enrichment-using-spindoctor<br/>
+Publication: Joachimiak MP, Caufield JH, Harris NL, Kim H, Mungall CJ. Gene Set Summarization using Large Language Models. arXiv [q-bio.GN]. 2023. http://arxiv.org/abs/2305.13338 
 
-<img src="https://miro.medium.com/v2/resize:fit:952/format:webp/1*-s9p8cWQkvgjzmftpVYxNA.png" width="230"/>
+***GRAPE: Scalable ML over knowledge graphs for drug repurposing and pandemic response***
 
-***TALISMAN: a Python package for summarizing gene set functions using large language models (LLMs)****
+Description: GRAPE (Graph Representation Learning, Prediction and Evaluation) is a software resource for graph processing and embedding that performs much better in both time and space usage than other existing methods.<br/>
+Link: https://github.com/AnacletoLAB/grape <br/>
+Publications: 
+- Cappelletti L, Fontana T, Casiraghi E, Ravanmehr V, Callahan TJ, Cano C, Joachimiak MP, Mungall CJ, Robinson PN, Reese J, Valentini G. GRAPE for fast and scalable graph processing and random-walk-based embedding. Nature Computational Science. Nature Publishing Group; 2023 Jun 26;3(6):552–568. https://www.nature.com/articles/s43588-023-00465-8 
+- Caufield JH, Putman T, Schaper K, Unni DR, Hegde H, Callahan TJ, Cappelletti L, Moxon SAT, Ravanmehr V, Carbon S, Chan LE, Cortes K, Shefchek KA, Elsarboukh G, Balhoff J, Fontana T, Matentzoglu N, Bruskiewich RM, Thessen AE, Harris NL, Munoz-Torres MC, Haendel MA, Robinson PN, Joachimiak MP, Mungall CJ, Reese JT. KG-Hub—building and exchanging biological knowledge graphs. Bioinformatics. Oxford Academic; 2023 Jun 30;39(7):btad418. https://academic.oup.com/bioinformatics/article-abstract/39/7/btad418/7211646
+- Reese JT, Unni D, Callahan TJ, Cappelletti L, Ravanmehr V, Carbon S, Shefchek KA, Good BM, Balhoff JP, Fontana T, Blau H, Matentzoglu N, Harris NL, Munoz-Torres MC, Haendel MA, Robinson PN, Joachimiak MP, Mungall CJ. KG-COVID-19: A Framework to Produce Customized Knowledge Graphs for COVID-19 Response. Patterns (N Y). 2021 Jan 8;2(1):100155. http://dx.doi.org/10.1016/j.patter.2020.100155 PMCID: PMC7649624
 
-- Uses GPT models to perform gene set function summarization as a complement to standard enrichment analysis
-- Formerly known as SPINDOCTOR
-- Source: [TALISMAN](https://github.com/monarch-initiative/talisman)
-- Gene enrichment using TALISMAN: [https://monarch-initiative.github.io/ontogpt/#gene-enrichment-using-spindoctor](https://monarch-initiative.github.io/ontogpt/#gene-enrichment-using-spindoctor)
-- Preprint: Joachimiak MP, Caufield JH, Harris NL, Kim H, Mungall CJ. Gene Set Summarization using Large Language Models. arXiv [q-bio.GN]. 2023. [http://arxiv.org/abs/2305.13338](https://arxiv.org/abs/2305.13338)
+***Exomiser: Evaluating LLMs for predicting causative variants and differential diagnosis of genetic disease***
 
-***CurateGPT***
+Description: We constructed software to evaluate the performance of LLMs on differential diagnosis of rare disease compared to existing state of the art software (e.g. Exomiser).<br/>
+Link: https://github.com/monarch-initiative/malco <br/>
+Publications:
+- Reese JT, Danis D, Caufield JH, Groza T, Casiraghi E, Valentini G, Mungall CJ, Robinson PN. On the limitations of large language models in clinical diagnosis. medRxiv. 2024 Feb 26; http://dx.doi.org/10.1101/2023.07.13.23292613 PMCID: PMC10370243 
+- Reese JT, Chimirri L, Danis D, Caufield JH, Wissink K, Casiraghi E, Valentini G, Haendel MA, Mungall CJ, Robinson PN. Evaluation of the Diagnostic Accuracy of GPT-4 in Five Thousand Rare Disease Cases. medRxiv. 2024 Jul 22; http://dx.doi.org/10.1101/2024.07.22.24310816
 
-- An LLM-driven tool to assist with curation (pre-alpha)
-- Incorporates the DRAGON-AI method (see below)
-- Source: [https://github.com/monarch-initiative/curate-gpt](https://github.com/monarch-initiative/curate-gpt)
-- [Try it! (Pre-alpha version--not guaranteed to work)](http://curategpt.ai/)
+***Artificial Intelligence Ontology: enumerating the concepts in AI***
+
+Description: The Artificial Intelligence Ontology (AIO) is a systematization of AI concepts, methodologies, and their interrelations that we developed via manual curation, with the assistance of LLMs to help with concept recognition.<br/>
+Link: https://github.com/berkeleybop/artificial-intelligence-ontology <br/>
+Publication: Joachimiak MP, Miller MA, Harry Caufield J, Ly R, Harris NL, Tritt A, Mungall CJ, Bouchard KE. The Artificial Intelligence Ontology: LLM-assisted construction of AI concept hierarchies. arXiv [cs.LG]. 2024. http://arxiv.org/abs/2404.03044 
+
+***CultureBot: predicting growth conditions for microbes using Knowledge Graphs and AI***
+
+Description: CultureBot is a computational framework that supports automated high throughput microbial culturing and growth assays using novel knowledge-based AI methods.
+
+***ML over large clinical datasets***
+
+Description: We are interested in applying modern ML techniques to extract actionable knowledge from biomedical data. For example, we used semantic similarity and ontology-based ML to identify subclusters of long COVID patients.<br/>
+Link: https://github.com/National-COVID-Cohort-Collaborative/semanticsimilarity/tree/master <br/>
+Publication: Reese JT, Blau H, Casiraghi E, Bergquist T, Loomba JJ, Callahan TJ, Laraway B, Antonescu C, Coleman B, Gargano M, Wilkins KJ, Cappelletti L, Fontana T, Ammar N, Antony B, Murali TM, Caufield JH, Karlebach G, McMurry JA, Williams A, Moffitt R, Banerjee J, Solomonides AE, Davis H, Kostka K, Valentini G, Sahner D, Chute CG, Madlock-Brown C, Haendel MA, Robinson PN, N3C Consortium, RECOVER Consortium. Generalisable long COVID subtypes: findings from the NIH N3C and RECOVER programmes. EBioMedicine. 2023 Jan;87:104413. http://dx.doi.org/10.1016/j.ebiom.2022.104413 PMCID: PMC9769411
 
 ***DRAGON-AI: Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence***
 
-- An ontology generation method employing Large Language Models (LLMs) and Retrieval Augmented Generation (RAG).
-- Source: part of [CurateGPT](https://github.com/monarch-initiative/curate-gpt)
-- Preprint: Toro A, Anagnostopoulos AV, Bello S, Blumberg K, et al. Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence (DRAGON-AI). arXiv [cs.AI]. 2023. [https://arxiv.org/abs/2312.10904](https://arxiv.org/abs/2312.10904)
-
-***Phenomics Assistant***
-
-- A user-friendly interface that uses large language models (LLMs) to enable natural-language interaction with a knowledge graph of biomolecular and biomedical information.
-- Interface: [https://monarch-assistant.streamlit.app/](https://monarch-assistant.streamlit.app/)
-- Source: [Phenomics Assistant](https://github.com/monarch-initiative/phenomics-assistant)
-- Preprint: O’Neil ST, Schaper K, Elsarboukh G, Reese JT, Moxon SAT, Harris NL, Munoz-Torres MC, Robinson PN, Haendel MA, Mungall CJ. Phenomics Assistant: An Interface for LLM-based Biomedical Knowledge Graph Exploration. bioRxiv 2024.01.31.578275. [https://doi.org/10.1101/2024.01.31.578275](https://doi.org/10.1101/2024.01.31.578275)
+Description: An ontology generation method employing Large Language Models (LLMs) and Retrieval Augmented Generation (RAG).<br/>
+Link: part of [CurateGPT](https://github.com/monarch-initiative/curate-gpt)<br/>
+Publication: Toro A, Anagnostopoulos AV, Bello S, Blumberg K, et al. Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence (DRAGON-AI). arXiv [cs.AI]. 2023. [https://arxiv.org/abs/2312.10904](https://arxiv.org/abs/2312.10904)
 
 ***Other work***
 
