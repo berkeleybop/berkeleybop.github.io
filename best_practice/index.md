@@ -170,6 +170,10 @@ If there is anything you don't understand, **ask on slack**!
       - relies on using PRs with well-described titles
    - always have multiple owners of a pypi package on the pypi site
    - use standard semver, start from 0.1.0, move to 1.0.0 when stable
+   - consider setting up a trusted publisher and deploying to pypi automatically with a GH action
+      - create a pending publisher: https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/#github-actions
+      - make a GH action to use that pending publisher: https://pgjones.dev/blog/trusted-plublishing-2023/  (on first use, the pending 
+publisher becomes a trusted publisher)
 - Consider a Dockerfile
 - For ETL repos, follow standard templates for
    - kg-hub
