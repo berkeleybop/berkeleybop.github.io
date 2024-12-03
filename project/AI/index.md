@@ -21,9 +21,11 @@ Description: OntoGPT is a package for the generation of ontologies and knowledge
 Link: https://monarch-initiative.github.io/ontogpt<br/>
 Publications:
 - Caufield JH, Hegde H, Emonet V, Harris NL, Joachimiak MP, Matentzoglu N, et al. Structured prompt interrogation and recursive extraction of semantics (SPIRES): A method for populating knowledge bases using zero-shot learning. Bioinformatics, Volume 40, Issue 3, March 2024, btae104, https://doi.org/10.1093/bioinformatics/btae104.
+- Caufield H, Kroll C, O’Neil ST, Reese JT, Joachimiak MP, Hegde H, Harris NL, Krishnamurthy M, McLaughlin JA, Smedley D, Haendel MA, Robinson PN, Mungall CJ. CurateGPT: A flexible language-model assisted biocuration tool. arXiv [cs.CL]. 2024. http://arxiv.org/abs/2411.00046  
 - O’Neil ST, Schaper K, Elsarboukh G, Reese JT, Moxon SAT, Harris NL, Munoz-Torres MC, Robinson PN, Haendel MA, Mungall CJ. Phenomics Assistant: An Interface for LLM-based Biomedical Knowledge Graph Exploration. bioRxiv. 2024. p. 2024.01.31.578275. https://www.biorxiv.org/content/biorxiv/early/2024/02/02/2024.01.31.578275
-- Toro S, Anagnostopoulos AV, Bello S, Blumberg K, Cameron R, Carmody L, Diehl AD, Dooley D, Duncan W, Fey P, Gaudet P, Harris NL, Joachimiak M, Kiani L, Lubiana T, Munoz-Torres MC, O’Neil S, Osumi-Sutherland D, Puig A, Reese JP, Reiser L, Robb S, Ruemping T, Seager J, Sid E, Stefancsik R, Weber M, Wood V, Haendel MA, Mungall CJ. Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence (DRAGON-AI). arXiv [cs.AI]. 2023. http://arxiv.org/abs/2312.10904
+- Toro S, Anagnostopoulos AV, Bello SM, Blumberg K, Cameron R, Carmody L, Diehl AD, Dooley DM, Duncan WD, Fey P, Gaudet P, Harris NL, Joachimiak MP, Kiani L, Lubiana T, Munoz-Torres MC, O’Neil S, Osumi-Sutherland D, Puig-Barbe A, Reese JT, Reiser L, Robb SM, Ruemping T, Seager J, Sid E, Stefancsik R, Weber M, Wood V, Haendel MA, Mungall CJ. Dynamic Retrieval Augmented Generation of ontologies using artificial intelligence (DRAGON-AI). J Biomed Semantics. 2024 Oct 17;15(1):19. http://dx.doi.org/10.1186/s13326-024-00320-3 PMID: 39415214
 - Groza T, Caufield H, Gration D, Baynam G, Haendel MA, Robinson PN, Mungall CJ, Reese JT. An evaluation of GPT models for phenotype concept recognition. BMC Med Inform Decis Mak. 2024 Jan 31;24(1):30. http://dx.doi.org/10.1186/s12911-024-02439-w PMCID: PMC10829255
+- Reese JT, Chimirri L, Bridges Y, Danis D, Caufield JH, Wissink K, McMurry JA, Graefe AS, Casiraghi E, Valentini G, Jacobsen JO, Haendel M, Smedley D, Mungall CJ, Robinson PN. Systematic benchmarking demonstrates large language models have not reached the diagnostic accuracy of traditional rare-disease decision support tools. medRxiv. 2024 Nov 7; https://www.medrxiv.org/content/10.1101/2024.07.22.24310816v2 PMCID: PMC11302616
 - Matentzoglu N, Caufield JH, Hegde HB, Reese JT, Moxon S, Kim H, Harris NL, Haendel MA, Mungall CJ. MapperGPT: Large Language Models for Linking and Mapping Entities. arXiv [cs.CL]. 2023. http://arxiv.org/abs/2310.03666
 
 ***TALISMAN: Using generative AI to summarize and interpret complex genomic data***
@@ -69,7 +71,7 @@ Publication: Reese JT, Blau H, Casiraghi E, Bergquist T, Loomba JJ, Callahan TJ,
 
 Description: An ontology generation method employing Large Language Models (LLMs) and Retrieval Augmented Generation (RAG).<br/>
 Link: part of [CurateGPT](https://github.com/monarch-initiative/curate-gpt)<br/>
-Publication: Toro A, Anagnostopoulos AV, Bello S, Blumberg K, et al. Dynamic Retrieval Augmented Generation of Ontologies using Artificial Intelligence (DRAGON-AI). arXiv [cs.AI]. 2023. [https://arxiv.org/abs/2312.10904](https://arxiv.org/abs/2312.10904)
+Publication: Toro S, Anagnostopoulos AV, Bello SM, Blumberg K, Cameron R, Carmody L, Diehl AD, Dooley DM, Duncan WD, Fey P, Gaudet P, Harris NL, Joachimiak MP, Kiani L, Lubiana T, Munoz-Torres MC, O’Neil S, Osumi-Sutherland D, Puig-Barbe A, Reese JT, Reiser L, Robb SM, Ruemping T, Seager J, Sid E, Stefancsik R, Weber M, Wood V, Haendel MA, Mungall CJ. Dynamic Retrieval Augmented Generation of ontologies using artificial intelligence (DRAGON-AI). J Biomed Semantics. 2024 Oct 17;15(1):19. http://dx.doi.org/10.1186/s13326-024-00320-3 PMID: 39415214
 
 ***Other work***
 
