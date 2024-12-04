@@ -2,7 +2,7 @@
 title: Selected BBOP publications
 ---
 
-**Please note: this page is hand-curated and may be out of date. See our <a target="_new" href="https://paperpile.com/shared/EXYLSk">Paperpile folder of BBOP publications </a> for a more complete list.
+**Please note: this page is hand-curated and may be out of date. See our <a target="_new" href="https://paperpile.com/shared/BBOP-publications-fNsDDqokXS5eflIaJlhwilA">Paperpile folder of BBOP publications </a> for a more complete list.
 ***Last updated 2024-02-06***
 <ol class="bibliography">
 <li>
