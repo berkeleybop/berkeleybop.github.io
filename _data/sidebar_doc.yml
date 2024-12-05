@@ -34,7 +34,7 @@ entries:
         - title: Phenomics First
           url: /project/phenomics-first
           
-        - title: "NCATS Biomedical Translator"
+        - title: "NCATS Biomedical Data Translator"
           url: /project/ncats-translator
           
         - title: "Alliance for Genome Resources"
@@ -49,6 +49,9 @@ entries:
         - title: Bridge2AI
           url: /project/Bridge2AI
     
+        - title: NIEHS Data Standards
+          url: /project/niehs-data-standards
+          
         - title: Exomiser
           url: /project/exomiser
           
