@@ -14,4 +14,4 @@ Members of the group contribute to a number of large collaborative projects, inc
 
 Our group focuses on interoperable data, open science, and the development, use, and integration of ontologies into biological data analysis. We invite you to learn more about our projects, people, and [practices](best_practice).
 
-[![group-photo](images/BBOP%20screenshot%202024-12-10-vw.jpeg)](/jobs)
+[![group-photo](images/BBOP%20screenshot%202024-12-10-v2.jpeg)](/jobs)
