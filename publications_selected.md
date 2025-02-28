@@ -3,7 +3,7 @@ title: Selected BBOP publications
 ---
 
 **Please note: this page is hand-curated and may be out of date. See our <a target="_new" href="https://paperpile.com/shared/BBOP-publications-fNsDDqokXS5eflIaJlhwilA">Paperpile folder of BBOP publications </a> for a more complete list.
-***Last updated 2024-02-06***
+***Last updated 2025-02-27***
 <ol class="bibliography">
 <li> 
     <b>Hegde H</b>, Vendetti J, Goutte-Gattat D, <b>Caufield JH</b>, Graybeal JB, <b>Harris NL</b>, Karam N, Kindermann C, Matentzoglu N, Overton JA, Musen MA, <b>Mungall CJ</b>. A change language for ontologies and knowledge graphs. Database (Oxford). Oxford University Press (OUP); 2025 Jan 22;2025. https://doi.org/10.1093/database/baae133 PMCID: PMC11753292
@@ -36,7 +36,7 @@ title: Selected BBOP publications
   </li><li>
     Avaylon M, Ly R, Tritt A, Dichter B, Bouchard KE, <b>Mungall CJ</b>, Ruebel O. Methods for linking data to online resources and ontologies with applications to neurophysiology. ArXiv. 2024 May 30;abs/2406.00063. http://dx.doi.org/10.48550/arXiv.2406.00063
   </li><li>
-    Callahan TJ, Tripodi IJ, Stefanski AL, Cappelletti L, Taneja SB, Wyrwa JM, Casiraghi E, Matentzoglu NA, <b></b>Reese J</b>, Silverstein JC, Hoyt CT, Boyce RD, Malec SA, Unni DR, Joachimiak MP, Robinson PN, <b>Mungall CJ</b>, Cavalleri E, Fontana T, Valentini G, Mesiti M, Gillenwater LA, Santangelo B, Vasilevsky NA, Hoehndorf R, Bennett TD, Ryan PB, Hripcsak G, Kahn MG, Bada M, Baumgartner WA Jr, Hunter LE. An open source knowledge graph ecosystem for the life sciences. Sci Data. 2024 Apr 11;11(1):363. http://dx.doi.org/10.1038/s41597-024-03171-w PMCID: PMC11009265
+    Callahan TJ, Tripodi IJ, Stefanski AL, Cappelletti L, Taneja SB, Wyrwa JM, Casiraghi E, Matentzoglu NA, <b>Reese J</b>, Silverstein JC, Hoyt CT, Boyce RD, Malec SA, Unni DR, Joachimiak MP, Robinson PN, <b>Mungall CJ</b>, Cavalleri E, Fontana T, Valentini G, Mesiti M, Gillenwater LA, Santangelo B, Vasilevsky NA, Hoehndorf R, Bennett TD, Ryan PB, Hripcsak G, Kahn MG, Bada M, Baumgartner WA Jr, Hunter LE. An open source knowledge graph ecosystem for the life sciences. Sci Data. 2024 Apr 11;11(1):363. http://dx.doi.org/10.1038/s41597-024-03171-w PMCID: PMC11009265
   </li><li>
     <b>Joachimiak MP, Miller MA, Harry Caufield J</b>, Ly R, <b>Harris NL</b>, Tritt A, <b>Mungall CJ</b>, Bouchard KE. The Artificial Intelligence Ontology: LLM-assisted construction of AI concept hierarchies. arXiv [cs.LG]. 2024. http://arxiv.org/abs/2404.03044
   </li><li>
