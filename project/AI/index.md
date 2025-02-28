@@ -71,7 +71,7 @@ Publication: Reese JT, Blau H, Casiraghi E, Bergquist T, Loomba JJ, Callahan TJ,
 
 Description: An ontology generation method employing Large Language Models (LLMs) and Retrieval Augmented Generation (RAG).<br/>
 Link: part of [CurateGPT: https://github.com/monarch-initiative/curategpt](https://github.com/monarch-initiative/curategpt)<br/>
-Publication: Toro S, Anagnostopoulos AV, Bello SM, Blumberg K, Cameron R, Carmody L, Diehl AD, Dooley DM, Duncan WD, Fey P, Gaudet P, Harris NL, Joachimiak MP, Kiani L, Lubiana T, Munoz-Torres MC, O'Neil S, Osumi-Sutherland D, Puig-Barbe A, Reese JT, Reiser L, Robb SM, Ruemping T, Seager J, Sid E, Stefancsik R, Weber M, Wood V, Haendel MA, Mungall CJ. Dynamic Retrieval Augmented Generation of ontologies using artificial intelligence (DRAGON-AI). J Biomed Semantics. 2024 Oct 17;15(1):19. http://dx.doi.org/10.1186/s13326-024-00320-3 PMID: 39415214 CopyRetryClaude does not have internet access. Links provided may not be accurate or up to date.
+Publication: Toro S, Anagnostopoulos AV, Bello SM, Blumberg K, Cameron R, Carmody L, Diehl AD, Dooley DM, Duncan WD, Fey P, Gaudet P, Harris NL, Joachimiak MP, Kiani L, Lubiana T, Munoz-Torres MC, O'Neil S, Osumi-Sutherland D, Puig-Barbe A, Reese JT, Reiser L, Robb SM, Ruemping T, Seager J, Sid E, Stefancsik R, Weber M, Wood V, Haendel MA, Mungall CJ. Dynamic Retrieval Augmented Generation of ontologies using artificial intelligence (DRAGON-AI). J Biomed Semantics. 2024 Oct 17;15(1):19. http://dx.doi.org/10.1186/s13326-024-00320-3 PMID: 39415214
 
 ***Other work***
 
