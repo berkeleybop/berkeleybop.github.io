@@ -5,7 +5,27 @@ title: Selected BBOP publications
 **Please note: this page is hand-curated and may be out of date. See our <a target="_new" href="https://paperpile.com/shared/BBOP-publications-fNsDDqokXS5eflIaJlhwilA">Paperpile folder of BBOP publications </a> for a more complete list.
 ***Last updated 2024-02-06***
 <ol class="bibliography">
-<li>
+<li> 
+    <b>Hegde H</b>, Vendetti J, Goutte-Gattat D, <b>Caufield JH</b>, Graybeal JB, <b>Harris NL</b>, Karam N, Kindermann C, Matentzoglu N, Overton JA, Musen MA, <b>Mungall CJ</b>. A change language for ontologies and knowledge graphs. Database (Oxford). Oxford University Press (OUP); 2025 Jan 22;2025. https://doi.org/10.1093/database/baae133 PMCID: PMC11753292
+  </li><li>
+    Balhoff JP, <b>Mungall CJ</b>. Whelk: An OWL EL+RL reasoner enabling new use cases. Schloss Dagstuhl - Leibniz-Zentrum für Informatik; 2024. http://dx.doi.org/10.4230/TGDK.2.2.7
+  </li><li>
+    Vestito L, Jacobsen JOB, Walker S, Cipriani V, <b>Harris NL</b>, Haendel MA, <b>Mungall CJ</b>, Robinson P, Smedley D. Efficient reinterpretation of rare disease cases using Exomiser. NPJ Genom Med. Springer Science and Business Media LLC; 2024 Dec 18;9(1):65. http://dx.doi.org/10.1038/s41525-024-00456-2 PMCID: PMC11655964
+  </li><li>
+    Kelliher JM, Xu Y, Flynn MC, Babinski M, Canon S, Cavanna E, Clum A, Corilo YE, Fujimoto G, Giberson C, Johnson LYD, Li KJ, Li P-E, Li V, Lo C-C, Lynch W, Piehowski P, Prime K, Purvine S, Rodriguez F, Roux S, Shakya M, Smith M, Sarrafan S, Cholia S, McCue LA, <b>Mungall C</b>, Hu B, Eloe-Fadrosh EA, Chain PSG. Standardized and accessible multi-omics bioinformatics workflows through the NMDC EDGE resource. Comput Struct Biotechnol J. Elsevier BV; 2024 Dec;23:3575–3583. http://dx.doi.org/10.1016/j.csbj.2024.09.018
+  </li><li>
+    <b>Reese JT</b>, Chimirri L, Bridges Y, Danis D, <b>Caufield JH</b>, Wissink K, McMurry JA, Graefe AS, Casiraghi E, Valentini G, Jacobsen JO, Haendel M, Smedley D, <b>Mungall CJ</b>, Robinson PN. Systematic benchmarking demonstrates large language models have not reached the diagnostic accuracy of traditional rare-disease decision support tools. medRxiv. 2024 Nov 7; http://dx.doi.org/10.1101/2024.07.22.24310816 PMCID: PMC11302616
+  </li><li>
+    Clark T, <b>Caufield H</b>, Parker JA, Manir SA, Amorim E, Eddy J, Gim N, Gow B, Goar W, Haendel M, Hansen JN, <b>Harris N</b>, Hermjakob H, <b>Joachimiak M</b>, Jordan G, Lee I-H, McWeeney S, Nebeker C, Nikolov M, Shaffer J, Sheffield N, Sheynkman G, Stevenson J, Chen JY, <b>Mungall C</b>, Wagner A, Kong SW, Ghosh SS, Patel B, Williams A, Munoz-Torres MC. AI-readiness for biomedical data: Bridge2AI recommendations. bioRxivorg. Cold Spring Harbor Laboratory; 2024 Nov 7;2024.10. 23.619844. https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=NCdltcYAAAAJ:PELIpwtuRlgC PMCID: PMC11526931
+  </li><li>
+    <b>Caufield H</b>, Kroll C, O’Neil ST, <b>Reese JT, Joachimiak MP, Hegde H, Harris NL</b>, Krishnamurthy M, McLaughlin JA, Smedley D, Haendel MA, Robinson PN, <b>Mungall CJ</b>. CurateGPT: A flexible language-model assisted biocuration tool. arXiv [cs.CL]. 2024. http://arxiv.org/abs/2411.00046
+  </li><li>
+    Toro S, Anagnostopoulos AV, Bello SM, Blumberg K, Cameron R, Carmody L, Diehl AD, Dooley DM, Duncan WD, Fey P, Gaudet P, <b>Harris NL, Joachimiak MP</b>, Kiani L, Lubiana T, Munoz-Torres MC, O’Neil S, Osumi-Sutherland D, Puig-Barbe A, <b>Reese JT</b>, Reiser L, Robb SM, Ruemping T, Seager J, Sid E, Stefancsik R, Weber M, Wood V, Haendel MA, <b>Mungall CJ</b>. Dynamic Retrieval Augmented Generation of ontologies using artificial intelligence (DRAGON-AI). J Biomed Semantics. 2024 Oct 17;15(1):19. https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-024-00320-3 PMCID: PMC11484368
+  </li><li>
+    Danis D, Bamshad MJ, Bridges Y, Caballero-Oteyza A, Cacheiro P, Carmody LC, Chimirri L, Chong JX, Coleman B, Dalgleish R, Freeman PJ, Graefe ASL, Groza T, Hansen P, Jacobsen JOB, Klocperk A, Kusters M, Ladewig MS, Marcello AJ, Mattina T, <b>Mungall CJ</b>, Munoz-Torres MC, <b>Reese JT</b>, Rehburg F, Reis BCS, Schuetz C, Smedley D, Strauss T, Sundaramurthi JC, Thun S, Wissink K, Wagstaff JF, Zocche D, Haendel MA, Robinson PN. A corpus of GA4GH phenopackets: Case-level phenotyping for genomic diagnostics and discovery. HGG Adv. Elsevier BV; 2024 Oct 10;6(1):100371. http://dx.doi.org/10.1016/j.xhgg.2024.100371 PMCID: PMC11564936
+  </li><li>
+    Matentzoglu N, Bello SM, Stefancsik R, Alghamdi SM, Anagnostopoulos AV, Balhoff JP, Balk MA, Bradford YM, Bridges Y, Callahan TJ, <b>Caufield H</b>, Cuzick A, Carmody LC, Caron AR, de Souza V, Engel SR, Fey P, Fisher M, Gehrke S, Grove C, Hansen P, <b>Harris NL</b>, Harris MA, Harris L, Ibrahim A, Jacobsen JOB, Köhler S, McMurry JA, Munoz-Fuentes V, Munoz-Torres MC, Parkinson H, Pendlington ZM, Pilgrim C, Robb SMC, Robinson PN, Seager J, Segerdell E, Smedley D, Sollis E, Toro S, Vasilevsky N, Wood V, Haendel MA, <b>Mungall CJ</b>, McLaughlin JA, Osumi-Sutherland D. The Unified Phenotype Ontology (uPheno): A framework for cross-species integrative phenomics. bioRxiv. 2024. http://dx.doi.org/10.1101/2024.09.18.613276
+    </li><li>
   Niyonkuru E, <b>Caufield JH</b>, Carmody LC, Gargano MA, Toro S, Whetzel PL, Blau H, Gomez MS, Casiraghi E, Chimirri L, <b>Reese JT</b>, Valentini G, Haendel MA, <b>Mungall CJ</b>, Robinson PN. Leveraging generative AI to accelerate biocuration of medical actions for rare disease. medRxiv. 2024 Aug 22; http://dx.doi.org/10.1101/2024.08.22.24310814 PMCID: PMC11370550
   </li><li>
     Chan LE, Casiraghi E, <b>Reese J</b>, Harmon QE, Schaper K, Hegde H, Valentini G, Schmitt C, Motsinger-Reif A, Hall JE, <b>Mungall CJ</b>, Robinson PN, Haendel MA. Predicting nutrition and environmental factors associated with female reproductive disorders using a knowledge graph and random forests. Int J Med Inform. 2024 Jul;187:105461. http://dx.doi.org/10.1016/j.ijmedinf.2024.105461 PMCID: PMC11188727
@@ -20,7 +40,6 @@ title: Selected BBOP publications
   </li><li>
     <b>Joachimiak MP, Miller MA, Harry Caufield J</b>, Ly R, <b>Harris NL</b>, Tritt A, <b>Mungall CJ</b>, Bouchard KE. The Artificial Intelligence Ontology: LLM-assisted construction of AI concept hierarchies. arXiv [cs.LG]. 2024. http://arxiv.org/abs/2404.03044
   </li><li>
-   
     Cappelletti L, Rekerle L, Fontana T, Hansen P, Casiraghi E, Ravanmehr V, <b>Mungall CJ</b>, Yang J, Spranger L, Karlebach G, <b>Caufield JH</b>, Carmody L, Coleman B, Oprea T, <b>Reese J</b>b>, Valentini G, Robinson PN. Node-degree aware edge sampling mitigates inflated classification performance in biomedical random walk-based graph representation learning. Bioinform Adv. 2024 Mar 4; https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbae036/7619101
   </li><li>
     <b>Caufield JH</b>, Hegde H, Emonet V, <b>Harris NL</b>, <b>Joachimiak MP</b>, Matentzoglu N, Kim H, <b>Moxon S</b>, <b>Reese JT</b>, Haendel MA, Robinson PN, <b>Mungall CJ</b>. Structured Prompt Interrogation and Recursive Extraction of Semantics (SPIRES): a method for populating knowledge bases using zero-shot learning. Bioinformatics. 2024 Mar 4;40(3). http://dx.doi.org/10.1093/bioinformatics/btae104 PMCID: PMC10924283
