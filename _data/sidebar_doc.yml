@@ -33,7 +33,10 @@ entries:
           
         - title: Phenomics First
           url: /project/phenomics-first
-          
+
+        - title: KG-Hub
+          url: /project/kg-hub
+
         - title: "NCATS Biomedical Data Translator"
           url: /project/ncats-translator
           
