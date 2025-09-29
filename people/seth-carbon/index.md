@@ -12,7 +12,7 @@ orcid: https://orcid.org/0000-0001-8244-1536
 scholar: "https://scholar.google.com/citations?hl=en&user=Ypz4s1UAAAAJ"
 ---
 
-Currently, primarily working on various <a href="http://geneontology.org">Gene Ontology Consortium</a> projects in engineering and management, including <a href="http://noctua.geneontology.org">Noctua</a> and <a href="http://amigo.geneontology.org">AmiGO 2</a> (<a href="https://github.com/geneontology">group repo</a>). I am occasionally participating in various parts of the <a href="http://monarchinitiative.org">Monarch Initiative</a>, <a href="http://obofoundry.org">OBO Foundry</a>,and other BBOP projects, as well as handling the system architecture and administration for BBOP.
+Currently, primarily working on various <a href="http://geneontology.org">Gene Ontology Consortium</a> projects in management, architecture, and engineering, including <a href="http://noctua.geneontology.org">Noctua</a> and <a href="http://amigo.geneontology.org">AmiGO 2</a> (<a href="https://github.com/geneontology">group repo</a>). I am occasionally participating in various parts of the <a href="http://monarchinitiative.org">Monarch Initiative</a>, <a href="http://obofoundry.org">OBO Foundry</a>, and other BBOP projects, as well as handling the system architecture and administration for BBOP.
 
 As well, I'm trying to continue the work we've done for the <a href="http://reusabledata.org">(Re)usable Data Project</a> (<a href="https://github.com/reusabledata/reusabledata">group repo</a>).
 
