@@ -10,6 +10,7 @@ title: Alumni
 - [Bill Duncan](bill-duncan)
 - [Nathan Dunn](nathan-dunn)
 - [Ben Good](ben-good)
+- [Harshad Hegde](harshad-hegde)
 - [Hyeongsik Kim](hyeongsik-kim)
 - [Suzanna Lewis](suzanna-lewis)
 - [Deepak Unni](deepak-unni)
