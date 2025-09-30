@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Harshad Hegde
-active: yes
+active: no
 orcid: https://orcid.org/0000-0002-2411-565X
 position: Staff Software Developer
 background: MS Biomedical Engineering, Virginia Commonwealth University
