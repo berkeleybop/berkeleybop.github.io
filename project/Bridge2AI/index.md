@@ -5,11 +5,9 @@ active: true
 funding: NIH Common Fund 1U54HG012513
 homepage: https://bridge2ai.org/
 github: https://github.com/bridge2ai
-logo: https://bridge2ai.org/wp-content/uploads/2023/02/cropped-bridge-center-logo_color-e1677259956433.png
+logo: https://camo.githubusercontent.com/9624231239ce0435e5bf9d971d9220d2204b107191f9d2957ec2f6e30b157e8d/68747470733a2f2f6272696467653261692e6f72672f77702d636f6e74656e742f75706c6f6164732f323032342f31322f63726f707065642d6272696467652d63656e7465722d776562736974652d6c6f676f2e706e67
 twitter: https://twitter.com/hashtag/Bridge2AI
 ---
-
-**Bridge2AI Standards Core**
 
 The overall goal of the NIH Common Fund’s [Bridge to Artificial Intelligence (Bridge2AI)](https://bridge2ai.org/) program is
 to generate flagship datasets and best practices for the collection and preparation of data to address
