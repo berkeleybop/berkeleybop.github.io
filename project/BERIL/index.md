@@ -10,7 +10,7 @@ logo:
 
 ## BERIL: Integrated AI Infrastructure for Genome-to-Phenotype Research Using the BER Data Lakehouse
 
-BERIL is a new (late 2025) $4M project funded by the Department of Energy’s department of Biological and Environmental Research (BER).
+BERIL is a new (late 2025) project funded by the Department of Energy’s department of Biological and Environmental Research (BER).
 The BER Data Lakehouse seeks to provide consistently labeled, harmonized datasets designed for AI-driven reasoning and inference across multiple heterogeneous data sources.
 The **BER** **I**ntegrative **L**ayer will develop an extensible, self‑updating AI ecosystem 
 that leverages the BER Data Lakehouse to orchestrate specialized reasoning agents and accelerate genome‑to‑phenotype discovery.
