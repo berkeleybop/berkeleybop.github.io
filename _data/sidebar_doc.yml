@@ -25,6 +25,9 @@ entries:
         - title: AI/ML projects
           url: /project/AI
           
+        - title: BERIL
+          url: /project/BERIL
+          
         - title: Gene Ontology
           url: /project/gene-ontology
           
@@ -75,7 +78,10 @@ entries:
           
     - title: Software
       print: true
-      items:
+      items:  
+        - title: OntoGPT
+          url: /project/GPT
+          
         - title: AmiGO and GOlr
           url: /software/amigo
 
