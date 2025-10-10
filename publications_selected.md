@@ -3,7 +3,8 @@ title: Selected BBOP publications
 ---
 
 **Please note: this page is hand-curated and may be out of date. See our <a target="_new" href="https://paperpile.com/shared/BBOP-publications-fNsDDqokXS5eflIaJlhwilA">Paperpile folder of BBOP publications </a> for a more complete list.
-***Last updated 2025-02-27***
+***Last updated 2025-10-10***
+- * Cortes K, Korn D, Gehrke S, Schaper K, Cox C, Golden P, Odell A, Laraway B, Krishnamurthy M, **Reese J, Caufield H**, Moxon S, Elias E, **Mungall CJ**, Haendel M. Why we need all the organisms: an exploration of the Monarch knowledge graph to aid mechanism discovery. arXiv \[q-bio.QM\]. 2025\. http://arxiv.org/abs/2509.18050  
 - <b>Hegde H</b>, Vendetti J, Goutte-Gattat D, <b>Caufield JH</b>, Graybeal JB, <b>Harris NL</b>, Karam N, Kindermann C, Matentzoglu N, Overton JA, Musen MA, <b>Mungall CJ</b>. A change language for ontologies and knowledge graphs. Database (Oxford). Oxford University Press (OUP); 2025 Jan 22;2025. https://doi.org/10.1093/database/baae133 PMCID: PMC11753292
 - Balhoff JP, <b>Mungall CJ</b>. Whelk: An OWL EL+RL reasoner enabling new use cases. Schloss Dagstuhl - Leibniz-Zentrum für Informatik; 2024. http://dx.doi.org/10.4230/TGDK.2.2.7
 - Vestito L, Jacobsen JOB, Walker S, Cipriani V, <b>Harris NL</b>, Haendel MA, <b>Mungall CJ</b>, Robinson P, Smedley D. Efficient reinterpretation of rare disease cases using Exomiser. NPJ Genom Med. Springer Science and Business Media LLC; 2024 Dec 18;9(1):65. http://dx.doi.org/10.1038/s41525-024-00456-2 PMCID: PMC11655964
