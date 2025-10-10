@@ -2,10 +2,12 @@
 title: Selected BBOP publications
 ---
 
-**Please note: this page is hand-curated and may be out of date. See our <a target="_new" href="https://paperpile.com/shared/BBOP-publications-fNsDDqokXS5eflIaJlhwilA">Paperpile folder of BBOP publications </a> for a more complete list.
+**Please note: this page is hand-curated and may be out of date. See our <a target="_new" href="https://paperpile.com/shared/BBOP-publications-fNsDDqokXS5eflIaJlhwilA">Paperpile folder of BBOP publications </a> for a more complete list.**
+Names of BBOP team members are bolded.
+
 ***Last updated 2025-10-10***
 
-* Cortes K, Korn D, Gehrke S, Schaper K, Cox C, Golden P, Odell A, Laraway B, Krishnamurthy M, **Reese J, Caufield H**, Moxon S, Elias E, **Mungall CJ**, Haendel M. Why we need all the organisms: an exploration of the Monarch knowledge graph to aid mechanism discovery. arXiv \[q-bio.QM\]. 2025\. http://arxiv.org/abs/2509.18050  
+* Cortes K, Korn D, Gehrke S, Schaper K, Cox C, Golden P, Odell A, Laraway B, Krishnamurthy M, **Reese J, Caufield H, Moxon S**, Elias E, **Mungall CJ**, Haendel M. Why we need all the organisms: an exploration of the Monarch knowledge graph to aid mechanism discovery. arXiv \[q-bio.QM\]. 2025\. http://arxiv.org/abs/2509.18050  
 * Shawn T O’Neil, Brian M Schilder, Kevin Schaper, Corey Cox, Daniel Korn, Sarah Gehrke, **Christopher J Mungall**, Melissa A Haendel. monarchr: An R Package for Querying Biomedical Knowledge Graphs. *Bioinformatics*, btaf549. 2025\. https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf549/8266340   
 * **Mungall CJ**, Malik A, Korn DR, **Reese JT**, O’Boyle NM, Hastings J. Chemical classification program synthesis using generative artificial intelligence. Journal of Cheminformatics, 2025 Oct 1;17(1). http://dx.doi.org/10.1186/s13321-025-01092-3   
 * Sierk M, Danis D, **Patil S,** Kishor N, Mondal R, Jha A, Chen Q, Yan C, Munoz-Torres M, Meerzaman D, Robinson PN, **Reese JT**. Oncopacket: Integration of cancer research data using GA4GH phenopackets. Bioinformatics. Oxford University Press (OUP); 2025 Sept 29;(btaf546). [http://dx.doi.org/10.1093/bioinformatics/btaf546](http://dx.doi.org/10.1093/bioinformatics/btaf546) PMID: 41017641  
