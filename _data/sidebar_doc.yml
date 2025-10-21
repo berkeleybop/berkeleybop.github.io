@@ -112,7 +112,7 @@ entries:
         - title: OWLTools
           url: /software/owltools
            
-        - title: Ontology Development Kit
+        - title: Ontology Development Kit (ODK)
           url: /software/odk
 
         - title: k-BOOM
@@ -120,15 +120,6 @@ entries:
 
         - title: BioMake
           url: /software/biomake
-
-        - title: PAINT
-          url: /software/paint
-
-        - title: SciGraph
-          url: /software/scigraph
-          
-        - title: NEAT
-          url: /software/NEAT
 
         - title: SymbiOnt
           url: /software/symbiont
