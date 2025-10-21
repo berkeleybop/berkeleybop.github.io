@@ -124,9 +124,6 @@ entries:
         - title: PAINT
           url: /software/paint
 
-        - title: SciGraph
-          url: /software/scigraph
-          
         - title: NEAT
           url: /software/NEAT
 
