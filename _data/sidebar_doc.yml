@@ -100,9 +100,6 @@ entries:
         - title: OAK
           url: /software/OAK
 
-        - title: OwlSim
-          url: /software/owlsim
-
         - title: ROBOT
           url: /software/robot  
           
@@ -120,9 +117,6 @@ entries:
 
         - title: BioMake
           url: /software/biomake
-
-        - title: PAINT
-          url: /software/paint
 
         - title: NEAT
           url: /software/NEAT

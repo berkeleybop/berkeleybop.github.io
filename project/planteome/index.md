@@ -23,7 +23,6 @@ phenotypes of plant genes, varieties and germplasms.
 BBOP is providing various components of Planteome
 
  - The [AmiGO](/software/amigo/) web portal and GOlr database
- - Ontology tools and support, including [TermGenie](/software/termgenie/)
 
 ## References
 

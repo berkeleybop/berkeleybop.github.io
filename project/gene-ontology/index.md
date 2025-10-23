@@ -19,9 +19,8 @@ BBOP has been a member of the GO consortium since its inception in 1999, for whi
 
  * [AmiGO](/software/amigo) ontology and annotation browser and association Golr model
  * [Noctua](/software/noctua) collaborative causal activity model editing tool
- * [PAINT](/software/paint) Phylogenetic Annotation Tool
  * Ontology modeling
- * Ontology tooling including [OBO-Edit](/software/obo-edit) and [TermGenie](/software/termgenie)
+ * Ontology tooling including [OBO-Edit](/software/obo-edit)
  * [GO RDF Knowledge Base](/software/go-rdf)
 
 ## Communication and Internal Documentation
