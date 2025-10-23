@@ -121,6 +121,12 @@ entries:
         - title: BioMake
           url: /software/biomake
 
+        - title: PAINT
+          url: /software/paint
+
+        - title: NEAT
+          url: /software/NEAT
+
         - title: SymbiOnt
           url: /software/symbiont
 
