@@ -385,6 +385,7 @@ If there is anything you don't understand, **ask on slack**!
 - Use existing templates
    - [monarch-project-copier](https://github.com/monarch-initiative/monarch-project-copier) for code-oriented projects
    - [linkml-project-copier](https://github.com/linkml/linkml-project-copier) for schema projects
+   - [AI agent GUi copier template](https://github.com/knowledge-Graph-Hub/nicegui-app-copier)
    - ODK for ontology projects
    - kghub template for KG projects
 - use Markdown as default
