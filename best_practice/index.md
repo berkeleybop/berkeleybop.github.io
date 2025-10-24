@@ -27,7 +27,7 @@ If there is anything you don't understand, **ask on slack**!
 - Make repos public by default
 - Use standard repo layouts
    - choose a copier template
-       - [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template) for code-oriented projects
+       - [monarch-project-copier](https://github.com/monarch-initiative/monarch-project-copier) for code-oriented projects
    - don't reinvent
    - look at exemplars
 - Include standard files:
