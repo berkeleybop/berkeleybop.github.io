@@ -146,7 +146,7 @@ If there is anything you don't understand, **ask on slack**!
    - [kgx](https://github.com/biolink/kgx/)
    - [linkml](https://github.com/linkml/linkml)
    - [OAK](https://github.com/INCATools/ontology-access-kit)
-   - Or better: [monarch](https://github.com/monarch-initiative/monarch-project-copier) or [LinkML project copie](https://github.com/linkml/linkml-project-copier)) template
+   - Or better: [monarch](https://github.com/monarch-initiative/monarch-project-copier) or [LinkML project copier](https://github.com/linkml/linkml-project-copier) template
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
