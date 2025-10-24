@@ -26,7 +26,7 @@ If there is anything you don't understand, **ask on slack**!
    - make a PR for your branch - mark as draft if not ready
 - Make repos public by default
 - Use standard repo layouts
-   - choose a cookiecutter
+   - choose a copier template
        - [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template) for code-oriented projects
    - don't reinvent
    - look at exemplars
@@ -146,7 +146,7 @@ If there is anything you don't understand, **ask on slack**!
    - [kgx](https://github.com/biolink/kgx/)
    - [linkml](https://github.com/linkml/linkml)
    - [OAK](https://github.com/INCATools/ontology-access-kit)
-   - Or better: monarch project cookiecutter
+   - Or better: [monarch](https://github.com/monarch-initiative/monarch-project-copier) or [LinkML project copie](https://github.com/linkml/linkml-project-copier)) template
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
@@ -188,7 +188,7 @@ If there is anything you don't understand, **ask on slack**!
 ### Schema/Standards-centric Repos, Data and metadata repos
 
 - Use [LinkML](https://github.com/linkml/linkml)
-- Create repo from [LinkML template](https://github.com/linkml/linkml-template)
+- Create repo from [LinkML template](https://github.com/linkml/linkml-project-copier)
 - Examples:
    - NMDC
    - MIxS
@@ -383,7 +383,7 @@ If there is anything you don't understand, **ask on slack**!
    - double up: unit tests can serve as examples and vice versa
    - See linkml-run-examples framework
 - Use existing templates
-   - [monarch-project-template](https://github.com/monarch-initiative/monarch-project-template) for code-oriented projects
+   - [monarch-project-copier](https://github.com/monarch-initiative/monarch-project-copier) for code-oriented projects
    - linkml cookiecutter for schema projects
    - ODK for ontology projects
    - kghub template for KG projects
@@ -678,8 +678,8 @@ If there is anything you don't understand, **ask on slack**!
 - Mappings (ontology or otherwise)
    - SSSOM with skos predicates
 - Cookiecutters for starting a new project.
-  - General-purpose projects using [`monarch-project-template`](https://github.com/monarch-initiative/monarch-project-template)
-  - LinkML based projects using [`linkml-project-cookiecutter`](https://github.com/linkml/linkml-project-cookiecutter)
+  - General-purpose projects using [`monarch-project-template`](https://github.com/monarch-initiative/monarch-project-copier)
+  - LinkML based projects using [`linkml-project-copier`](https://github.com/linkml/linkml-project-copier)
   - Ontology Access Kit (`oaklib`) plugin projects using [`oakx-plugin-cookiecutter](https://github.com/INCATools/oakx-plugin-cookiecutter)
 - KGs
    - biolink
