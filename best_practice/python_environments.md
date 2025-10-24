@@ -6,7 +6,7 @@ title: Working with Python Environments
 
 ## Managing Python Versions and Virtual Environments with uv
 
-Most projects we work on require Python 3.8 or greater. A few projects may require an even later version. In either case it is necessary to be able to have multiple versions of Python installed and easily switch between them, as well as manage project-specific dependencies. We use [uv](https://github.com/astral-sh/uv) to handle both Python version management and virtual environments.
+Most projects we work on require Python 3.9 or greater. Many require a later version. In either case it is necessary to be able to have multiple versions of Python installed and easily switch between them, as well as manage project-specific dependencies. We use [uv](https://github.com/astral-sh/uv) to handle both Python version management and virtual environments.
 
 ### Installing uv
 
@@ -259,21 +259,6 @@ Install from a requirements file:
 uv pip sync requirements.txt
 ```
 
-### Environment Variables
-
-Useful environment variables for uv:
-
-- `UV_PYTHON`: Set default Python version
-- `UV_INDEX_URL`: Set custom package index
-- `UV_CACHE_DIR`: Set cache directory location
-- `UV_SYSTEM_PYTHON`: Use system Python instead of managed versions
-
-Example:
-
-```shell
-UV_PYTHON=3.11 uv sync
-```
-
 ## Migrating from Other Tools
 
 ### From pip/venv
@@ -298,48 +283,6 @@ To fully migrate, you may want to:
 1. Remove the `[tool.poetry]` sections from `pyproject.toml`
 2. Delete `poetry.lock`
 3. Run `uv sync` to generate `uv.lock`
-
-### From pipenv
-
-Convert `Pipfile` to `pyproject.toml` then:
-
-```shell
-uv sync
-```
-
-## Best Practices
-
-1. **Always commit `uv.lock`**: This ensures reproducible builds across all environments
-2. **Use `.python-version` files**: Pin Python versions per project with `uv python pin`
-3. **Specify version bounds carefully**: Use `>=` for minimum versions, `<` for maximum
-4. **Separate dev dependencies**: Use `--dev` flag for development-only packages
-5. **Use dependency groups**: Organize optional dependencies (docs, testing, etc.)
-
-## Troubleshooting
-
-### Python version not found
-
-If uv can't find a Python version, install it:
-
-```shell
-uv python install 3.11
-```
-
-### Cache issues
-
-Clear the cache if you encounter issues:
-
-```shell
-uv cache clean
-```
-
-### Slow package resolution
-
-Use `--resolution lowest` for faster resolves:
-
-```shell
-uv sync --resolution lowest
-```
 
 ## Further Reading
 
