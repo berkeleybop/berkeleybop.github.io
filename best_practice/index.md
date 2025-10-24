@@ -424,9 +424,9 @@ If there is anything you don't understand, **ask on slack**!
    - Follow conventional variable naming
       - Example: https://docs.fast.ai/dev/abbr.html
 - See the [Working with Python Environments](/best_practice/python_environments) guide for details on installing Python versions and managing virtual environments.      
-- All repos should use [poetry](https://python-poetry.org/)
-  - Set up this way: `poetry new --src my-project-name`
-  - OR use `linkml-ws new` for schema-centric repos
+- All repos should use [uv](https://github.com/astral-sh/uv)
+  - Set up this way: `uv init --package my-project-name`
+  - OR use [`linkml-project-copier`](https://github.com/linkml/linkml-project-copier) for schema-centric repos
   - follow standard layouts, with code in `src/`
 - Linting/formatting:
   - Use [black](https://github.com/psf/black) and [flake8](https://pypi.org/project/flake8/) and ruff
