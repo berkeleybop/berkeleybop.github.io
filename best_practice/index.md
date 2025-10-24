@@ -384,7 +384,7 @@ If there is anything you don't understand, **ask on slack**!
    - See linkml-run-examples framework
 - Use existing templates
    - [monarch-project-copier](https://github.com/monarch-initiative/monarch-project-copier) for code-oriented projects
-   - linkml cookiecutter for schema projects
+   - linkml copier for schema projects
    - ODK for ontology projects
    - kghub template for KG projects
 - use Markdown as default
