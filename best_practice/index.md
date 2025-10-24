@@ -28,6 +28,9 @@ If there is anything you don't understand, **ask on slack**!
 - Use standard repo layouts
    - choose a copier template
        - [monarch-project-copier](https://github.com/monarch-initiative/monarch-project-copier) for code-oriented projects
+       - AI GUI projects using [`nicegui-app-copier`](https://github.com/knowledge-Graph-Hub/nicegui-app-copier)
+       - AI GitHub integrations using [`github-ai-integrations`](https://github.com/ai4curation/github-ai-integrations)
+       - LinkML projects using [linkml-project-copier](https://github.com/linkml/linkml-project-copier)
    - don't reinvent
    - look at exemplars
 - Include standard files:
@@ -146,7 +149,11 @@ If there is anything you don't understand, **ask on slack**!
    - [kgx](https://github.com/biolink/kgx/)
    - [linkml](https://github.com/linkml/linkml)
    - [OAK](https://github.com/INCATools/ontology-access-kit)
-   - Or better: [monarch](https://github.com/monarch-initiative/monarch-project-copier) or [LinkML project copier](https://github.com/linkml/linkml-project-copier) template
+   - Or better: [monarch](https://github.com/monarch-initiative/monarch-project-copier)
+       - [LinkML project copier](https://github.com/linkml/linkml-project-copier) template
+       - AI GUI projects using [`nicegui-app-copier`](https://github.com/knowledge-Graph-Hub/nicegui-app-copier)
+       - AI GitHub integrations using [`github-ai-integrations`](https://github.com/ai4curation/github-ai-integrations)
+       - LinkML projects using [linkml-project-copier](https://github.com/linkml/linkml-project-copier)
 - Include a README.md
    - provide sufficient context
    - don't boil the ocean - put reference material in a separate reference guide
@@ -680,6 +687,8 @@ If there is anything you don't understand, **ask on slack**!
    - SSSOM with skos predicates
 - Cookiecutters for starting a new project.
   - General-purpose projects using [`monarch-project-template`](https://github.com/monarch-initiative/monarch-project-copier)
+  - AI GUI projects using [`nicegui-app-copier`](https://github.com/knowledge-Graph-Hub/nicegui-app-copier)
+  - AI GitHub integrations using [`github-ai-integrations`](https://github.com/ai4curation/github-ai-integrations)
   - LinkML based projects using [`linkml-project-copier`](https://github.com/linkml/linkml-project-copier)
   - Ontology Access Kit (`oaklib`) plugin projects using [`oakx-plugin-cookiecutter](https://github.com/INCATools/oakx-plugin-cookiecutter)
 - KGs
