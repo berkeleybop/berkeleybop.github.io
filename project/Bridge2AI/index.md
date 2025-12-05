@@ -20,7 +20,7 @@ The Standards working group's mission is to develop software and standards to un
 
 ### Standards Explorer
 
-The [Standards Explorer](https://b2ai.standards.synapse.org/) is a web application that enables users to explore schemas and data standards relevant to the Bridge2AI community. It provides an intuitive interface for browsing, searching, and understanding the various standards being developed and adopted across the consortium.
+The [Standards Explorer](https://b2ai.standards.synapse.org/) is a web application that enables users to explore schemas and data standards relevant to the preparation and application of AI-ready data in biomedical research. The Explorer provides an intuitive interface for browsing, searching, and understanding the various standards being developed and adopted across the consortium and in the broader research community.
 
 **Key Resources:**
 - Site: [https://b2ai.standards.synapse.org/](https://b2ai.standards.synapse.org/)
@@ -44,4 +44,5 @@ The Model Cards schema establishes a standard framework for documenting AI/ML mo
 Our work has resulted in several key manuscripts that describe our approaches and findings:
 
 - [AI-readiness for Biomedical Data: Bridge2AI Recommendations](https://www.biorxiv.org/content/10.1101/2024.10.23.619844v4)
+- [Standards in the Preparation of Biomedical Research Metadata: A Bridge2AI Perspective](https://arxiv.org/abs/2509.10432)
 - [Toward AI-Ready Medical Imaging Data (arXiv)](https://arxiv.org/abs/2512.03541)
