@@ -47,7 +47,7 @@ entries:
           url: /project/agr
           
         - title: BioPortal
-          url: /project/bioportal
+          url: /project/BioPortal
           
         - title: "National Microbiome Data Collaborative (NMDC)"
           url: /project/nmdc
@@ -83,14 +83,8 @@ entries:
       print: true
       items:  
         - title: OntoGPT
-          url: /project/GPT
+          url: /project/AI
           
-        - title: AmiGO and GOlr
-          url: /software/amigo
-
-        - title: Noctua
-          url: /software/noctua
-
         - title: Biolink Model
           url: /software/biolink-model
 
@@ -118,10 +112,16 @@ entries:
         - title: Ontology Development Kit
           url: /software/odk
 
+         - title: AmiGO and GOlr
+          url: /software/amigo
+
+        - title: Noctua
+          url: /software/noctua
+
         - title: k-BOOM
           url: /software/kboom
 
-        - title: BioMake
+        - title: BioMake (inactive)
           url: /software/biomake
 
         - title: PAINT
@@ -143,7 +143,7 @@ entries:
         - title: Environment Ontology
           url: /ontology/envo
           
-        - title: Uberon
+        - title: Uberon anatomy ontology
           url: /ontology/uberon
 
         - title: FANTOM5 Ontology
@@ -152,7 +152,7 @@ entries:
         - title: Mondo disease ontology
           url: /ontology/mondo
           
-        - title: Phenotype ontologies
+        - title: uPheno phenotype ontology
           url: /ontology/upheno
           
         - title: Relation Ontology

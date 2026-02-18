@@ -16,7 +16,7 @@ For a more complete description, please see the publication on the GO Phylogenet
 Rather than a pairwise paradigm, PAINT uses this more accurate phylogenetic model to infer gene function by homology.  PAINT annotation is intended to capture actual inferences about the evolution of gene function within a gene family: the gain, inheritance, modification and loss of function over evolutionary time.  Inference is a two-step process, and involves directly annotating a phylogenetic tree.  In the first step, experimental GO annotations for extant sequences are used to make inferences about when a given function may have first evolved.  In PAINT, this is referred to as "up-propagation", in which ancestral genes are annotated based on information about extant sequences.  In the second step, "down-propagation", ancestral annotations are used to make inferences about unannotated extant sequences, based on the principle of inheritance from the common ancestor, and allowing for modification and even loss of function during evolution.
 
 
-![img](http://wiki.geneontology.org/images/2/25/PAINT_msa.png)
+![img](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e7ff/3178059/ba1a6874867a/bbr042f4.jpg)
 
 ## References
 

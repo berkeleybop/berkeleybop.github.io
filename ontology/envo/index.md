@@ -19,7 +19,7 @@ The primary developers of ENVO are Pier Luigi Buttigieg and [Chris Mungall](/peo
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/DghA7gkMn0dmgc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cmungall/envo-gsc-2015" title="ENVO GSC 2015" target="_blank">ENVO GSC 2015</a> </strong> from <strong><a href="https://www.slideshare.net/cmungall" target="_blank">Chris Mungall</a></strong> </div>
 
-![img](http://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs13326-016-0097-6/MediaObjects/13326_2016_97_Fig2_HTML.gif)
+![img](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f6e/5035502/b984f5a506ce/13326_2016_97_Fig2_HTML.jpg)
 
 ## References
 
