@@ -8,7 +8,6 @@ background: MS Biomedical Engineering, Virginia Commonwealth University
 image: harshad.jpeg
 linkedin: https://www.linkedin.com/in/hhegde/
 github: https://github.com/hrshdhgd
-orcid: https://orcid.org/0000-0002-2411-565X
 scholar: https://scholar.google.com/citations?user=e9scndgAAAAJ&hl=en
 ---
 

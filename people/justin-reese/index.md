@@ -7,7 +7,7 @@ background: PhD (computational biology and bioinformatics), University of Virgin
 email: JustinReese
 image: justin.jpg
 linkedin: 
-github: http://github.com/justaddcoffee
+github: https://github.com/justaddcoffee
 scholar: 
 orcid: https://orcid.org/0000-0002-2170-2250
 

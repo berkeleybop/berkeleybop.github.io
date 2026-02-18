@@ -7,7 +7,7 @@ background: BA Mathematics, UC Santa Cruz; BA Computer Science, UC Santa Cruz
 email: sjcarbon
 image: seth.jpg
 linkedin: https://www.linkedin.com/in/sjcarbon
-github: http://github.com/kltm
+github: https://github.com/kltm
 orcid: https://orcid.org/0000-0001-8244-1536
 scholar: "https://scholar.google.com/citations?hl=en&user=Ypz4s1UAAAAJ"
 ---

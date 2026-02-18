@@ -22,7 +22,7 @@ BBOP has been a member of the GO consortium since its inception in 1999, for whi
  * [PAINT](/software/paint) Phylogenetic Annotation Tool
  * Ontology modeling
  * Ontology tooling including [OBO-Edit](/software/obo-edit) and [TermGenie](/software/termgenie)
- * [GO RDF Knowledge Base](/software/go-rdf)
+
 
 ## Communication and Internal Documentation
 

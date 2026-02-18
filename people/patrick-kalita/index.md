@@ -2,7 +2,7 @@
 layout: people
 title: Patrick Kalita
 active: yes
-orcid: 0000-0002-6150-307X
+orcid: https://orcid.org/0000-0002-6150-307X
 position: Software Developer
 background: MS Electrical Engineering, Purdue University
 image: patrick-kalita.jpg
