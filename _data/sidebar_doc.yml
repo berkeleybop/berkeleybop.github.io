@@ -112,7 +112,7 @@ entries:
         - title: Ontology Development Kit
           url: /software/odk
 
-         - title: AmiGO and GOlr
+        - title: AmiGO and GOlr
           url: /software/amigo
 
         - title: Noctua
