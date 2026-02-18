@@ -6,8 +6,8 @@ position: Apollo Technical Lead
 background: Ph.D. Computer Science University of Oregon, MSc Chemical Engineering University of Washington
 image: Nathan2.jpg
 linkedin: https://www.linkedin.com/in/nathan-dunn-31257746
-github:  https://github.com/nathandunn 
-orcid: http://orcid.org/0000-0002-4862-3181
+github: https://github.com/nathandunn
+orcid: https://orcid.org/0000-0002-4862-3181
 scholar: https://scholar.google.com/citations?user=Y1JHARgAAAAJ
 ---
 
