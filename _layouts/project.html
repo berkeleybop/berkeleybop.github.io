@@ -8,7 +8,11 @@ layout: default
 <h2>(Not currently active)</h2>
 {% endif %}
 {% if page.logo %}
+{% if page.logo contains '://' %}
 <img alt="logo" src="{{page.logo}}"/>
+{% else %}
+<img alt="logo" src="{{page.url}}{{page.logo}}"/>
+{% endif %}
 {% endif %}
   {% if page.twitter %}
       <iframe style="position: static; visibility: visible; width: 250px; height: 20px;" 
