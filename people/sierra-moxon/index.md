@@ -6,7 +6,7 @@ position: Staff Software Developer
 email: smoxon@lbl.gov
 image: smoxon.png
 linkedin: https://www.linkedin.com/in/sierra-moxon-1878b36/
-github: http://github.com/sierra-moxon
+github: https://github.com/sierra-moxon
 scholar: 
 orcid: https://orcid.org/0000-0002-8719-7760
 

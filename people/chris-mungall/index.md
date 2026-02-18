@@ -8,9 +8,9 @@ email: CJMungall
 image: Mungall-headshot.jpeg
 scholar: https://goo.gl/uI3CzG
 slideshare: http://www.slideshare.net/cmungall/
-github: http://github.com/cmungall
+github: https://github.com/cmungall
 orcid: https://orcid.org/0000-0002-6601-2165
-twitter: http://twitter.com/cmungall
+twitter: https://twitter.com/cmungall
 lblprofile: http://biosciences.lbl.gov/profiles/chris-mungall/
 linkedin: https://www.linkedin.com/in/chrismungall
 ---

@@ -6,7 +6,7 @@ orcid:
 position: Graph Database Engineer
 image: 
 linkedin: 
-github: yy20716
+github: https://github.com/yy20716
 scholar: 
 ---
 
