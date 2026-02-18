@@ -5,7 +5,11 @@ layout: default
    <h1 class="post-title-main">{% if page.homepage == true %} {{site.homepage_title}} {% else %}{{ page.title }}{% endif %}</h1>
 </div>
 {% if page.logo %}
+{% if page.logo contains '://' %}
 <img alt="logo" src="{{page.logo}}" style="max-width:80px;" />
+{% else %}
+<img alt="logo" src="{{page.url}}{{page.logo}}" style="max-width:80px;" />
+{% endif %}
 {% endif %}
   {% if page.twitter %}
       <iframe style="position: static; visibility: visible; width: 190px; height: 20px;" 
