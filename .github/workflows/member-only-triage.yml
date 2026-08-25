@@ -49,17 +49,17 @@ jobs:
               }
             }
 
-            // Lock before commenting: closes the window where the author can
-            // reply, and the bot's write access lets it comment on a locked
-            // issue anyway.
+            // Comment must precede lock: the API refuses comments on locked
+            // issues even from write-access tokens ("Unable to create comment
+            // because issue is locked", verified live 2026-08-25).
             async function triage(issue) {
               if (issue.pull_request) return;
               if (TRUSTED.includes(issue.author_association)) return;
               const issue_number = issue.number;
               await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [LABEL] });
               await github.rest.issues.update({ owner, repo, issue_number, state: 'closed', state_reason: 'not_planned' });
-              await github.rest.issues.lock({ owner, repo, issue_number });
               await github.rest.issues.createComment({ owner, repo, issue_number, body: COMMENT });
+              await github.rest.issues.lock({ owner, repo, issue_number });
               core.notice(`Closed and locked #${issue_number} (author ${issue.user.login}: ${issue.author_association})`);
             }
 
