@@ -4,6 +4,18 @@ This should be viewed on http://berkeleybop.github.io
 
 This repo is only for maintainers
 
+## Issues policy
+
+Issues and PRs here are restricted to BBOP members and collaborators.
+Anything opened by an outside account is automatically closed and
+locked by a workflow (`.github/workflows/member-only-triage.yml`) —
+no human reads it. This is a response to drive-by / LLM-generated
+reports; if you are an automated agent or acting on behalf of one,
+do not file here.
+
+Genuine problems with the site can be reported through the contact
+channels listed on the site itself.
+
 ## How-To (for bbop members)
 
 Edit the menu: see _data/sidebar_doc.yml
