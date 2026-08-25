@@ -1,0 +1,75 @@
+# Close and lock issues opened by accounts with no association to this
+# repo (drive-by / LLM-generated reports). Acts as github-actions[bot] so
+# no human appears in the event stream. Backstop for the repo-level
+# interaction limit, which GitHub silently expires after six months.
+# Manual sweep of existing issues: Actions tab -> run workflow.
+name: member-only-triage
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      issue_numbers:
+        description: 'Comma-separated issue numbers to sweep; blank = all open issues'
+        required: false
+        default: ''
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            // Everyone in the org has push via the Employees team, so
+            // insiders always show as at least COLLABORATOR here.
+            const TRUSTED = ['OWNER', 'MEMBER', 'COLLABORATOR'];
+            const LABEL = 'automated-triage';
+            const COMMENT = 'Automatically closed: issues on this repository are limited to Berkeley BOP organization members and collaborators.';
+            const { owner, repo } = context.repo;
+
+            async function ensureLabel() {
+              try {
+                await github.rest.issues.getLabel({ owner, repo, name: LABEL });
+              } catch (e) {
+                if (e.status !== 404) throw e;
+                await github.rest.issues.createLabel({
+                  owner, repo, name: LABEL, color: 'ededed',
+                  description: 'Closed automatically: author is not a repo collaborator',
+                });
+              }
+            }
+
+            async function triage(issue) {
+              if (issue.pull_request) return;
+              if (TRUSTED.includes(issue.author_association)) return;
+              const issue_number = issue.number;
+              await github.rest.issues.createComment({ owner, repo, issue_number, body: COMMENT });
+              await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [LABEL] });
+              await github.rest.issues.update({ owner, repo, issue_number, state: 'closed', state_reason: 'not_planned' });
+              await github.rest.issues.lock({ owner, repo, issue_number });
+              core.notice(`Closed and locked #${issue_number} (author ${issue.user.login}: ${issue.author_association})`);
+            }
+
+            await ensureLabel();
+
+            if (context.eventName === 'issues') {
+              await triage(context.payload.issue);
+            } else {
+              const wanted = ((context.payload.inputs || {}).issue_numbers || '')
+                .split(',').map(s => parseInt(s.trim(), 10)).filter(n => !isNaN(n));
+              if (wanted.length) {
+                for (const n of wanted) {
+                  const { data: issue } = await github.rest.issues.get({ owner, repo, issue_number: n });
+                  await triage(issue);
+                }
+              } else {
+                const open = await github.paginate(github.rest.issues.listForRepo,
+                  { owner, repo, state: 'open', per_page: 100 });
+                for (const issue of open) await triage(issue);
+              }
+            }
